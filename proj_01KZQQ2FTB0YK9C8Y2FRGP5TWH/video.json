@@ -1,0 +1,113 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-22T03:21:13+00:00",
+    "project_id": "proj_01KZQQ2FTB0YK9C8Y2FRGP5TWH",
+    "project_name": "Radiance Revolution: Unveiling LuminaSilk Foundation",
+    "owner_user_id": "usr_01KT8F6ADJHK3S48HN467YNMHV",
+    "internal_source": "employee",
+    "project_created_at": "2026-08-11 06:10:04",
+    "project_updated_at": "2026-08-11 06:10:05",
+    "draft_id": "draft_01KZQQ2FTYT2XJA1GMTCD25FGR",
+    "draft_version": 3,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KZQSHA39TQJNAYARNF91F8DZ",
+      "file": "renders/rvj_01KZQSHA39TQJNAYARNF91F8DZ.mp4",
+      "completed_at": "2026-08-11 06:53:22"
+    }
+  },
+  "video": {
+    "aspect_ratio": "9:16",
+    "duration_sec": 15.07,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 15.07,
+        "asset": {
+          "media_id": "media_01KZQQTKF67DTY3XGKR6CGNHCE",
+          "file": "files/3d1828dec367dd60ec920f09623527f75d1baa93109273bd13cad83eb80f334f.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Identity lock: the main subject must remain the referenced virtual avatar from reference_character_ids/reference_videos; preserve its species, face, body, color, and overall appearance. Do not replace it with a human unless the user explicitly asks.\n\nProduct reference: image_1 (LuminaSilk — sleek cylindrical glass bottle, brushed rose-gold cap, semi-translucent amber liquid, minimalist embossed logo — exactly as shown in image_1)\nFigure 1: a California-girl lifestyle model with healthy sun-kissed skin, slim curvy figure, bright vacation-ready look (via reference_character_ids)\n\nSpoken language: English. Visual Tone: photorealistic 35mm cinematic commercial, naturally matte sun-kissed skin with absolutely no greasy highlights, soft diffused illumination, 5500K natural-sun colour temperature, documentary-grade realistic human skin texture.\n\n[00-03s] Figure 1 walks forward confidently on a sunlit urban street, casually tosses the LuminaSilk sleek cylindrical glass bottle (matching image_1 — rose-gold cap, amber liquid) toward camera. Fast zoom-in as the bottle fills the frame. Bullet-time visual effect: motion freezes, a circular light arc sweeps the bottle. Reverse physics — bottle flies back into Figure 1's palm. She grins at camera.\n\n[03-07s] Whip-pan cut to a polished marble studio desktop. LuminaSilk bottle from image_1 center-frame, gift box and accessories arranged around it. Slow macro tilt-up showcasing surface textures, amber liquid, rose-gold cap. A minimal floating label with '$89 – Limited Launch Price | 50% OFF Today Only' appears.\n\n[07-12s] Three-quarter tracking shot of Figure 1 in motion. Rapid match-cut transitions cycle through four vivid environments — beach, retro street, neon city, resort garden — at strobe speed. LuminaSilk bottle (image_1) is a fixed anchor in every frame, held by Figure 1. Beat-synced edit.\n\n[12-15s] Hard cut to full-screen product landing poster. LuminaSilk bottle and gift box on marble, static wide shot. Bold text: '$89 – Limited Launch Price | 50% OFF Today Only' and 'Weightless Hydration All Day | Engineered for Perfection.' No person visible, clean premium aesthetic.\n\nAudio: up-tempo commercial EDM building from 0s, heavy sub-bass boom at bullet-time freeze (~3s), rapid stutter and shutter-click during match-cuts (7-12s), crisp punchy pop beat at ending (12-15s)., Photorealistic 35mm cinematic commercial, naturally matte skin texture, soft diffused 5500K lighting, vivid authentic product colours, luxury beauty commercial aesthetic, high-end fashion photography quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Identity lock: the main subject must remain the referenced virtual avatar from reference_character_ids/reference_videos; preserve its species, face, body, color, and overall appearance. Do not replace it with a human unless the user explicitly asks.\n\nProduct reference: image_1 (LuminaSilk — sleek cylindrical glass bottle, brushed rose-gold cap, semi-translucent amber liquid, minimalist embossed logo — exactly as shown in image_1)\nFigure 1: a California-girl lifestyle model with healthy sun-kissed skin, slim curvy figure, bright vacation-ready look (via reference_character_ids)\n\nSpoken language: English. Visual Tone: photorealistic 35mm cinematic commercial, naturally matte sun-kissed skin with absolutely no greasy highlights, soft diffused illumination, 5500K natural-sun colour temperature, documentary-grade realistic human skin texture.\n\n[00-03s] Figure 1 walks forward confidently on a sunlit urban street, casually tosses the LuminaSilk sleek cylindrical glass bottle (matching image_1 — rose-gold cap, amber liquid) toward camera. Fast zoom-in as the bottle fills the frame. Bullet-time visual effect: motion freezes, a circular light arc sweeps the bottle. Reverse physics — bottle flies back into Figure 1's palm. She grins at camera.\n\n[03-07s] Whip-pan cut to a polished marble studio desktop. LuminaSilk bottle from image_1 center-frame, gift box and accessories arranged around it. Slow macro tilt-up showcasing surface textures, amber liquid, rose-gold cap. A minimal floating label with '$89 – Limited Launch Price | 50% OFF Today Only' appears.\n\n[07-12s] Three-quarter tracking shot of Figure 1 in motion. Rapid match-cut transitions cycle through four vivid environments — beach, retro street, neon city, resort garden — at strobe speed. LuminaSilk bottle (image_1) is a fixed anchor in every frame, held by Figure 1. Beat-synced edit.\n\n[12-15s] Hard cut to full-screen product landing poster. LuminaSilk bottle and gift box on marble, static wide shot. Bold text: '$89 – Limited Launch Price | 50% OFF Today Only' and 'Weightless Hydration All Day | Engineered for Perfection.' No person visible, clean premium aesthetic.\n\nAudio: up-tempo commercial EDM building from 0s, heavy sub-bass boom at bullet-time freeze (~3s), rapid stutter and shutter-click during match-cuts (7-12s), crisp punchy pop beat at ending (12-15s)., Photorealistic 35mm cinematic commercial, naturally matte skin texture, soft diffused 5500K lighting, vivid authentic product colours, luxury beauty commercial aesthetic, high-end fashion photography quality",
+          "params": {
+            "task_id": "ae3f998f-d08a-4ed6-b0cd-f1f2e7b943de",
+            "aspect_ratio": "9:16",
+            "output_index": 0,
+            "is_with_audio": true,
+            "input_duration": 15,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260811141325-674rp"
+              }
+            ]
+          },
+          "refs": {
+            "characters": [
+              "asset-20260721163357-vfz55"
+            ],
+            "character_ids": [
+              "asset-20260721163357-vfz55"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 15.07
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [],
+    "captions": null,
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 15.07,
+      "audio_file": "files/716f2c3b2bc28fb0caa594be8345dbc435373ad7888b3a518f4e8d525e26b981.mp3",
+      "volume_db": -6,
+      "title": "LuminaSilk Commercial Beat (1/2)",
+      "source": "ai_generated",
+      "description": "Up-tempo commercial EDM rhythm, heavy sub-bass boom sound effect synced to a freeze moment, rapid stutter-effect and shutter-click audio during a fast-paced match-cut sequence, crisp punchy pop-style beat for the ending segment. High energy, luxury beauty commercial feel, short 20-second track. (1/2)",
+      "model": "suno_music_v5.5",
+      "prompt": "Up-tempo commercial EDM rhythm, heavy sub-bass boom sound effect synced to a freeze moment, rapid stutter-effect and shutter-click audio during a fast-paced match-cut sequence, crisp punchy pop-style beat for the ending segment. High energy, luxury beauty commercial feel, short 20-second track."
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQSH9H8R8AW0B3JBZR4TM4K",
+      "file": "renders/rvj_01KZQSH9H8R8AW0B3JBZR4TM4K.mp4",
+      "source_key": "exported_video/v_01KZQSH9JRJXGZZ40YK1V4M8SY",
+      "completed_at": "2026-08-11 06:53:21",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "bitrate": 6982,
+        "duration": 15.07,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQSHA39TQJNAYARNF91F8DZ",
+      "file": "renders/rvj_01KZQSHA39TQJNAYARNF91F8DZ.mp4",
+      "source_key": "exported_video/v_01KZQSHA68V3QJRWG5J5669VMG",
+      "completed_at": "2026-08-11 06:53:22",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "bitrate": 6984,
+        "duration": 15.07,
+        "hasAudio": true
+      }
+    }
+  ]
+}

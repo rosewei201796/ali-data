@@ -1,0 +1,61 @@
+{
+  "project_id": "proj_01KZQQ2FTB0YK9C8Y2FRGP5TWH",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "sha256/3d/3d1828dec367dd60ec920f09623527f75d1baa93109273bd13cad83eb80f334f",
+      "dest_key": "files/3d1828dec367dd60ec920f09623527f75d1baa93109273bd13cad83eb80f334f.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 7885145
+    },
+    {
+      "source_key": "sha256/71/716f2c3b2bc28fb0caa594be8345dbc435373ad7888b3a518f4e8d525e26b981",
+      "dest_key": "files/716f2c3b2bc28fb0caa594be8345dbc435373ad7888b3a518f4e8d525e26b981.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 4483062
+    },
+    {
+      "source_key": "sha256/bd/bdae78fe1aa590d976aae057e9df6b81bef567ba456cbba9ca8823419feadaf5",
+      "dest_key": "files/bdae78fe1aa590d976aae057e9df6b81bef567ba456cbba9ca8823419feadaf5.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1216595
+    },
+    {
+      "source_key": "sha256/ef/efcdcf804c25ea86396f341c0ca20e0d9a8d326476862fec8a8fa22255a0068f",
+      "dest_key": "files/efcdcf804c25ea86396f341c0ca20e0d9a8d326476862fec8a8fa22255a0068f.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 5104902
+    },
+    {
+      "source_key": "exported_video/v_01KZQSH9JRJXGZZ40YK1V4M8SY",
+      "dest_key": "renders/rvj_01KZQSH9H8R8AW0B3JBZR4TM4K.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 13152956
+    },
+    {
+      "source_key": "exported_video/v_01KZQSHA68V3QJRWG5J5669VMG",
+      "dest_key": "renders/rvj_01KZQSHA39TQJNAYARNF91F8DZ.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 13156299
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQSH9H8R8AW0B3JBZR4TM4K",
+      "op_record_id": "op_01KZQQV7Y2MGE83PFVY93VHDAY"
+    },
+    {
+      "render_job_id": "rvj_01KZQSHA39TQJNAYARNF91F8DZ",
+      "op_record_id": "op_01KZQQV7Y2MGE83PFVY93VHDAY"
+    }
+  ]
+}
