@@ -1,0 +1,134 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-22T03:25:28+00:00",
+    "project_id": "proj_01KZQQAQ4164V51H10NW4F78EF",
+    "project_name": "Colorful Chaos: Alex's Interactive Fluid Adventure!",
+    "owner_user_id": "usr_01KSEF708JGKHTQVSPT8QRX4F9",
+    "internal_source": "employee",
+    "project_created_at": "2026-08-11 06:14:33",
+    "project_updated_at": "2026-08-11 06:14:35",
+    "draft_id": "draft_01KZQQAQ4MBQDKBFT241WTH1TQ",
+    "draft_version": 5,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KZQSACB3CVNAVSR3Q36QTDNW",
+      "file": "renders/rvj_01KZQSACB3CVNAVSR3Q36QTDNW.mp4",
+      "completed_at": "2026-08-11 06:50:12"
+    }
+  },
+  "video": {
+    "aspect_ratio": "9:16",
+    "duration_sec": 16.241,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 14.241,
+        "asset": {
+          "media_id": "media_01KZQS1TYTEFVSVW22TTPMGTTG",
+          "file": "files/6dbde545788e709d2d2e3c1dc0ddbc18c691b59925825454459697ee4475ecac.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "[Segment 1: 0-9s]\nFirst frame: Use uploaded image. Preserve Alex character, composition, bed, UI bar with 6 empty slots.\n\n0-0.5s: Milk block hovering above bed — flat rectangular jelly block, wider than bed, smooth rounded edges, puffy, white translucent, slightly glossy. Alex calm, curious.\n0.5s: IMPACT — milk block collapses into white translucent fluid splash. 1-2 frame hit-stop. Alex reacts same frame: startled, recoil, arms up, eyes wide.\n0.5-2.2s: White translucent fluid splashing and flowing over Alex. PBR gloss, light refractive. Alex trembling, confused.\n2.2-2.5s: Fluid dissipates completely. Clean. UI slot 1 shows completed rating.\n\n2.5-3.0s: Slime block hovers — flat rectangular jelly, wider than bed, smooth rounded edges, puffy, emerald green translucent.\n3.0s: IMPACT — green slime fluid. Hit-stop. Alex: panic, tense, flails arms, brow furrow.\n3.0-4.7s: Green slime spreading and flowing, translucent emerald. Alex struggling, disgusted.\n4.7-5.0s: Dissipates. Clean. UI slot 2 shows completed rating.\n\n5.0-5.5s: Water block hovers — flat rectangular jelly, light blue transparent.\n5.5s: IMPACT — clear light blue water splash. Alex: evades, closes eyes, turns head, shields face.\n5.5-7.2s: Water splashing, droplets flying, clear blue fluid. Alex shaking head, uncomfortable.\n7.2-7.5s: Dissipates. Clean. UI slot 3 shows completed rating.\n\n7.5-8.0s: Cola block hovers — flat rectangular jelly, dark brown translucent with tiny bubbles.\n8.0s: IMPACT — brown cola fluid with bubbles. Alex: shocked, arms spread wide, body springs.\n8.0-9.7s: Cola splashing and fizzing. Alex flailing, coughing.\n9.7-10.0s: Cola dissipates. Clean. UI slot 4 shows completed rating.\n\n10.0-10.5s: Honey block hovers — flat rectangular jelly, amber gold warm color, translucent.\n10.5s: IMPACT — amber golden thick honey fluid. Alex: resisting, pushing hands away, leaning back.\n10.5-12.2s: Honey oozing with viscous strings, golden translucent, PBR gloss. Alex slow struggle, disgusted expression.\n12.2-12.5s: Honey dissipates. Clean. UI slot 5 shows completed rating.\n\n12.5-13.0s: Blanket block hovers — warm gray SOFT FLUFFY BLOCK. Fabric texture, soft silk velvet appearance, plush cozy material. NOT a jelly. NOT fluid.\n13.0-15.0s: Blanket gently floats down like a feather, soft silk velvet unfolding gracefully. Drapes gently over Alex. Alex gradually relaxes, arms lower, face softens to peaceful smile, eyes close. Sleeping peacefully under soft warm gray blanket.\n\nCamera: Fixed portrait. No zoom. No pan.\nNegative: No watermarks. No Chinese text. No logos. No extra limbs. No text overlay. Blanket must be soft fabric texture NOT jelly NOT fluid.\n\nAudio: Native stereo — milk splash, slime plop, water splash, cola fizz impact, honey drip thud, blanket soft whoosh and rustle, sleep ambience. Each impact has distinct sound effect.",
+          "model": "minimax_hailuo_h3",
+          "prompt": "[Segment 1: 0-9s]\nFirst frame: Use uploaded image. Preserve Alex character, composition, bed, UI bar with 6 empty slots.\n\n0-0.5s: Milk block hovering above bed — flat rectangular jelly block, wider than bed, smooth rounded edges, puffy, white translucent, slightly glossy. Alex calm, curious.\n0.5s: IMPACT — milk block collapses into white translucent fluid splash. 1-2 frame hit-stop. Alex reacts same frame: startled, recoil, arms up, eyes wide.\n0.5-2.2s: White translucent fluid splashing and flowing over Alex. PBR gloss, light refractive. Alex trembling, confused.\n2.2-2.5s: Fluid dissipates completely. Clean. UI slot 1 shows completed rating.\n\n2.5-3.0s: Slime block hovers — flat rectangular jelly, wider than bed, smooth rounded edges, puffy, emerald green translucent.\n3.0s: IMPACT — green slime fluid. Hit-stop. Alex: panic, tense, flails arms, brow furrow.\n3.0-4.7s: Green slime spreading and flowing, translucent emerald. Alex struggling, disgusted.\n4.7-5.0s: Dissipates. Clean. UI slot 2 shows completed rating.\n\n5.0-5.5s: Water block hovers — flat rectangular jelly, light blue transparent.\n5.5s: IMPACT — clear light blue water splash. Alex: evades, closes eyes, turns head, shields face.\n5.5-7.2s: Water splashing, droplets flying, clear blue fluid. Alex shaking head, uncomfortable.\n7.2-7.5s: Dissipates. Clean. UI slot 3 shows completed rating.\n\n7.5-8.0s: Cola block hovers — flat rectangular jelly, dark brown translucent with tiny bubbles.\n8.0s: IMPACT — brown cola fluid with bubbles. Alex: shocked, arms spread wide, body springs.\n8.0-9.7s: Cola splashing and fizzing. Alex flailing, coughing.\n9.7-10.0s: Cola dissipates. Clean. UI slot 4 shows completed rating.\n\n10.0-10.5s: Honey block hovers — flat rectangular jelly, amber gold warm color, translucent.\n10.5s: IMPACT — amber golden thick honey fluid. Alex: resisting, pushing hands away, leaning back.\n10.5-12.2s: Honey oozing with viscous strings, golden translucent, PBR gloss. Alex slow struggle, disgusted expression.\n12.2-12.5s: Honey dissipates. Clean. UI slot 5 shows completed rating.\n\n12.5-13.0s: Blanket block hovers — warm gray SOFT FLUFFY BLOCK. Fabric texture, soft silk velvet appearance, plush cozy material. NOT a jelly. NOT fluid.\n13.0-15.0s: Blanket gently floats down like a feather, soft silk velvet unfolding gracefully. Drapes gently over Alex. Alex gradually relaxes, arms lower, face softens to peaceful smile, eyes close. Sleeping peacefully under soft warm gray blanket.\n\nCamera: Fixed portrait. No zoom. No pan.\nNegative: No watermarks. No Chinese text. No logos. No extra limbs. No text overlay. Blanket must be soft fabric texture NOT jelly NOT fluid.\n\nAudio: Native stereo — milk splash, slime plop, water splash, cola fizz impact, honey drip thud, blanket soft whoosh and rustle, sleep ambience. Each impact has distinct sound effect.",
+          "params": {
+            "task_id": "069d8d28-9db2-44e3-b172-5949b81469d3",
+            "aspect_ratio": "9:16",
+            "output_index": 0,
+            "is_with_audio": false,
+            "input_duration": 15,
+            "input_resolution": "1080p",
+            "input_first_frame_image": {
+              "url": "https://oss.prd.medeo.app/sha256/b1/b1542b8e6f94c74806f49d670aa786e671a94dccb429a0bb29d71623f90ed1d2"
+            }
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 14.241
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 14.241,
+        "duration_sec": 2.0,
+        "asset": {
+          "media_id": "media_01KZQS7ZYKH9SDZNM2DXA42W5Y",
+          "file": "files/bb873d4f7a4b1f42a20b1d52ae1c9640fb93217ace5b02d9406135b1d0c87339.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Background: use backgroundVideo asset, playing from timestamp 13.0s to 15.0s (source duration window: 2 seconds, showing Alex sleeping peacefully under soft warm blanket)\nText overlay content: \"Which one do you like most?\"\nTypography: Large 3D pixel / Minecraft-style font. Bold, blocky pixel letterforms with slight 3D depth/extrusion giving each letter a Minecraft-block appearance. Letter colors cycle: #7CB342 (green), #42A5F5 (sky blue), #6D4C41 (warm brown), repeating, with white pixel highlight edges on each character\nAnimation: Characters drop in one by one from above, each landing with a bounce spring (ease-in fall + overshoot bounce settling). Character reveal completes within the first 1.0s of the clip. After all characters land, they all pulse together gently (scale 1.0 to 1.05 to 1.0, 0.5s cycle) for the remaining duration\nPosition: Lower-center of frame. Horizontally centered. Vertically at approximately 75% from top of frame (well above bottom edge, in safe readable zone)\nBackground: the video hero image (backgroundVideo) fills the full frame — text characters are the only foreground elements\nDuration: exactly 2 seconds\nNo logos. No Chinese text. No HUD chrome. No decorative borders. No extra UI elements",
+          "model": "grok-4.5",
+          "prompt": "Background: use backgroundVideo asset, playing from timestamp 13.0s to 15.0s (source duration window: 2 seconds, showing Alex sleeping peacefully under soft warm blanket)\nText overlay content: \"Which one do you like most?\"\nTypography: Large 3D pixel / Minecraft-style font. Bold, blocky pixel letterforms with slight 3D depth/extrusion giving each letter a Minecraft-block appearance. Letter colors cycle: #7CB342 (green), #42A5F5 (sky blue), #6D4C41 (warm brown), repeating, with white pixel highlight edges on each character\nAnimation: Characters drop in one by one from above, each landing with a bounce spring (ease-in fall + overshoot bounce settling). Character reveal completes within the first 1.0s of the clip. After all characters land, they all pulse together gently (scale 1.0 to 1.05 to 1.0, 0.5s cycle) for the remaining duration\nPosition: Lower-center of frame. Horizontally centered. Vertically at approximately 75% from top of frame (well above bottom edge, in safe readable zone)\nBackground: the video hero image (backgroundVideo) fills the full frame — text characters are the only foreground elements\nDuration: exactly 2 seconds\nNo logos. No Chinese text. No HUD chrome. No decorative borders. No extra UI elements",
+          "params": {
+            "fps": 30,
+            "width": 720,
+            "height": 1280,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 2,
+            "source_backplate_media_ids": [
+              "media_01KZQS1TYTEFVSVW22TTPMGTTG"
+            ]
+          },
+          "code_artifact": "files/codevid_req_01KZQS3JFVCHEYQZMJY6YE3N2B.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 2.0
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [],
+    "captions": {
+      "hidden": false,
+      "items": []
+    },
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 16.241,
+      "audio_file": "files/18f51a3238256d561678fb38d79a2af3181784a7fd279fab36fa732cd1b015af.mp3",
+      "volume_db": -16,
+      "title": "Vodevil",
+      "source": "public_library",
+      "description": "Vodevil is a whimsical and playful piece of music that embodies the lively spirit of a circus or a carnival. It often features bright, upbeat melodies that evoke a sense of joy and lightheartedness. The instrumentation may include playful brass, cheerful woodwinds, and vibrant percussion, creating an atmosphere that is both fun and engaging. The overall rhythm tends to be dynamic and bouncy, encouraging movement and a sense of adventure."
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQSACD6B46N3DY7V5KENBA3",
+      "file": "renders/rvj_01KZQSACD6B46N3DY7V5KENBA3.mp4",
+      "source_key": "exported_video/v_01KZQSACEQ2KR5PXPDK92YTE6K",
+      "completed_at": "2026-08-11 06:50:11",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "bitrate": 7325,
+        "duration": 16.241,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQSACB3CVNAVSR3Q36QTDNW",
+      "file": "renders/rvj_01KZQSACB3CVNAVSR3Q36QTDNW.mp4",
+      "source_key": "exported_video/v_01KZQSACCN69MQ4KX5ZF782FBM",
+      "completed_at": "2026-08-11 06:50:12",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "bitrate": 7330,
+        "duration": 16.241,
+        "hasAudio": true
+      }
+    }
+  ]
+}

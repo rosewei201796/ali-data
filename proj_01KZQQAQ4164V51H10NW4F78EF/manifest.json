@@ -1,0 +1,110 @@
+{
+  "project_id": "proj_01KZQQAQ4164V51H10NW4F78EF",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "artifacts/code-video/proj_01KZQQAQ4164V51H10NW4F78EF/codevid_req_01KZQS3JFVCHEYQZMJY6YE3N2B/artifact.json",
+      "dest_key": "files/codevid_req_01KZQS3JFVCHEYQZMJY6YE3N2B.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 7912
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0B2EN3M2VKGQZCGQ6BM.mp3",
+      "dest_key": "files/media_01K87ZT0B2EN3M2VKGQZCGQ6BM.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1688205
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0GSQN9J1NGDY6J0TZSH.mp3",
+      "dest_key": "files/media_01K87ZT0GSQN9J1NGDY6J0TZSH.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 2422965
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0JNH28HRA53J3G7V4H8.mp3",
+      "dest_key": "files/media_01K87ZT0JNH28HRA53J3G7V4H8.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 2283309
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0KJ8H8D2WXTPFH9DPET.mp3",
+      "dest_key": "files/media_01K87ZT0KJ8H8D2WXTPFH9DPET.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1816941
+    },
+    {
+      "source_key": "sha256/18/18f51a3238256d561678fb38d79a2af3181784a7fd279fab36fa732cd1b015af",
+      "dest_key": "files/18f51a3238256d561678fb38d79a2af3181784a7fd279fab36fa732cd1b015af.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1816941
+    },
+    {
+      "source_key": "sha256/56/56a12ac7f5d6f28b7a2379d850015b3cc0df30a4a8702c7673513b02dfe781c8",
+      "dest_key": "files/56a12ac7f5d6f28b7a2379d850015b3cc0df30a4a8702c7673513b02dfe781c8.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 200222
+    },
+    {
+      "source_key": "sha256/6d/6dbde545788e709d2d2e3c1dc0ddbc18c691b59925825454459697ee4475ecac",
+      "dest_key": "files/6dbde545788e709d2d2e3c1dc0ddbc18c691b59925825454459697ee4475ecac.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 17898433
+    },
+    {
+      "source_key": "sha256/b1/b1542b8e6f94c74806f49d670aa786e671a94dccb429a0bb29d71623f90ed1d2",
+      "dest_key": "files/b1542b8e6f94c74806f49d670aa786e671a94dccb429a0bb29d71623f90ed1d2.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 3355755
+    },
+    {
+      "source_key": "sha256/bb/bb873d4f7a4b1f42a20b1d52ae1c9640fb93217ace5b02d9406135b1d0c87339",
+      "dest_key": "files/bb873d4f7a4b1f42a20b1d52ae1c9640fb93217ace5b02d9406135b1d0c87339.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1100874
+    },
+    {
+      "source_key": "sha256/e7/e7c60ee3ac494b5a36820786b53174be9f3a3f387265305da6750af538ec0d4e",
+      "dest_key": "files/e7c60ee3ac494b5a36820786b53174be9f3a3f387265305da6750af538ec0d4e.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 295991
+    },
+    {
+      "source_key": "exported_video/v_01KZQSACEQ2KR5PXPDK92YTE6K",
+      "dest_key": "renders/rvj_01KZQSACD6B46N3DY7V5KENBA3.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 14871406
+    },
+    {
+      "source_key": "exported_video/v_01KZQSACCN69MQ4KX5ZF782FBM",
+      "dest_key": "renders/rvj_01KZQSACB3CVNAVSR3Q36QTDNW.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 14882127
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQSACD6B46N3DY7V5KENBA3",
+      "op_record_id": "op_01KZQS9KKE63T7N2MZVJJPW1ZN"
+    },
+    {
+      "render_job_id": "rvj_01KZQSACB3CVNAVSR3Q36QTDNW",
+      "op_record_id": "op_01KZQS9KKE63T7N2MZVJJPW1ZN"
+    }
+  ]
+}
