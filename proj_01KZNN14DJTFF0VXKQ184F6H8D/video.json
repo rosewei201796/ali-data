@@ -1,0 +1,95 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-22T03:23:04+00:00",
+    "project_id": "proj_01KZNN14DJTFF0VXKQ184F6H8D",
+    "project_name": "Evolution in a Single Shot: A Cinematic Journey",
+    "owner_user_id": "usr_01KTN4K26CR0C4MJSCMNDS370N",
+    "internal_source": "employee",
+    "project_created_at": "2026-08-10 10:55:53",
+    "project_updated_at": "2026-08-10 10:55:54",
+    "draft_id": "draft_01KZNN14DTB80XZY7S34FCC202",
+    "draft_version": 3,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KZNNMDXXXY57J17FXFJCVBM3",
+      "file": "renders/rvj_01KZNNMDXXXY57J17FXFJCVBM3.mp4",
+      "completed_at": "2026-08-10 11:06:42"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 15.07,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 15.07,
+        "asset": {
+          "media_id": "media_01KZNNKFJYGBN8RPZJESYWVV7P",
+          "file": "files/3df5a0e0d42e13a96fe726d1a63533691e0cb038db0c496b27572a323325b2da.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Identity lock: the main subject must remain the referenced virtual avatar from reference_character_ids/reference_videos; preserve its species, face, body, color, and overall appearance. Do not replace it with a human unless the user explicitly asks.\n\nItem Reference: image_1 (weathered granite boulder — the ancestral origin form)\n\nA seamless single long-take shot. Genuine film grain, natural ambient light, realistic physical shadows. No AI gloss, no plastic highlights.\n\nThe camera maintains a relentless uninterrupted high-speed forward push — no rotation.\n\n[00-03s] Vast barren ancient landscape — cracked ochre earth, pale overcast sky. A prehistoric figure, bare-armed, grasps the raw granite boulder (image_1) and thrusts it forward toward the lens. The boulder fills the frame. Violent dust storm and airborne rock debris occlude the transition — natural optical motion blur.\n\n[03-05s] The blur clears: a knapped flint hand axe tumbling through dusty amber air, sharp chipped edges catching low-angle light. The axe spins into a wall of stone-chip debris and dust that fully masks the next transition.\n\n[05-07s] A primitive carved ceremonial stone with ancient etchings, ancient hands releasing it forward. Stone debris and atmospheric dust form the natural occlusion bridge.\n\n[07-09s] Precision-cut granite cobblestone cube tumbling in industrial haze, stone dust and sparks from a masonry saw. Dense particle cloud bridges to next stage.\n\n[09-11s] Polished granite sculpture in soft gallery light — smooth grey surface, specular reflection. Camera glides forward through optical blur.\n\n[11-13s] Figure 1 (modern milestone): stands in a clean contemporary interior, natural window light, holds a sleek polished stone object, turns it toward the camera. Camera glides past in a seamless forward push.\n\n[13-15s] Near-future luminescent mineral shard accelerates forward with physical propulsion energy trails. Camera slow backward drift as the stone form fires into a deep star field, shrinking to a point of light.\n\nPhysical transitions ONLY via: high-speed optical motion blur, dust occlusion, stone-chip scatter, atmospheric turbulence. NO AI morphing dissolves, NO cross-category mutations, NO drones, NO spacecraft — only stone-category evolved forms throughout., ARRI Alexa 65 cinematography, genuine 35mm film grain, raw film realism, photorealistic textures, no synthetic morphing transitions, no AI artifacts. Ambient natural audio only: stone impacts, wind, dust, no music, no singing",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Identity lock: the main subject must remain the referenced virtual avatar from reference_character_ids/reference_videos; preserve its species, face, body, color, and overall appearance. Do not replace it with a human unless the user explicitly asks.\n\nItem Reference: image_1 (weathered granite boulder — the ancestral origin form)\n\nA seamless single long-take shot. Genuine film grain, natural ambient light, realistic physical shadows. No AI gloss, no plastic highlights.\n\nThe camera maintains a relentless uninterrupted high-speed forward push — no rotation.\n\n[00-03s] Vast barren ancient landscape — cracked ochre earth, pale overcast sky. A prehistoric figure, bare-armed, grasps the raw granite boulder (image_1) and thrusts it forward toward the lens. The boulder fills the frame. Violent dust storm and airborne rock debris occlude the transition — natural optical motion blur.\n\n[03-05s] The blur clears: a knapped flint hand axe tumbling through dusty amber air, sharp chipped edges catching low-angle light. The axe spins into a wall of stone-chip debris and dust that fully masks the next transition.\n\n[05-07s] A primitive carved ceremonial stone with ancient etchings, ancient hands releasing it forward. Stone debris and atmospheric dust form the natural occlusion bridge.\n\n[07-09s] Precision-cut granite cobblestone cube tumbling in industrial haze, stone dust and sparks from a masonry saw. Dense particle cloud bridges to next stage.\n\n[09-11s] Polished granite sculpture in soft gallery light — smooth grey surface, specular reflection. Camera glides forward through optical blur.\n\n[11-13s] Figure 1 (modern milestone): stands in a clean contemporary interior, natural window light, holds a sleek polished stone object, turns it toward the camera. Camera glides past in a seamless forward push.\n\n[13-15s] Near-future luminescent mineral shard accelerates forward with physical propulsion energy trails. Camera slow backward drift as the stone form fires into a deep star field, shrinking to a point of light.\n\nPhysical transitions ONLY via: high-speed optical motion blur, dust occlusion, stone-chip scatter, atmospheric turbulence. NO AI morphing dissolves, NO cross-category mutations, NO drones, NO spacecraft — only stone-category evolved forms throughout., ARRI Alexa 65 cinematography, genuine 35mm film grain, raw film realism, photorealistic textures, no synthetic morphing transitions, no AI artifacts. Ambient natural audio only: stone impacts, wind, dust, no music, no singing",
+          "params": {
+            "task_id": "01531358-d3c6-4740-87c0-34989cf4bd45",
+            "aspect_ratio": "16:9",
+            "output_index": 0,
+            "is_with_audio": true,
+            "input_duration": 15,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260810185746-2qvph"
+              }
+            ]
+          },
+          "refs": {
+            "characters": [
+              "asset-20260810185524-qgl6q"
+            ],
+            "character_ids": [
+              "asset-20260810185524-qgl6q"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 15.07
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [],
+    "captions": null,
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 15.07,
+      "audio_file": "files/b14a1e00f0256e657e4ed96dd7a052d8479605db19d9964b01e97fa178b0eb96.mp3",
+      "volume_db": -10,
+      "title": "Galactic Overture Epic Orchestral",
+      "source": "public_library",
+      "description": "Galactic Overture Epic Orchestral is a powerful and sweeping orchestral piece that evokes the grandeur and mystery of the cosmos. The music features a rich tapestry of strings and brass, creating a majestic and expansive soundscape. The orchestration is designed to convey a sense of adventure and exploration, with rising melodies that inspire awe and wonder. The dynamic interplay between the instruments adds layers of intensity and emotion, making it feel both epic and cinematic."
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZNNMDXXXY57J17FXFJCVBM3",
+      "file": "renders/rvj_01KZNNMDXXXY57J17FXFJCVBM3.mp4",
+      "source_key": "exported_video/v_01KZNNMDZDJN6YANY6D46BSVTX",
+      "completed_at": "2026-08-10 11:06:42",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7741,
+        "duration": 15.07,
+        "hasAudio": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "project_id": "proj_01KZNN14DJTFF0VXKQ184F6H8D",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0DB58MWCYH84DKDVZK2.mp3",
+      "dest_key": "files/media_01K87ZT0DB58MWCYH84DKDVZK2.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 4159677
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0F8NZSMYE27VSC5Z3C6.mp3",
+      "dest_key": "files/media_01K87ZT0F8NZSMYE27VSC5Z3C6.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 3293421
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0F9MVXEQN2NAKWV721T.mp3",
+      "dest_key": "files/media_01K87ZT0F9MVXEQN2NAKWV721T.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 2813493
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0FYXMN6X1TTS14TE1HW.mp3",
+      "dest_key": "files/media_01K87ZT0FYXMN6X1TTS14TE1HW.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 2115501
+    },
+    {
+      "source_key": "assets/bgm/public/media_01K87ZT0GK75NJKQH017A8AP83.mp3",
+      "dest_key": "files/media_01K87ZT0GK75NJKQH017A8AP83.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 5766765
+    },
+    {
+      "source_key": "sha256/37/372038b625bb793dbb1edec4042ae90d669b3b77c40ae45d2433b99bf9488713",
+      "dest_key": "files/372038b625bb793dbb1edec4042ae90d669b3b77c40ae45d2433b99bf9488713.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 90527
+    },
+    {
+      "source_key": "sha256/3d/3df5a0e0d42e13a96fe726d1a63533691e0cb038db0c496b27572a323325b2da",
+      "dest_key": "files/3df5a0e0d42e13a96fe726d1a63533691e0cb038db0c496b27572a323325b2da.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 8364791
+    },
+    {
+      "source_key": "sha256/b1/b14a1e00f0256e657e4ed96dd7a052d8479605db19d9964b01e97fa178b0eb96",
+      "dest_key": "files/b14a1e00f0256e657e4ed96dd7a052d8479605db19d9964b01e97fa178b0eb96.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 3293421
+    },
+    {
+      "source_key": "exported_video/v_01KZNNMDZDJN6YANY6D46BSVTX",
+      "dest_key": "renders/rvj_01KZNNMDXXXY57J17FXFJCVBM3.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 14582453
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZNNMDXXXY57J17FXFJCVBM3",
+      "op_record_id": "op_01KZNNKYRCPY5AG8V1YBFV2KV2"
+    }
+  ]
+}
