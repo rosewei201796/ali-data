@@ -1,0 +1,75 @@
+{
+  "project_id": "proj_01KZQK89J0ZK3A5GZ6N22HN29S",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "sha256/24/24957126e3f8c6f8bdddedea2453b406d2c5d36908e1a55a1ed7aec77bcfc363",
+      "dest_key": "files/24957126e3f8c6f8bdddedea2453b406d2c5d36908e1a55a1ed7aec77bcfc363.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 6306021
+    },
+    {
+      "source_key": "sha256/2d/2d6341a4d1b103359ad891fc340d12e020941499f1e422fa208a8eea624ed556",
+      "dest_key": "files/2d6341a4d1b103359ad891fc340d12e020941499f1e422fa208a8eea624ed556.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 702057
+    },
+    {
+      "source_key": "sha256/33/33eda87e452fc738d6d3c06cf40c9a5ae001dc6ca1c6e6c81323f95cd3ac97ac",
+      "dest_key": "files/33eda87e452fc738d6d3c06cf40c9a5ae001dc6ca1c6e6c81323f95cd3ac97ac.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 359467
+    },
+    {
+      "source_key": "sha256/39/39feb7684621425e0e881d400d4e9fee6060e332715823efb9d5f4e9690ada41",
+      "dest_key": "files/39feb7684621425e0e881d400d4e9fee6060e332715823efb9d5f4e9690ada41.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 184629
+    },
+    {
+      "source_key": "sha256/4f/4f7926d9dfd9b91d76a82c9f6e346e997c2e24506bf1d467bcce473c0702121d",
+      "dest_key": "files/4f7926d9dfd9b91d76a82c9f6e346e997c2e24506bf1d467bcce473c0702121d.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 6148465
+    },
+    {
+      "source_key": "sha256/d1/d19342e0751b252da08b0bee738dd734950b50ae3a88b7135fc78fde7d7a3995",
+      "dest_key": "files/d19342e0751b252da08b0bee738dd734950b50ae3a88b7135fc78fde7d7a3995.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 6811750
+    },
+    {
+      "source_key": "exported_video/v_01KZQQFACS1MJ812F65MEZBCE8",
+      "dest_key": "renders/rvj_01KZQQFAANSY6YAW794YCTG2WT.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 8089097
+    },
+    {
+      "source_key": "exported_video/v_01KZQQFAVM9MQBSJCJC0EWPKN4",
+      "dest_key": "renders/rvj_01KZQQFABBD3CGP8KES539B8DD.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 8012151
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQQFAANSY6YAW794YCTG2WT",
+      "op_record_id": "op_01KZQQF4R11B0PBR0S1WQXA4MZ"
+    },
+    {
+      "render_job_id": "rvj_01KZQQFABBD3CGP8KES539B8DD",
+      "op_record_id": "op_01KZQQF4R11B0PBR0S1WQXA4MZ"
+    }
+  ]
+}

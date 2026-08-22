@@ -1,0 +1,98 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-22T03:22:13+00:00",
+    "project_id": "proj_01KZQK89J0ZK3A5GZ6N22HN29S",
+    "project_name": "全感官盛宴：黄瓜味乐事广告大片",
+    "owner_user_id": "usr_01KX2BKGWTZGEPZQ9YP46GXFYN",
+    "internal_source": "employee",
+    "project_created_at": "2026-08-11 05:03:20",
+    "project_updated_at": "2026-08-11 05:03:21",
+    "draft_id": "draft_01KZQK89JN29YRN4TERVJS9TG8",
+    "draft_version": 5,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KZQQFABBD3CGP8KES539B8DD",
+      "file": "renders/rvj_01KZQQFABBD3CGP8KES539B8DD.mp4",
+      "completed_at": "2026-08-11 06:17:13"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 8.096,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 8.096,
+        "asset": {
+          "media_id": "media_01KZQQA2W1GH41PK0XPWB06GMS",
+          "file": "files/24957126e3f8c6f8bdddedea2453b406d2c5d36908e1a55a1ed7aec77bcfc363.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Figure 1: image_1\n\n[00-00.7s] Extreme macro close-up of fine salt crystals scattered across a golden potato chip surface. Angular, semi-translucent grains catch volumetric light beams streaming from two directions: vivid cucumber-green from the left and warm Lay's yellow from the right. Salt grains explode with prismatic rainbow micro-flares. Camera: ultra-low angle, aggressive fast push-in, razor-shallow depth of field, foreground salt tips dissolve into creamy bokeh spheres.\n\n[0.7-1.4s] Slow-motion salt avalanche: granules cascade and tumble down a dune-shaped golden chip surface, brilliantly rim-lit from behind with dual yellow-green edge lights. In parallax layers behind, silhouettes of fresh cucumber slices and feathery dill sprigs slowly roll and drift. Fine salt dust billows and swirls in dramatic directional side-lighting. Extreme shallow depth of field — only the closest grain stays pin-sharp.\n\n[1.4-2.0s] Whip-cut: a suspended cluster of golden potato chips floats weightlessly, rotating like slow-moving wind chimes. Bright directional light pierces through their semi-translucent bodies, refracting into vivid prismatic rainbow streaks. The salt-coated surfaces catch intense, shifting specular highlights. Sharp diagonal motion-blur streaks sweep across the frame with kinetic energy.\n\n[2.0-2.6s] The cucumber-dill flavor vortex ignites: deep green and bright yellow smoke swirl together as golden chip fragments spiral upward inside a gradient studio shifting from emerald to amber. Camera executes a sweeping 180° orbit paired with a dramatic speed-ramp push. Salt granules and chip pieces erupt centrifugally from the eye of the vortex.\n\n[2.6-3.3s] Figure 1 — the green Lay's cucumber chip package — detonates through the swirling vortex with explosive kinetic energy. High-gloss foil surface erupts with specular flares on impact. The package arrests mid-air, lit by a warm overhead key light and a crisp yellow rim light from behind. Background snaps to a richly textured, saturated cucumber-green fabric backdrop.\n\n[3.3-4.0s] Ultra-macro tracking glide across Figure 1's foil surface: the lens reveals fine embossed texture ridges, heat-seal seam lines, and liquid-light specular waves rolling across the deep green base. The camera smoothly tracks toward the Lay's yellow oval logo, locking onto razor-sharp catch-lights along its embossed letterform edges. Fine salt particles and chip crumbs drift through a dense column of volumetric green haze.\n\n[4.0-4.7s] Rapid push-in to the cucumber & dill flavor sublabel on Figure 1. The camera barrel-rolls and playfully tilts as if physically driven by the flavor intensity. Salt crystals and chip fragments stream dynamically from left to right like a shower of golden meteors. Tendrils of deep green and bright yellow smoke bloom and curl at the frame edges.\n\n[4.7-5.6s] Hero beauty shot: Figure 1 rotates 20–30° along a smooth gimbal arc, unveiling the complete front-face design — Lay's logo, flavor call-out text, cucumber slice illustration, and dill artwork rendered in high fidelity. Background dissolves to a radial cucumber-green gradient. A soft lens vignette halos the logo. Chip-and-salt caustic patterns shimmer and dance across the gradient background.\n\n[5.6-6.8s] Sensory explosion: from directly behind Figure 1, dozens of realistic golden potato chips erupt outward in a panoramic slow-motion burst. Semi-translucent chips catch brilliant multi-angle light — their salt-dusted surfaces scatter in a glinting golden mist cloud. A single chip arcs dramatically into the extreme foreground and lands with a satisfying elastic bounce, vibrating with tactile physics. Camera maintains a steady, relentless push-in toward Figure 1 throughout.\n\n[6.8-8.0s] Final hero lock: Figure 1 perfectly centered with a slow, breathing forward drift and gentle float. A warm cucumber-green luminous aura pulses softly around the entire package perimeter. Salt granules and chip shards drift upward in slow reverse gravity like pale snowflakes ascending. In the softly defocused background, chips spin in lazy orbits. Premium three-point studio lighting — hard key, soft fill, sharp rim. Frame is clinically clean: no text overlays, no watermarks, no logos added, ultra-sharp product detail, film-quality cinematic color grade.\n\nMulti-shot, cinematic electric pacing. Focal lengths: extreme macro → medium floating chips → product hero → detail tracking → full beauty → slow-mo burst → final lock. Audio: layered ASMR product sound design — delicate salt-crystal tinkle, deep satisfying chip crunch on impact, crisp metallized foil rustle, airy particle whoosh, subtle sub-bass electronic pulse undertone. No voiceover. No music track., cinematic electric grade, high saturation, photorealistic CGI commercial, premium studio three-point lighting, cucumber green and Lay's yellow color palette, shallow depth of field, film grain, no text overlay, no watermarks",
+          "model": "doubao_seedance_2.0_mini",
+          "prompt": "Figure 1: image_1\n\n[00-00.7s] Extreme macro close-up of fine salt crystals scattered across a golden potato chip surface. Angular, semi-translucent grains catch volumetric light beams streaming from two directions: vivid cucumber-green from the left and warm Lay's yellow from the right. Salt grains explode with prismatic rainbow micro-flares. Camera: ultra-low angle, aggressive fast push-in, razor-shallow depth of field, foreground salt tips dissolve into creamy bokeh spheres.\n\n[0.7-1.4s] Slow-motion salt avalanche: granules cascade and tumble down a dune-shaped golden chip surface, brilliantly rim-lit from behind with dual yellow-green edge lights. In parallax layers behind, silhouettes of fresh cucumber slices and feathery dill sprigs slowly roll and drift. Fine salt dust billows and swirls in dramatic directional side-lighting. Extreme shallow depth of field — only the closest grain stays pin-sharp.\n\n[1.4-2.0s] Whip-cut: a suspended cluster of golden potato chips floats weightlessly, rotating like slow-moving wind chimes. Bright directional light pierces through their semi-translucent bodies, refracting into vivid prismatic rainbow streaks. The salt-coated surfaces catch intense, shifting specular highlights. Sharp diagonal motion-blur streaks sweep across the frame with kinetic energy.\n\n[2.0-2.6s] The cucumber-dill flavor vortex ignites: deep green and bright yellow smoke swirl together as golden chip fragments spiral upward inside a gradient studio shifting from emerald to amber. Camera executes a sweeping 180° orbit paired with a dramatic speed-ramp push. Salt granules and chip pieces erupt centrifugally from the eye of the vortex.\n\n[2.6-3.3s] Figure 1 — the green Lay's cucumber chip package — detonates through the swirling vortex with explosive kinetic energy. High-gloss foil surface erupts with specular flares on impact. The package arrests mid-air, lit by a warm overhead key light and a crisp yellow rim light from behind. Background snaps to a richly textured, saturated cucumber-green fabric backdrop.\n\n[3.3-4.0s] Ultra-macro tracking glide across Figure 1's foil surface: the lens reveals fine embossed texture ridges, heat-seal seam lines, and liquid-light specular waves rolling across the deep green base. The camera smoothly tracks toward the Lay's yellow oval logo, locking onto razor-sharp catch-lights along its embossed letterform edges. Fine salt particles and chip crumbs drift through a dense column of volumetric green haze.\n\n[4.0-4.7s] Rapid push-in to the cucumber & dill flavor sublabel on Figure 1. The camera barrel-rolls and playfully tilts as if physically driven by the flavor intensity. Salt crystals and chip fragments stream dynamically from left to right like a shower of golden meteors. Tendrils of deep green and bright yellow smoke bloom and curl at the frame edges.\n\n[4.7-5.6s] Hero beauty shot: Figure 1 rotates 20–30° along a smooth gimbal arc, unveiling the complete front-face design — Lay's logo, flavor call-out text, cucumber slice illustration, and dill artwork rendered in high fidelity. Background dissolves to a radial cucumber-green gradient. A soft lens vignette halos the logo. Chip-and-salt caustic patterns shimmer and dance across the gradient background.\n\n[5.6-6.8s] Sensory explosion: from directly behind Figure 1, dozens of realistic golden potato chips erupt outward in a panoramic slow-motion burst. Semi-translucent chips catch brilliant multi-angle light — their salt-dusted surfaces scatter in a glinting golden mist cloud. A single chip arcs dramatically into the extreme foreground and lands with a satisfying elastic bounce, vibrating with tactile physics. Camera maintains a steady, relentless push-in toward Figure 1 throughout.\n\n[6.8-8.0s] Final hero lock: Figure 1 perfectly centered with a slow, breathing forward drift and gentle float. A warm cucumber-green luminous aura pulses softly around the entire package perimeter. Salt granules and chip shards drift upward in slow reverse gravity like pale snowflakes ascending. In the softly defocused background, chips spin in lazy orbits. Premium three-point studio lighting — hard key, soft fill, sharp rim. Frame is clinically clean: no text overlays, no watermarks, no logos added, ultra-sharp product detail, film-quality cinematic color grade.\n\nMulti-shot, cinematic electric pacing. Focal lengths: extreme macro → medium floating chips → product hero → detail tracking → full beauty → slow-mo burst → final lock. Audio: layered ASMR product sound design — delicate salt-crystal tinkle, deep satisfying chip crunch on impact, crisp metallized foil rustle, airy particle whoosh, subtle sub-bass electronic pulse undertone. No voiceover. No music track., cinematic electric grade, high saturation, photorealistic CGI commercial, premium studio three-point lighting, cucumber green and Lay's yellow color palette, shallow depth of field, film grain, no text overlay, no watermarks",
+          "params": {
+            "task_id": "bdac0a5a-8890-45b5-90a5-16d887ea7fc3",
+            "aspect_ratio": "16:9",
+            "output_index": 0,
+            "is_with_audio": true,
+            "input_duration": 8,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "https://oss.prd.medeo.app/sha256/2d/2d6341a4d1b103359ad891fc340d12e020941499f1e422fa208a8eea624ed556"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.096
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [],
+    "captions": {
+      "hidden": false,
+      "items": []
+    },
+    "bgm": null
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQQFAANSY6YAW794YCTG2WT",
+      "file": "renders/rvj_01KZQQFAANSY6YAW794YCTG2WT.mp4",
+      "source_key": "exported_video/v_01KZQQFACS1MJ812F65MEZBCE8",
+      "completed_at": "2026-08-11 06:17:13",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7989,
+        "duration": 8.1,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQQFABBD3CGP8KES539B8DD",
+      "file": "renders/rvj_01KZQQFABBD3CGP8KES539B8DD.mp4",
+      "source_key": "exported_video/v_01KZQQFAVM9MQBSJCJC0EWPKN4",
+      "completed_at": "2026-08-11 06:17:13",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7913,
+        "duration": 8.1,
+        "hasAudio": true
+      }
+    }
+  ]
+}
