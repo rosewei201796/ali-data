@@ -1,0 +1,164 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-22T03:24:11+00:00",
+    "project_id": "proj_01KZQQEXTT3VM5PXQFMVK6SKXR",
+    "project_name": "Cinematic Paris: A Protagonist's Artistic Journey",
+    "owner_user_id": "usr_01KT8F6ADJHK3S48HN467YNMHV",
+    "internal_source": "employee",
+    "project_created_at": "2026-08-11 06:16:51",
+    "project_updated_at": "2026-08-11 06:16:52",
+    "draft_id": "draft_01KZQQEXV08EMGPD777NGW2NWY",
+    "draft_version": 3,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KZQSX5WBNFJQAXJQVTWKEE46",
+      "file": "renders/rvj_01KZQSX5WBNFJQAXJQVTWKEE46.mp4",
+      "completed_at": "2026-08-11 07:01:54"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 30.0,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 10.0,
+        "asset": {
+          "media_id": "media_01KZQRGPYQJYD2VF4A868PF84M",
+          "file": "files/f718a159c4212890b832ecaab1b0ca88c3d55f3af6d1336ada11923c2a1d5bc5.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Game HUD overlay compositing for Clip 1 — Eiffel Tower Plaza (10 seconds)\nBackground asset: backgroundVideo (Seedance Segment 1). Source duration: exactly 10 seconds. duration_seconds: 10\nVisual treatment\nRPG game UI styled to match the warm whimsical cel-shaded fantasy aesthetic from the game art reference (gameStyleRef). The interface uses warm cream/gold tones, soft cel-shaded outlines, semi-transparent panels\nGlobal HUD (present for all 10 seconds)\nTop-left: Fantasy RPG health/status bar — row of 3 heart icons (full, warm red), a small stamina ring below, warm cream semi-transparent panel, soft rounded outline. Compact\nBottom-right: Circular mini-map — small circular frame (parchment style), player dot at center, cardinal compass marks N/S/E/W in small text, dark semi-transparent background. Small yellow sun icon directly above it\nBottom-center: Quick-item icon bar — 4 small icon slots, semi-transparent, icons: red potion, folded map, artist brush, camera. First slot has soft golden glow\nScene Name Bar (0.0s – 2.0s)\nSemi-transparent dark rounded rect panel, bottom-left, padding 12px\nLarge text (fantasy serif): \"Eiffel Tower Plaza\"\nSmall text below: \"Discovery: New Location\"\nCSS opacity: fade in 0–0.3s, hold 0.3s–2.0s, fade out 2.0s–2.3s. Does NOT reappear\nDialogue Subtitle Box\nSemi-transparent dark rounded rectangle, centered horizontally, top at 80% of frame height\nWhite text, clean readable serif font, one line per box\nTimed windows (GSAP or CSS animation)\n2.5s–5.5s: label \"Adventurer\" | text \"You've got quite the view here! Mind if I join your quest log?\"\n6.2s–8.5s: label \"Tourist\" | text \"Of course! Smile!\"\nBox hidden outside these windows (opacity 0)\nRules\nAll UI rendered as transparent overlay over backgroundVideo (full width, full height)\nOriginal audio from backgroundVideo preserved; no added audio\nno platform text\nHUD elements must not overlap the center-lower portion of the frame where the character's face appears",
+          "model": "grok-4.5",
+          "prompt": "Game HUD overlay compositing for Clip 1 — Eiffel Tower Plaza (10 seconds)\nBackground asset: backgroundVideo (Seedance Segment 1). Source duration: exactly 10 seconds. duration_seconds: 10\nVisual treatment\nRPG game UI styled to match the warm whimsical cel-shaded fantasy aesthetic from the game art reference (gameStyleRef). The interface uses warm cream/gold tones, soft cel-shaded outlines, semi-transparent panels\nGlobal HUD (present for all 10 seconds)\nTop-left: Fantasy RPG health/status bar — row of 3 heart icons (full, warm red), a small stamina ring below, warm cream semi-transparent panel, soft rounded outline. Compact\nBottom-right: Circular mini-map — small circular frame (parchment style), player dot at center, cardinal compass marks N/S/E/W in small text, dark semi-transparent background. Small yellow sun icon directly above it\nBottom-center: Quick-item icon bar — 4 small icon slots, semi-transparent, icons: red potion, folded map, artist brush, camera. First slot has soft golden glow\nScene Name Bar (0.0s – 2.0s)\nSemi-transparent dark rounded rect panel, bottom-left, padding 12px\nLarge text (fantasy serif): \"Eiffel Tower Plaza\"\nSmall text below: \"Discovery: New Location\"\nCSS opacity: fade in 0–0.3s, hold 0.3s–2.0s, fade out 2.0s–2.3s. Does NOT reappear\nDialogue Subtitle Box\nSemi-transparent dark rounded rectangle, centered horizontally, top at 80% of frame height\nWhite text, clean readable serif font, one line per box\nTimed windows (GSAP or CSS animation)\n2.5s–5.5s: label \"Adventurer\" | text \"You've got quite the view here! Mind if I join your quest log?\"\n6.2s–8.5s: label \"Tourist\" | text \"Of course! Smile!\"\nBox hidden outside these windows (opacity 0)\nRules\nAll UI rendered as transparent overlay over backgroundVideo (full width, full height)\nOriginal audio from backgroundVideo preserved; no added audio\nno platform text\nHUD elements must not overlap the center-lower portion of the frame where the character's face appears",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 10,
+            "source_backplate_media_ids": [
+              "media_01KZQQW1MK8R68GBP7CJMJ057Q"
+            ]
+          },
+          "code_artifact": "files/codevid_req_01KZQRB0KN1D3TMJPV4GC9HDYQ.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 10.0
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 10.0,
+        "duration_sec": 10.0,
+        "asset": {
+          "media_id": "media_01KZQRA73ANXRWBYDZQ304AB2A",
+          "file": "files/3f84b4480ba9b2f51d76618ffa2188bed6fcdbedff08a97c2de4758dcb82af59.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Game HUD overlay compositing for Clip 2 — Seine Riverside (10 seconds)\nBackground asset: backgroundVideo (Seedance Segment 2). Source duration: exactly 10 seconds. duration_seconds: 10\nVisual treatment\nRPG game UI styled to match the warm whimsical cel-shaded fantasy aesthetic from the game art reference\nGlobal HUD (present for all 10 seconds)\nTop-left: Fantasy RPG health/status bar — small heart icons, stamina ring indicator, warm cream/gold semi-transparent panel, soft cel-shaded outline. Compact and non-intrusive\nBottom-right: Circular mini-map — soft circular frame, parchment-style semi-transparent background, player position dot, compass marks. Small sun icon above mini-map\nQuick-item icons bar: 3–4 small icon slots at bottom-center, semi-transparent cel-shaded (potion, map, brush, coffee cup). Subtle glow on active slot\nScene Name Bar (0.0s – 2.0s only)\nStyle: Semi-transparent dark panel, bottom-left position, fantasy serif display font\nMain title: \"Seine Riverside\"\nSubtitle (small): \"Discovery: New Location\"\nFade in at 0.0s, hold until 2.0s, fade out by 2.2s. Does NOT reappear\nDialogue Subtitle Box (timed window)\nStyle: Semi-transparent dark rounded rectangle, centered horizontally, Y position 80% from top\nWhite text, readable fantasy font, one line at a time\nSpeaker label above text\nClip-local dialogue timing\n2.5s – 7.0s: Speaker: \"Adventurer\" | \"This light… it's like the world itself is casting a golden-hour buff.\"\nNo dialogue box outside this window\nCompositing rules\nHUD must not obscure center-bottom area or character's face\nAll UI composited as transparent overlay over backgroundVideo\nOriginal Seedance audio fully preserved\nno platform branding",
+          "model": "grok-4.5",
+          "prompt": "Game HUD overlay compositing for Clip 2 — Seine Riverside (10 seconds)\nBackground asset: backgroundVideo (Seedance Segment 2). Source duration: exactly 10 seconds. duration_seconds: 10\nVisual treatment\nRPG game UI styled to match the warm whimsical cel-shaded fantasy aesthetic from the game art reference\nGlobal HUD (present for all 10 seconds)\nTop-left: Fantasy RPG health/status bar — small heart icons, stamina ring indicator, warm cream/gold semi-transparent panel, soft cel-shaded outline. Compact and non-intrusive\nBottom-right: Circular mini-map — soft circular frame, parchment-style semi-transparent background, player position dot, compass marks. Small sun icon above mini-map\nQuick-item icons bar: 3–4 small icon slots at bottom-center, semi-transparent cel-shaded (potion, map, brush, coffee cup). Subtle glow on active slot\nScene Name Bar (0.0s – 2.0s only)\nStyle: Semi-transparent dark panel, bottom-left position, fantasy serif display font\nMain title: \"Seine Riverside\"\nSubtitle (small): \"Discovery: New Location\"\nFade in at 0.0s, hold until 2.0s, fade out by 2.2s. Does NOT reappear\nDialogue Subtitle Box (timed window)\nStyle: Semi-transparent dark rounded rectangle, centered horizontally, Y position 80% from top\nWhite text, readable fantasy font, one line at a time\nSpeaker label above text\nClip-local dialogue timing\n2.5s – 7.0s: Speaker: \"Adventurer\" | \"This light… it's like the world itself is casting a golden-hour buff.\"\nNo dialogue box outside this window\nCompositing rules\nHUD must not obscure center-bottom area or character's face\nAll UI composited as transparent overlay over backgroundVideo\nOriginal Seedance audio fully preserved\nno platform branding",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 10,
+            "source_backplate_media_ids": [
+              "media_01KZQQTXB11HE5MW2WSG745C3E"
+            ]
+          },
+          "code_artifact": "files/codevid_req_01KZQR04JWR708D7PW53QKJ762.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 10.0
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 20.0,
+        "duration_sec": 10.0,
+        "asset": {
+          "media_id": "media_01KZQRABYGRM9P675YK46QWDZV",
+          "file": "files/e675c0c7e323e213cd3f1bbc0bc5044e502712b1b1667c798a1daf908bd3a6fb.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Game HUD overlay compositing for Clip 3 — Arc de Triomphe (10 seconds)\nBackground asset: backgroundVideo (Seedance Segment 3). Source duration: exactly 10 seconds. duration_seconds: 10\nVisual treatment\nRPG game UI styled to match the warm whimsical cel-shaded fantasy aesthetic from the game art reference\nGlobal HUD (present for all 10 seconds)\nTop-left: Fantasy RPG health/status bar — small heart icons, stamina ring indicator, warm cream/gold semi-transparent panel, soft cel-shaded outline. Compact and non-intrusive\nBottom-right: Circular mini-map — soft circular frame, parchment-style semi-transparent background, player position dot, compass marks. Small sun icon above mini-map\nQuick-item icons bar: 3–4 small icon slots at bottom-center, semi-transparent cel-shaded icons. Subtle glow on active slot\nScene Name Bar (0.0s – 2.0s only)\nStyle: Semi-transparent dark panel, bottom-left position, fantasy serif display font\nMain title: \"Arc de Triomphe\"\nSubtitle (small): \"Discovery: New Location\"\nFade in at 0.0s, hold until 2.0s, fade out by 2.2s. Does NOT reappear\nDialogue Subtitle Box (timed windows)\nStyle: Semi-transparent dark rounded rectangle, centered horizontally, Y position 80% from top\nWhite text, readable fantasy font, one line at a time\nSpeaker label above text. Optional Ⓐ prompt icon\nClip-local dialogue timing\n2.5s – 5.5s: Speaker: \"Performer\" | \"Come on, adventurer! Everyone dances at the Triomphe!\"\n6.2s – 9.0s: Speaker: \"Adventurer\" | \"Ha! An experience quest — I never say no!\"\nNo dialogue box outside these windows\nCompositing rules\nHUD must not obscure center-bottom area or character's face\nAll UI composited as transparent overlay over backgroundVideo\nOriginal Seedance audio fully preserved\nno platform branding",
+          "model": "grok-4.5",
+          "prompt": "Game HUD overlay compositing for Clip 3 — Arc de Triomphe (10 seconds)\nBackground asset: backgroundVideo (Seedance Segment 3). Source duration: exactly 10 seconds. duration_seconds: 10\nVisual treatment\nRPG game UI styled to match the warm whimsical cel-shaded fantasy aesthetic from the game art reference\nGlobal HUD (present for all 10 seconds)\nTop-left: Fantasy RPG health/status bar — small heart icons, stamina ring indicator, warm cream/gold semi-transparent panel, soft cel-shaded outline. Compact and non-intrusive\nBottom-right: Circular mini-map — soft circular frame, parchment-style semi-transparent background, player position dot, compass marks. Small sun icon above mini-map\nQuick-item icons bar: 3–4 small icon slots at bottom-center, semi-transparent cel-shaded icons. Subtle glow on active slot\nScene Name Bar (0.0s – 2.0s only)\nStyle: Semi-transparent dark panel, bottom-left position, fantasy serif display font\nMain title: \"Arc de Triomphe\"\nSubtitle (small): \"Discovery: New Location\"\nFade in at 0.0s, hold until 2.0s, fade out by 2.2s. Does NOT reappear\nDialogue Subtitle Box (timed windows)\nStyle: Semi-transparent dark rounded rectangle, centered horizontally, Y position 80% from top\nWhite text, readable fantasy font, one line at a time\nSpeaker label above text. Optional Ⓐ prompt icon\nClip-local dialogue timing\n2.5s – 5.5s: Speaker: \"Performer\" | \"Come on, adventurer! Everyone dances at the Triomphe!\"\n6.2s – 9.0s: Speaker: \"Adventurer\" | \"Ha! An experience quest — I never say no!\"\nNo dialogue box outside these windows\nCompositing rules\nHUD must not obscure center-bottom area or character's face\nAll UI composited as transparent overlay over backgroundVideo\nOriginal Seedance audio fully preserved\nno platform branding",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 10,
+            "source_backplate_media_ids": [
+              "media_01KZQQV765M8V84HHDHA8FFBFT"
+            ]
+          },
+          "code_artifact": "files/codevid_req_01KZQR0DXJ5SA365FEF9W5AN0C.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 10.0
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [],
+    "captions": null,
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 30.0,
+      "audio_file": "files/00972482d5ee7e5bf94f5af38c9fd4efe377b99fefee680a53b0105a6ab6b5ef.mp3",
+      "volume_db": -30,
+      "title": "Parisian Adventure Theme (1/2)",
+      "source": "ai_generated",
+      "description": "A light, cheerful, and whimsical instrumental travel theme with a sense of wonder and adventure. Bright acoustic guitar, playful pizzicato strings, light percussion, and soft woodwind melody. Evokes a warm sunny day exploring a beautiful European city — joyful, carefree, and uplifting. No lyrics, no vocals. (1/2)",
+      "model": "suno_music_v5.5",
+      "prompt": "A light, cheerful, and whimsical instrumental travel theme with a sense of wonder and adventure. Bright acoustic guitar, playful pizzicato strings, light percussion, and soft woodwind melody. Evokes a warm sunny day exploring a beautiful European city — joyful, carefree, and uplifting. No lyrics, no vocals."
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQSX55ZPQNJX3Q44K0ZGYZC",
+      "file": "renders/rvj_01KZQSX55ZPQNJX3Q44K0ZGYZC.mp4",
+      "source_key": "exported_video/v_01KZQSX5VCP91YS5MJVVRAV879",
+      "completed_at": "2026-08-11 07:01:23",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7937,
+        "duration": 30,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQSX5WBNFJQAXJQVTWKEE46",
+      "file": "renders/rvj_01KZQSX5WBNFJQAXJQVTWKEE46.mp4",
+      "source_key": "exported_video/v_01KZQSX61X035B2ZX6JCM034NR",
+      "completed_at": "2026-08-11 07:01:54",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7923,
+        "duration": 30,
+        "hasAudio": true
+      }
+    }
+  ]
+}

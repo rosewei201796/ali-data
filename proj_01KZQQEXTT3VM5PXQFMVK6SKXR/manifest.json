@@ -1,0 +1,145 @@
+{
+  "project_id": "proj_01KZQQEXTT3VM5PXQFMVK6SKXR",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "artifacts/code-video/proj_01KZQQEXTT3VM5PXQFMVK6SKXR/codevid_req_01KZQR04JWR708D7PW53QKJ762/artifact.json",
+      "dest_key": "files/codevid_req_01KZQR04JWR708D7PW53QKJ762.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 22986
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQQEXTT3VM5PXQFMVK6SKXR/codevid_req_01KZQR0DXJ5SA365FEF9W5AN0C/artifact.json",
+      "dest_key": "files/codevid_req_01KZQR0DXJ5SA365FEF9W5AN0C.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 25076
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQQEXTT3VM5PXQFMVK6SKXR/codevid_req_01KZQRB0KN1D3TMJPV4GC9HDYQ/artifact.json",
+      "dest_key": "files/codevid_req_01KZQRB0KN1D3TMJPV4GC9HDYQ.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 20089
+    },
+    {
+      "source_key": "sha256/00/00972482d5ee7e5bf94f5af38c9fd4efe377b99fefee680a53b0105a6ab6b5ef",
+      "dest_key": "files/00972482d5ee7e5bf94f5af38c9fd4efe377b99fefee680a53b0105a6ab6b5ef.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 3791814
+    },
+    {
+      "source_key": "sha256/0b/0b44359ab16393e907b84973c79b972e31ae7180ed614ada8ca8eafe6a745a68",
+      "dest_key": "files/0b44359ab16393e907b84973c79b972e31ae7180ed614ada8ca8eafe6a745a68.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 6639707
+    },
+    {
+      "source_key": "sha256/1b/1b977d0fab70e11ef1960fb37d72f5144b56606fe718ad1fd4d5fa292a48d4b0",
+      "dest_key": "files/1b977d0fab70e11ef1960fb37d72f5144b56606fe718ad1fd4d5fa292a48d4b0.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 3614526
+    },
+    {
+      "source_key": "sha256/30/30ee2938ac4de2536faf9d6030c0f0e6f89a96dd5fa7212962b58190f58737ec",
+      "dest_key": "files/30ee2938ac4de2536faf9d6030c0f0e6f89a96dd5fa7212962b58190f58737ec.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2495070
+    },
+    {
+      "source_key": "sha256/3b/3bb0f47e5c2f7ea00002fce80fa998c8da005415927bf346795b29b0e71c48cd",
+      "dest_key": "files/3bb0f47e5c2f7ea00002fce80fa998c8da005415927bf346795b29b0e71c48cd.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 5680134
+    },
+    {
+      "source_key": "sha256/3c/3c03e77d2ec3eaf927ce55d85e04943b3b55543457720507d4ca6b00630d6b2f",
+      "dest_key": "files/3c03e77d2ec3eaf927ce55d85e04943b3b55543457720507d4ca6b00630d6b2f.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 292571
+    },
+    {
+      "source_key": "sha256/3f/3f84b4480ba9b2f51d76618ffa2188bed6fcdbedff08a97c2de4758dcb82af59",
+      "dest_key": "files/3f84b4480ba9b2f51d76618ffa2188bed6fcdbedff08a97c2de4758dcb82af59.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 8345774
+    },
+    {
+      "source_key": "sha256/49/49bbe7fd1d77e563e5055f6b86a4397a80d9c6d7f9a0093567b9364bbf65715e",
+      "dest_key": "files/49bbe7fd1d77e563e5055f6b86a4397a80d9c6d7f9a0093567b9364bbf65715e.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 4858867
+    },
+    {
+      "source_key": "sha256/6f/6ffbd7cbc4ab6a624f4a59532508d999aa1a787c6f5c3ae0c00e6ac19fcc3623",
+      "dest_key": "files/6ffbd7cbc4ab6a624f4a59532508d999aa1a787c6f5c3ae0c00e6ac19fcc3623.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 268492
+    },
+    {
+      "source_key": "sha256/bf/bf16312bfc8468334a8ae991ba126065e92a37b47c3a7a6d4f129d172a1b8aaa",
+      "dest_key": "files/bf16312bfc8468334a8ae991ba126065e92a37b47c3a7a6d4f129d172a1b8aaa.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 246990
+    },
+    {
+      "source_key": "sha256/d5/d522c4b55ccebfa5121b10ade3fc9c8bd7620c50065c8abdaac5af5ea5134941",
+      "dest_key": "files/d522c4b55ccebfa5121b10ade3fc9c8bd7620c50065c8abdaac5af5ea5134941.jpg",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1450781
+    },
+    {
+      "source_key": "sha256/e6/e675c0c7e323e213cd3f1bbc0bc5044e502712b1b1667c798a1daf908bd3a6fb",
+      "dest_key": "files/e675c0c7e323e213cd3f1bbc0bc5044e502712b1b1667c798a1daf908bd3a6fb.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 8231933
+    },
+    {
+      "source_key": "sha256/f7/f718a159c4212890b832ecaab1b0ca88c3d55f3af6d1336ada11923c2a1d5bc5",
+      "dest_key": "files/f718a159c4212890b832ecaab1b0ca88c3d55f3af6d1336ada11923c2a1d5bc5.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 7290124
+    },
+    {
+      "source_key": "exported_video/v_01KZQSX5VCP91YS5MJVVRAV879",
+      "dest_key": "renders/rvj_01KZQSX55ZPQNJX3Q44K0ZGYZC.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 29765946
+    },
+    {
+      "source_key": "exported_video/v_01KZQSX61X035B2ZX6JCM034NR",
+      "dest_key": "renders/rvj_01KZQSX5WBNFJQAXJQVTWKEE46.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 29712342
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQSX55ZPQNJX3Q44K0ZGYZC",
+      "op_record_id": "op_01KZQRVKQ83D93VP54RET8GK0D"
+    },
+    {
+      "render_job_id": "rvj_01KZQSX5WBNFJQAXJQVTWKEE46",
+      "op_record_id": "op_01KZQRVKQ83D93VP54RET8GK0D"
+    }
+  ]
+}
