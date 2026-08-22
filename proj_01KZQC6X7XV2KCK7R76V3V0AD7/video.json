@@ -1,0 +1,196 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-22T03:26:28+00:00",
+    "project_id": "proj_01KZQC6X7XV2KCK7R76V3V0AD7",
+    "project_name": "梦幻风景下的小剪影故事",
+    "owner_user_id": "usr_01KQXXNEXSKQY1THVB80VBY34N",
+    "internal_source": "employee",
+    "project_created_at": "2026-08-11 03:00:14",
+    "project_updated_at": "2026-08-11 03:00:18",
+    "draft_id": "draft_01KZQC6X8Q6Q6HS58205T3ZHYZ",
+    "draft_version": 17,
+    "materialized": true,
+    "render_status": "stale_render_only",
+    "current_render": null
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 60.0,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 30.0,
+        "asset": {
+          "media_id": "media_01KZQJB6976XJ64DST4WQESADK",
+          "file": "files/73a307acd2baa8b29bc4fed5b1ff0f5daa33c532631a76e11fa5473811f6a644.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Three-column time-echo split effect over backgroundVideo. Canvas-based rendering (no multiple video playback) to prevent black frames. THREE split events in this 30s clip at fixed times\n═══ HTML STRUCTURE ═══\n#mainVideo: backgroundVideo element, plays normally, position:absolute, width:100%, height:100%, object-fit:cover, z-index:1\n#auxVideo1: same src as backgroundVideo, muted, preload:auto, DO NOT call .play(), position:fixed, left:-9999px, width:1px, height:1px. Used only for currentTime seek\n#auxVideo2: identical to #auxVideo1\n#splitCanvas: position:absolute, top:0, left:0, width:100%, height:100%, z-index:2, display:none initially\n#detectCanvas: position:fixed, left:-9999px, width:64px, height:36px. Hidden. Used for scene-cut luminance detection\n#barLeft: position:absolute, z-index:3, left:calc(33.33% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#barRight: position:absolute, z-index:3, left:calc(66.67% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#splitWrapper: wraps #splitCanvas + #barLeft + #barRight. position:absolute, top:0, left:0, width:100%, height:100%, opacity:0, visibility:hidden, z-index:2\n═══ SPLIT ENTER — trigger at t=3.0s, t=12.0s, t=22.0s ═══\n1. Set #splitWrapper visibility:visible, then animate opacity 0→1 over 0.15s easeOut (CSS transition)\n2. Animate #barLeft: transform translateX(-100%)→translateX(0), 0.15s easeOut\n3. Animate #barRight: transform translateX(+100%)→translateX(0), 0.15s easeOut\n4. Set #splitCanvas display:block\n5. Fade #mainVideo opacity 1→0 over 0.15s\n6. Start canvas rAF loop (see below)\n7. Record holdStartTime = performance.now()\n═══ CANVAS rAF LOOP (while split active) ═══\nconst ctx = splitCanvas.getContext('2d')\nResize splitCanvas.width/height to match container pixel dimensions each frame if needed\nconst W = splitCanvas.width, H = splitCanvas.height\n// Seek aux videos (no play call)\nauxVideo1.currentTime = Math.min(mainVideo.currentTime + 0.3, mainVideo.duration - 0.01)\nauxVideo2.currentTime = Math.min(mainVideo.currentTime + 0.6, mainVideo.duration - 0.01)\n// Draw three columns — each column shows full-width video cropped to its third\nctx.drawImage(mainVideo,  0,       0, W, H,   0,       0, W/3, H);  // left col: crop left third of frame\nctx.drawImage(auxVideo1,  W/3,     0, W/3, H, W/3,     0, W/3, H);  // center col: crop center third\nctx.drawImage(auxVideo2,  W*2/3,   0, W/3, H, W*2/3,   0, W/3, H);  // right col: crop right third\n// Scene-cut detection on #detectCanvas\nconst dCtx = detectCanvas.getContext('2d')\ndCtx.drawImage(mainVideo, 0, 0, 64, 36)\nconst pixels = dCtx.getImageData(0, 0, 64, 36).data\nlet lum = 0\nfor (let i = 0; i < pixels.length; i += 4) lum += (pixels[i] + pixels[i+1] + pixels[i+2]) / 3\nlum /= (pixels.length / 4)\nif (typeof prevLum !== 'undefined' && Math.abs(lum - prevLum) > 18) { triggerExit(); return; }\nprevLum = lum\n// Fallback exit after 4s\nif (performance.now() - holdStartTime > 4000) { triggerExit(); return; }\nrafId = requestAnimationFrame(loop)\n═══ SPLIT EXIT (triggerExit function) ═══\ncancelAnimationFrame(rafId)\n// Animate #splitWrapper as single unit: opacity 1→0, 0.15s easeIn. ONE transition on parent only\nsplitWrapper.style.transition = 'opacity 0.15s ease-in'\nsplitWrapper.style.opacity = '0'\n// Simultaneously slide bars out\nbarLeft.style.transition = 'transform 0.15s ease-in'\nbarLeft.style.transform = 'translateX(-100%)'\nbarRight.style.transition = 'transform 0.15s ease-in'\nbarRight.style.transform = 'translateX(100%)'\n// Fade main video back in\nmainVideo.style.transition = 'opacity 0.15s ease-in'\nmainVideo.style.opacity = '1'\nsetTimeout(() => {\nsplitWrapper.style.visibility = 'hidden'\nsplitCanvas.style.display = 'none'\nprevLum = undefined\n}, 150)\n═══ BETWEEN EVENTS ═══\n#splitWrapper: visibility:hidden, opacity:0. #mainVideo: opacity:1, playing. No artifacts\nNO text, NO captions, NO labels, NO UI elements of any kind",
+          "model": "grok-4.5",
+          "prompt": "Three-column time-echo split effect over backgroundVideo. Canvas-based rendering (no multiple video playback) to prevent black frames. THREE split events in this 30s clip at fixed times\n═══ HTML STRUCTURE ═══\n#mainVideo: backgroundVideo element, plays normally, position:absolute, width:100%, height:100%, object-fit:cover, z-index:1\n#auxVideo1: same src as backgroundVideo, muted, preload:auto, DO NOT call .play(), position:fixed, left:-9999px, width:1px, height:1px. Used only for currentTime seek\n#auxVideo2: identical to #auxVideo1\n#splitCanvas: position:absolute, top:0, left:0, width:100%, height:100%, z-index:2, display:none initially\n#detectCanvas: position:fixed, left:-9999px, width:64px, height:36px. Hidden. Used for scene-cut luminance detection\n#barLeft: position:absolute, z-index:3, left:calc(33.33% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#barRight: position:absolute, z-index:3, left:calc(66.67% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#splitWrapper: wraps #splitCanvas + #barLeft + #barRight. position:absolute, top:0, left:0, width:100%, height:100%, opacity:0, visibility:hidden, z-index:2\n═══ SPLIT ENTER — trigger at t=3.0s, t=12.0s, t=22.0s ═══\n1. Set #splitWrapper visibility:visible, then animate opacity 0→1 over 0.15s easeOut (CSS transition)\n2. Animate #barLeft: transform translateX(-100%)→translateX(0), 0.15s easeOut\n3. Animate #barRight: transform translateX(+100%)→translateX(0), 0.15s easeOut\n4. Set #splitCanvas display:block\n5. Fade #mainVideo opacity 1→0 over 0.15s\n6. Start canvas rAF loop (see below)\n7. Record holdStartTime = performance.now()\n═══ CANVAS rAF LOOP (while split active) ═══\nconst ctx = splitCanvas.getContext('2d')\nResize splitCanvas.width/height to match container pixel dimensions each frame if needed\nconst W = splitCanvas.width, H = splitCanvas.height\n// Seek aux videos (no play call)\nauxVideo1.currentTime = Math.min(mainVideo.currentTime + 0.3, mainVideo.duration - 0.01)\nauxVideo2.currentTime = Math.min(mainVideo.currentTime + 0.6, mainVideo.duration - 0.01)\n// Draw three columns — each column shows full-width video cropped to its third\nctx.drawImage(mainVideo,  0,       0, W, H,   0,       0, W/3, H);  // left col: crop left third of frame\nctx.drawImage(auxVideo1,  W/3,     0, W/3, H, W/3,     0, W/3, H);  // center col: crop center third\nctx.drawImage(auxVideo2,  W*2/3,   0, W/3, H, W*2/3,   0, W/3, H);  // right col: crop right third\n// Scene-cut detection on #detectCanvas\nconst dCtx = detectCanvas.getContext('2d')\ndCtx.drawImage(mainVideo, 0, 0, 64, 36)\nconst pixels = dCtx.getImageData(0, 0, 64, 36).data\nlet lum = 0\nfor (let i = 0; i < pixels.length; i += 4) lum += (pixels[i] + pixels[i+1] + pixels[i+2]) / 3\nlum /= (pixels.length / 4)\nif (typeof prevLum !== 'undefined' && Math.abs(lum - prevLum) > 18) { triggerExit(); return; }\nprevLum = lum\n// Fallback exit after 4s\nif (performance.now() - holdStartTime > 4000) { triggerExit(); return; }\nrafId = requestAnimationFrame(loop)\n═══ SPLIT EXIT (triggerExit function) ═══\ncancelAnimationFrame(rafId)\n// Animate #splitWrapper as single unit: opacity 1→0, 0.15s easeIn. ONE transition on parent only\nsplitWrapper.style.transition = 'opacity 0.15s ease-in'\nsplitWrapper.style.opacity = '0'\n// Simultaneously slide bars out\nbarLeft.style.transition = 'transform 0.15s ease-in'\nbarLeft.style.transform = 'translateX(-100%)'\nbarRight.style.transition = 'transform 0.15s ease-in'\nbarRight.style.transform = 'translateX(100%)'\n// Fade main video back in\nmainVideo.style.transition = 'opacity 0.15s ease-in'\nmainVideo.style.opacity = '1'\nsetTimeout(() => {\nsplitWrapper.style.visibility = 'hidden'\nsplitCanvas.style.display = 'none'\nprevLum = undefined\n}, 150)\n═══ BETWEEN EVENTS ═══\n#splitWrapper: visibility:hidden, opacity:0. #mainVideo: opacity:1, playing. No artifacts\nNO text, NO captions, NO labels, NO UI elements of any kind",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 30,
+            "source_backplate_media_ids": [
+              "media_01KZQD5GD6PJ31EQJTS1CSK2ED"
+            ]
+          },
+          "code_artifact": "files/codevid_req_01KZQHXWR199ARS0ABWG969D8K.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 30.0
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 30.0,
+        "duration_sec": 30.0,
+        "asset": {
+          "media_id": "media_01KZQJ7C4SGYNP7A7HMCYAG3P8",
+          "file": "files/655d5b1b40ce26b2a3b6fa3f97d2d12a553a0f71276e273f7f950df205da75b5.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Three-column time-echo split effect over backgroundVideo. Canvas-based rendering (no multiple video playback) to prevent black frames. THREE split events in this 30s clip at fixed times\n═══ HTML STRUCTURE ═══\n#mainVideo: backgroundVideo element, plays normally, position:absolute, width:100%, height:100%, object-fit:cover, z-index:1\n#auxVideo1: same src as backgroundVideo, muted, preload:auto, DO NOT call .play(), position:fixed, left:-9999px, width:1px, height:1px. Used only for currentTime seek\n#auxVideo2: identical to #auxVideo1\n#splitCanvas: position:absolute, top:0, left:0, width:100%, height:100%, z-index:2, display:none initially\n#detectCanvas: position:fixed, left:-9999px, width:64px, height:36px. Hidden. Used for scene-cut luminance detection\n#barLeft: position:absolute, z-index:3, left:calc(33.33% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#barRight: position:absolute, z-index:3, left:calc(66.67% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#splitWrapper: wraps #splitCanvas + #barLeft + #barRight. position:absolute, top:0, left:0, width:100%, height:100%, opacity:0, visibility:hidden, z-index:2\n═══ SPLIT ENTER — trigger at t=3.0s, t=12.0s, t=22.0s ═══\n1. Set #splitWrapper visibility:visible, then animate opacity 0→1 over 0.15s easeOut (CSS transition)\n2. Animate #barLeft: transform translateX(-100%)→translateX(0), 0.15s easeOut\n3. Animate #barRight: transform translateX(+100%)→translateX(0), 0.15s easeOut\n4. Set #splitCanvas display:block\n5. Fade #mainVideo opacity 1→0 over 0.15s\n6. Start canvas rAF loop (see below)\n7. Record holdStartTime = performance.now()\n═══ CANVAS rAF LOOP (while split active) ═══\nconst ctx = splitCanvas.getContext('2d')\nResize splitCanvas.width/height to match container pixel dimensions each frame if needed\nconst W = splitCanvas.width, H = splitCanvas.height\n// Seek aux videos (no play call)\nauxVideo1.currentTime = Math.min(mainVideo.currentTime + 0.3, mainVideo.duration - 0.01)\nauxVideo2.currentTime = Math.min(mainVideo.currentTime + 0.6, mainVideo.duration - 0.01)\n// Draw three columns — each column shows full-width video cropped to its third\nctx.drawImage(mainVideo,  0,       0, W, H,   0,       0, W/3, H);  // left col: crop left third of frame\nctx.drawImage(auxVideo1,  W/3,     0, W/3, H, W/3,     0, W/3, H);  // center col: crop center third\nctx.drawImage(auxVideo2,  W*2/3,   0, W/3, H, W*2/3,   0, W/3, H);  // right col: crop right third\n// Scene-cut detection on #detectCanvas\nconst dCtx = detectCanvas.getContext('2d')\ndCtx.drawImage(mainVideo, 0, 0, 64, 36)\nconst pixels = dCtx.getImageData(0, 0, 64, 36).data\nlet lum = 0\nfor (let i = 0; i < pixels.length; i += 4) lum += (pixels[i] + pixels[i+1] + pixels[i+2]) / 3\nlum /= (pixels.length / 4)\nif (typeof prevLum !== 'undefined' && Math.abs(lum - prevLum) > 18) { triggerExit(); return; }\nprevLum = lum\n// Fallback exit after 4s\nif (performance.now() - holdStartTime > 4000) { triggerExit(); return; }\nrafId = requestAnimationFrame(loop)\n═══ SPLIT EXIT (triggerExit function) ═══\ncancelAnimationFrame(rafId)\n// Animate #splitWrapper as single unit: opacity 1→0, 0.15s easeIn. ONE transition on parent only\nsplitWrapper.style.transition = 'opacity 0.15s ease-in'\nsplitWrapper.style.opacity = '0'\n// Simultaneously slide bars out\nbarLeft.style.transition = 'transform 0.15s ease-in'\nbarLeft.style.transform = 'translateX(-100%)'\nbarRight.style.transition = 'transform 0.15s ease-in'\nbarRight.style.transform = 'translateX(100%)'\n// Fade main video back in\nmainVideo.style.transition = 'opacity 0.15s ease-in'\nmainVideo.style.opacity = '1'\nsetTimeout(() => {\nsplitWrapper.style.visibility = 'hidden'\nsplitCanvas.style.display = 'none'\nprevLum = undefined\n}, 150)\n═══ BETWEEN EVENTS ═══\n#splitWrapper: visibility:hidden, opacity:0. #mainVideo: opacity:1, playing. No artifacts\nNO text, NO captions, NO labels, NO UI elements of any kind",
+          "model": "grok-4.5",
+          "prompt": "Three-column time-echo split effect over backgroundVideo. Canvas-based rendering (no multiple video playback) to prevent black frames. THREE split events in this 30s clip at fixed times\n═══ HTML STRUCTURE ═══\n#mainVideo: backgroundVideo element, plays normally, position:absolute, width:100%, height:100%, object-fit:cover, z-index:1\n#auxVideo1: same src as backgroundVideo, muted, preload:auto, DO NOT call .play(), position:fixed, left:-9999px, width:1px, height:1px. Used only for currentTime seek\n#auxVideo2: identical to #auxVideo1\n#splitCanvas: position:absolute, top:0, left:0, width:100%, height:100%, z-index:2, display:none initially\n#detectCanvas: position:fixed, left:-9999px, width:64px, height:36px. Hidden. Used for scene-cut luminance detection\n#barLeft: position:absolute, z-index:3, left:calc(33.33% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#barRight: position:absolute, z-index:3, left:calc(66.67% - 5px), top:0, width:10px, height:100%, background:#000, box-shadow:0 0 10px rgba(0,0,0,0.45)\n#splitWrapper: wraps #splitCanvas + #barLeft + #barRight. position:absolute, top:0, left:0, width:100%, height:100%, opacity:0, visibility:hidden, z-index:2\n═══ SPLIT ENTER — trigger at t=3.0s, t=12.0s, t=22.0s ═══\n1. Set #splitWrapper visibility:visible, then animate opacity 0→1 over 0.15s easeOut (CSS transition)\n2. Animate #barLeft: transform translateX(-100%)→translateX(0), 0.15s easeOut\n3. Animate #barRight: transform translateX(+100%)→translateX(0), 0.15s easeOut\n4. Set #splitCanvas display:block\n5. Fade #mainVideo opacity 1→0 over 0.15s\n6. Start canvas rAF loop (see below)\n7. Record holdStartTime = performance.now()\n═══ CANVAS rAF LOOP (while split active) ═══\nconst ctx = splitCanvas.getContext('2d')\nResize splitCanvas.width/height to match container pixel dimensions each frame if needed\nconst W = splitCanvas.width, H = splitCanvas.height\n// Seek aux videos (no play call)\nauxVideo1.currentTime = Math.min(mainVideo.currentTime + 0.3, mainVideo.duration - 0.01)\nauxVideo2.currentTime = Math.min(mainVideo.currentTime + 0.6, mainVideo.duration - 0.01)\n// Draw three columns — each column shows full-width video cropped to its third\nctx.drawImage(mainVideo,  0,       0, W, H,   0,       0, W/3, H);  // left col: crop left third of frame\nctx.drawImage(auxVideo1,  W/3,     0, W/3, H, W/3,     0, W/3, H);  // center col: crop center third\nctx.drawImage(auxVideo2,  W*2/3,   0, W/3, H, W*2/3,   0, W/3, H);  // right col: crop right third\n// Scene-cut detection on #detectCanvas\nconst dCtx = detectCanvas.getContext('2d')\ndCtx.drawImage(mainVideo, 0, 0, 64, 36)\nconst pixels = dCtx.getImageData(0, 0, 64, 36).data\nlet lum = 0\nfor (let i = 0; i < pixels.length; i += 4) lum += (pixels[i] + pixels[i+1] + pixels[i+2]) / 3\nlum /= (pixels.length / 4)\nif (typeof prevLum !== 'undefined' && Math.abs(lum - prevLum) > 18) { triggerExit(); return; }\nprevLum = lum\n// Fallback exit after 4s\nif (performance.now() - holdStartTime > 4000) { triggerExit(); return; }\nrafId = requestAnimationFrame(loop)\n═══ SPLIT EXIT (triggerExit function) ═══\ncancelAnimationFrame(rafId)\n// Animate #splitWrapper as single unit: opacity 1→0, 0.15s easeIn. ONE transition on parent only\nsplitWrapper.style.transition = 'opacity 0.15s ease-in'\nsplitWrapper.style.opacity = '0'\n// Simultaneously slide bars out\nbarLeft.style.transition = 'transform 0.15s ease-in'\nbarLeft.style.transform = 'translateX(-100%)'\nbarRight.style.transition = 'transform 0.15s ease-in'\nbarRight.style.transform = 'translateX(100%)'\n// Fade main video back in\nmainVideo.style.transition = 'opacity 0.15s ease-in'\nmainVideo.style.opacity = '1'\nsetTimeout(() => {\nsplitWrapper.style.visibility = 'hidden'\nsplitCanvas.style.display = 'none'\nprevLum = undefined\n}, 150)\n═══ BETWEEN EVENTS ═══\n#splitWrapper: visibility:hidden, opacity:0. #mainVideo: opacity:1, playing. No artifacts\nNO text, NO captions, NO labels, NO UI elements of any kind",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 30,
+            "source_backplate_media_ids": [
+              "media_01KZQD54NZ53GC2JFSEN438VM8"
+            ]
+          },
+          "code_artifact": "files/codevid_req_01KZQHYC3DJSJ1B0C02YAE65AJ.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 30.0
+        },
+        "volume_db": -60
+      }
+    ],
+    "speeches": [],
+    "captions": {
+      "hidden": false,
+      "items": []
+    },
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 60.0,
+      "audio_file": "files/271f891be9f5c8b2736097d3b387924dc9c1d060bded9b4eeb6a03041917ce13.mp3",
+      "volume_db": -3,
+      "title": "奇谭_both_windows_bgm_60s.mp3",
+      "source": "ai_generated",
+      "description": "Audio segment [10.556s - 70.556s] derived from media_01KZQC338JE5TAZFNRJ19YWTQQ",
+      "model": "audio_segment"
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQG4G2Z9C50ZE1WNFD0R7D3",
+      "file": "renders/rvj_01KZQG4G2Z9C50ZE1WNFD0R7D3.mp4",
+      "source_key": "exported_video/v_01KZQG4G4DWKXM6K8A9MA6093A",
+      "completed_at": "2026-08-11 04:09:51",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6486,
+        "duration": 60,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQG4G1SHPWR7PZ4F8EX8FB3",
+      "file": "renders/rvj_01KZQG4G1SHPWR7PZ4F8EX8FB3.mp4",
+      "source_key": "exported_video/v_01KZQG4H9518JHVFKD7BSRP8NC",
+      "completed_at": "2026-08-11 04:09:54",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6499,
+        "duration": 60,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQJP8VQG9B2P66ZKJNBM6A9",
+      "file": "renders/rvj_01KZQJP8VQG9B2P66ZKJNBM6A9.mp4",
+      "source_key": "exported_video/v_01KZQJP8XB3XH4673EJ2MS1992",
+      "completed_at": "2026-08-11 04:54:26",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6348,
+        "duration": 60,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQJP8HEQY1Y5N22E15VMKVE",
+      "file": "renders/rvj_01KZQJP8HEQY1Y5N22E15VMKVE.mp4",
+      "source_key": "exported_video/v_01KZQJP8JXR760F2VP8CWGTAPP",
+      "completed_at": "2026-08-11 04:54:27",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6356,
+        "duration": 60,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQJTENTZ7VMVZ72RNYEQHV1",
+      "file": "renders/rvj_01KZQJTENTZ7VMVZ72RNYEQHV1.mp4",
+      "source_key": "exported_video/v_01KZQJTEQCV3W5PBK25YPBC2BR",
+      "completed_at": "2026-08-11 04:56:43",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6342,
+        "duration": 60,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KZQJTF07PXRFHH7ASP1M7NDJ",
+      "file": "renders/rvj_01KZQJTF07PXRFHH7ASP1M7NDJ.mp4",
+      "source_key": "exported_video/v_01KZQJTFBW75F8YMXYPAPE0FPK",
+      "completed_at": "2026-08-11 04:56:44",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6340,
+        "duration": 60,
+        "hasAudio": true
+      }
+    }
+  ]
+}

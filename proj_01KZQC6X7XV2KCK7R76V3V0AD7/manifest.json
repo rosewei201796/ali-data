@@ -1,0 +1,658 @@
+{
+  "project_id": "proj_01KZQC6X7XV2KCK7R76V3V0AD7",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQEPQBS0MY96BG3T4NT1PXG/artifact.json",
+      "dest_key": "files/codevid_req_01KZQEPQBS0MY96BG3T4NT1PXG.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9479
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQEQEYXB5MWVG4E28F0TZSY/artifact.json",
+      "dest_key": "files/codevid_req_01KZQEQEYXB5MWVG4E28F0TZSY.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9288
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQF8K44T5V9HF414P1SRASS/artifact.json",
+      "dest_key": "files/codevid_req_01KZQF8K44T5V9HF414P1SRASS.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9722
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQFH6HCPDNAYDBRWVKE3B0B/artifact.json",
+      "dest_key": "files/codevid_req_01KZQFH6HCPDNAYDBRWVKE3B0B.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9530
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQFHGCK75WEHR8JX0YJPNRX/artifact.json",
+      "dest_key": "files/codevid_req_01KZQFHGCK75WEHR8JX0YJPNRX.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9646
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQGHGCMAF9PDXJFW5AN177Z/artifact.json",
+      "dest_key": "files/codevid_req_01KZQGHGCMAF9PDXJFW5AN177Z.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9414
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQGHSDPGPSWT5719XK1AZX4/artifact.json",
+      "dest_key": "files/codevid_req_01KZQGHSDPGPSWT5719XK1AZX4.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 9572
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQH29ZVCCVT6Q4C7ZWCJ146/artifact.json",
+      "dest_key": "files/codevid_req_01KZQH29ZVCCVT6Q4C7ZWCJ146.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 10914
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQH2M90JS4SWGWX44RR36JM/artifact.json",
+      "dest_key": "files/codevid_req_01KZQH2M90JS4SWGWX44RR36JM.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 11189
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQHXWR199ARS0ABWG969D8K/artifact.json",
+      "dest_key": "files/codevid_req_01KZQHXWR199ARS0ABWG969D8K.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 10965
+    },
+    {
+      "source_key": "artifacts/code-video/proj_01KZQC6X7XV2KCK7R76V3V0AD7/codevid_req_01KZQHYC3DJSJ1B0C02YAE65AJ/artifact.json",
+      "dest_key": "files/codevid_req_01KZQHYC3DJSJ1B0C02YAE65AJ.artifact.json",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 13554
+    },
+    {
+      "source_key": "sha256/04/0409faa74e4691ad6d9182884abad1ced6093c77aab34964bc1a2601d9555bd6",
+      "dest_key": "files/0409faa74e4691ad6d9182884abad1ced6093c77aab34964bc1a2601d9555bd6.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 20525666
+    },
+    {
+      "source_key": "sha256/0f/0f6163beb5e1d0867e109125c8c5b551f4e4bd5a73db455f1a145a3322b693d0",
+      "dest_key": "files/0f6163beb5e1d0867e109125c8c5b551f4e4bd5a73db455f1a145a3322b693d0.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1229652
+    },
+    {
+      "source_key": "sha256/10/10bb087916a75ae8729a6d62b35ca3cf223a6caf82e268f2c7a06996e62a0566",
+      "dest_key": "files/10bb087916a75ae8729a6d62b35ca3cf223a6caf82e268f2c7a06996e62a0566.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1906850
+    },
+    {
+      "source_key": "sha256/13/13ae656253f838d00dab6037dd84af95d97f22264f86ef6731bf1f446464487d",
+      "dest_key": "files/13ae656253f838d00dab6037dd84af95d97f22264f86ef6731bf1f446464487d.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1913633
+    },
+    {
+      "source_key": "sha256/20/200f176f6668dda486e055679a86d160c2fe043ee18877905e08f63219d50c80",
+      "dest_key": "files/200f176f6668dda486e055679a86d160c2fe043ee18877905e08f63219d50c80.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2015638
+    },
+    {
+      "source_key": "sha256/27/27170032c123153a3c33c6122beddb56e322e98ea7194dde1e34431f2eec9b00",
+      "dest_key": "files/27170032c123153a3c33c6122beddb56e322e98ea7194dde1e34431f2eec9b00.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2111431
+    },
+    {
+      "source_key": "sha256/27/271f891be9f5c8b2736097d3b387924dc9c1d060bded9b4eeb6a03041917ce13",
+      "dest_key": "files/271f891be9f5c8b2736097d3b387924dc9c1d060bded9b4eeb6a03041917ce13.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 960722
+    },
+    {
+      "source_key": "sha256/27/277f2aea04b430e27493a43c90a71d00f8db643fc51a91325272d5fac540c4a4",
+      "dest_key": "files/277f2aea04b430e27493a43c90a71d00f8db643fc51a91325272d5fac540c4a4.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1574351
+    },
+    {
+      "source_key": "sha256/30/30f9860d96a471c2c2d02cc311b7e6add0078f151cb820be8576f899df34891c",
+      "dest_key": "files/30f9860d96a471c2c2d02cc311b7e6add0078f151cb820be8576f899df34891c.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2571047
+    },
+    {
+      "source_key": "sha256/32/324ea7b64821dd1767e9a0f85bee3e63778e7d1434eb1db3bff7d5133a2d33d7",
+      "dest_key": "files/324ea7b64821dd1767e9a0f85bee3e63778e7d1434eb1db3bff7d5133a2d33d7.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1756380
+    },
+    {
+      "source_key": "sha256/36/36d3c3b10350e298c8c57a637e1683db86e734e75f1903e73635306c30bd972e",
+      "dest_key": "files/36d3c3b10350e298c8c57a637e1683db86e734e75f1903e73635306c30bd972e.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2086050
+    },
+    {
+      "source_key": "sha256/37/3730d349283536cbf05a5817fbb629a55ac2ddeb0cf176661b84ecfd6ed4ad2e",
+      "dest_key": "files/3730d349283536cbf05a5817fbb629a55ac2ddeb0cf176661b84ecfd6ed4ad2e.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1742595
+    },
+    {
+      "source_key": "sha256/3a/3a8711358a8e76d54c2d3dce8acf957ed7bf9497adfc3f22669693c4a9ca46d9",
+      "dest_key": "files/3a8711358a8e76d54c2d3dce8acf957ed7bf9497adfc3f22669693c4a9ca46d9.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 480905
+    },
+    {
+      "source_key": "sha256/3a/3ac8e608650747cd4dd0e5344fe4e8523977e7226fd14a6c278cd37a4be5bd80",
+      "dest_key": "files/3ac8e608650747cd4dd0e5344fe4e8523977e7226fd14a6c278cd37a4be5bd80.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 270520
+    },
+    {
+      "source_key": "sha256/41/415b32f9eedb3b758a4c65d4662fc51cde807deb5479abd1024c7cfd78de6a40",
+      "dest_key": "files/415b32f9eedb3b758a4c65d4662fc51cde807deb5479abd1024c7cfd78de6a40.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 196392
+    },
+    {
+      "source_key": "sha256/41/4175e30d54fbb4413c296c9e9b734001d4f8dab514c5febf20b144d126fa5ac9",
+      "dest_key": "files/4175e30d54fbb4413c296c9e9b734001d4f8dab514c5febf20b144d126fa5ac9.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1975420
+    },
+    {
+      "source_key": "sha256/41/41ba183498d1621904c366be42034fad39ca0db9a888edb62a54ff6f0a7c425f",
+      "dest_key": "files/41ba183498d1621904c366be42034fad39ca0db9a888edb62a54ff6f0a7c425f.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1496071
+    },
+    {
+      "source_key": "sha256/44/44319eaabb98cf93f8ad395bb89a85f4b33d81bde706d13456d304398edb8ed8",
+      "dest_key": "files/44319eaabb98cf93f8ad395bb89a85f4b33d81bde706d13456d304398edb8ed8.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2806396
+    },
+    {
+      "source_key": "sha256/5e/5e76d0caf72e3e965a1e5884b9c93a09f09b7ca158d71b851372c95f8ade9b25",
+      "dest_key": "files/5e76d0caf72e3e965a1e5884b9c93a09f09b7ca158d71b851372c95f8ade9b25.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1697940
+    },
+    {
+      "source_key": "sha256/5f/5f13fe3b6f8e40746cba563fa876eb6ae9a0125228ca89b2771c8dc70bb967da",
+      "dest_key": "files/5f13fe3b6f8e40746cba563fa876eb6ae9a0125228ca89b2771c8dc70bb967da.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1729136
+    },
+    {
+      "source_key": "sha256/63/6386da4e0c5bfa1bb4149e76e3c7800f67265b802297cfbded82cb9e9fa2835f",
+      "dest_key": "files/6386da4e0c5bfa1bb4149e76e3c7800f67265b802297cfbded82cb9e9fa2835f.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1749397
+    },
+    {
+      "source_key": "sha256/64/64b53107d6269ed5cabdd55fc6fae1e001a2234cae440647005cc240f858d822",
+      "dest_key": "files/64b53107d6269ed5cabdd55fc6fae1e001a2234cae440647005cc240f858d822.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2021655
+    },
+    {
+      "source_key": "sha256/64/64f6741c3cbb2e3093ac464c401d9c2d063561e039c0d8b11e021bc232986114",
+      "dest_key": "files/64f6741c3cbb2e3093ac464c401d9c2d063561e039c0d8b11e021bc232986114.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1819743
+    },
+    {
+      "source_key": "sha256/65/65196aac9c2817af91d40672baff6d54db835af51e543f6312f87cde87b8a6bc",
+      "dest_key": "files/65196aac9c2817af91d40672baff6d54db835af51e543f6312f87cde87b8a6bc.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2035700
+    },
+    {
+      "source_key": "sha256/65/655d5b1b40ce26b2a3b6fa3f97d2d12a553a0f71276e273f7f950df205da75b5",
+      "dest_key": "files/655d5b1b40ce26b2a3b6fa3f97d2d12a553a0f71276e273f7f950df205da75b5.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 26567941
+    },
+    {
+      "source_key": "sha256/6b/6bb629ba07aae6ce729012d8baaf46dd07cc425dbeb1d4f0c9c1cab345ba82dd",
+      "dest_key": "files/6bb629ba07aae6ce729012d8baaf46dd07cc425dbeb1d4f0c9c1cab345ba82dd.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 26229392
+    },
+    {
+      "source_key": "sha256/6c/6c5591361cd61eae6f15b437689907269b551ab8fec4dbbeef0e1185d0b379fd",
+      "dest_key": "files/6c5591361cd61eae6f15b437689907269b551ab8fec4dbbeef0e1185d0b379fd.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1853195
+    },
+    {
+      "source_key": "sha256/6c/6c9ce7e83c195a02a5d74ac4005a3b7e7295f0c6934c17f6ade0387c01fd8d1f",
+      "dest_key": "files/6c9ce7e83c195a02a5d74ac4005a3b7e7295f0c6934c17f6ade0387c01fd8d1f.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1781488
+    },
+    {
+      "source_key": "sha256/6c/6ce23d1fc8cd4d3e200e4627c5c288468aaed2f23a39419e56c9b67de5323b29",
+      "dest_key": "files/6ce23d1fc8cd4d3e200e4627c5c288468aaed2f23a39419e56c9b67de5323b29.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1855840
+    },
+    {
+      "source_key": "sha256/6d/6d383440d559bcaab75cc4bf81664891dd802173331042e072b9d32e06566b40",
+      "dest_key": "files/6d383440d559bcaab75cc4bf81664891dd802173331042e072b9d32e06566b40.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1721240
+    },
+    {
+      "source_key": "sha256/6d/6d51d2bf74048c240ae8eb3cf0eb6332d0debcf4737b59f395809e43089b7428",
+      "dest_key": "files/6d51d2bf74048c240ae8eb3cf0eb6332d0debcf4737b59f395809e43089b7428.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 13088906
+    },
+    {
+      "source_key": "sha256/6f/6f33f3c47aedf8a22c95b26d458d24c97e9d7f023ab53336e69557dbbd85c046",
+      "dest_key": "files/6f33f3c47aedf8a22c95b26d458d24c97e9d7f023ab53336e69557dbbd85c046.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2307860
+    },
+    {
+      "source_key": "sha256/73/73a307acd2baa8b29bc4fed5b1ff0f5daa33c532631a76e11fa5473811f6a644",
+      "dest_key": "files/73a307acd2baa8b29bc4fed5b1ff0f5daa33c532631a76e11fa5473811f6a644.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 13943895
+    },
+    {
+      "source_key": "sha256/74/7459cbca809197ead997057fbe13871a1302bba4798d22a0194003692f67eaed",
+      "dest_key": "files/7459cbca809197ead997057fbe13871a1302bba4798d22a0194003692f67eaed.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2109291
+    },
+    {
+      "source_key": "sha256/78/78777159f48308f60d16af76f5db80c50af1b30b2b8c5e298b578b1dc9bc9f71",
+      "dest_key": "files/78777159f48308f60d16af76f5db80c50af1b30b2b8c5e298b578b1dc9bc9f71.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1109761
+    },
+    {
+      "source_key": "sha256/7f/7fdb0c32120b880fa4e4ce9fc33a55a33479044348f90e29a0b532ea6d2d1c2f",
+      "dest_key": "files/7fdb0c32120b880fa4e4ce9fc33a55a33479044348f90e29a0b532ea6d2d1c2f.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1303656
+    },
+    {
+      "source_key": "sha256/84/8412933e3ca85314f3a718187c021c6794d93263759fb0bb4a51f9b7bae23123",
+      "dest_key": "files/8412933e3ca85314f3a718187c021c6794d93263759fb0bb4a51f9b7bae23123.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1270048
+    },
+    {
+      "source_key": "sha256/86/866f86ceaf4787bf6d72a942a0b280e98c8e30ccbd423e28ce20b3f445fd21ff",
+      "dest_key": "files/866f86ceaf4787bf6d72a942a0b280e98c8e30ccbd423e28ce20b3f445fd21ff.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1435263
+    },
+    {
+      "source_key": "sha256/8b/8b46bcc7a4decd7f584d3e39fc35ba1ecb190abf086a56752f3e270c00dfba36",
+      "dest_key": "files/8b46bcc7a4decd7f584d3e39fc35ba1ecb190abf086a56752f3e270c00dfba36.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1685779
+    },
+    {
+      "source_key": "sha256/8e/8ee399b0d3a739c3de87c26c21da84af7fec2c6f26da45508a5352b71e82ea09",
+      "dest_key": "files/8ee399b0d3a739c3de87c26c21da84af7fec2c6f26da45508a5352b71e82ea09.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1246445
+    },
+    {
+      "source_key": "sha256/a0/a057187bb179e45db52fafc8591e92d3de2cee21c96172e8745de7da3db0ae99",
+      "dest_key": "files/a057187bb179e45db52fafc8591e92d3de2cee21c96172e8745de7da3db0ae99.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1668707
+    },
+    {
+      "source_key": "sha256/a1/a1ded109dddd0ab17bb42eb014c24a322260ee3a35dc4ba6d7ce97862a1e82ea",
+      "dest_key": "files/a1ded109dddd0ab17bb42eb014c24a322260ee3a35dc4ba6d7ce97862a1e82ea.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 3002601
+    },
+    {
+      "source_key": "sha256/a2/a259bd60120ec75916f73b67562cbf32e5e667d9740a38963af8485bcedba087",
+      "dest_key": "files/a259bd60120ec75916f73b67562cbf32e5e667d9740a38963af8485bcedba087.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1930372
+    },
+    {
+      "source_key": "sha256/a6/a659fcc317118c289575911b6b971024e87e379593c1e21188918388f6198d1f",
+      "dest_key": "files/a659fcc317118c289575911b6b971024e87e379593c1e21188918388f6198d1f.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 9340483
+    },
+    {
+      "source_key": "sha256/ac/ac2d4f22a2ead5b4595f30f41c8d5d81dbdb7dd2bf424e371f3252f2f942984c",
+      "dest_key": "files/ac2d4f22a2ead5b4595f30f41c8d5d81dbdb7dd2bf424e371f3252f2f942984c.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1508705
+    },
+    {
+      "source_key": "sha256/ad/ad6971cef8e7cafeb2eaa8634afa8959a6ec27055fbd488a7cd2a5615d7efbb4",
+      "dest_key": "files/ad6971cef8e7cafeb2eaa8634afa8959a6ec27055fbd488a7cd2a5615d7efbb4.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1802505
+    },
+    {
+      "source_key": "sha256/b0/b01bda9258e3718c48b24774299140061796a64a3a1ecb182a951f3a763376ac",
+      "dest_key": "files/b01bda9258e3718c48b24774299140061796a64a3a1ecb182a951f3a763376ac.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2234220
+    },
+    {
+      "source_key": "sha256/b0/b0fabda6afb89253e2327d92ad2a46ddc417e0bfec67ff24d587ab10ff2addb6",
+      "dest_key": "files/b0fabda6afb89253e2327d92ad2a46ddc417e0bfec67ff24d587ab10ff2addb6.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1912898
+    },
+    {
+      "source_key": "sha256/b2/b2a01cd66faa9a843b733625abfc362ffee25a42140b51a70b23283e5fd7cf7c",
+      "dest_key": "files/b2a01cd66faa9a843b733625abfc362ffee25a42140b51a70b23283e5fd7cf7c.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1770866
+    },
+    {
+      "source_key": "sha256/b2/b2de514867de9c393c9a2650b28e2c96e609adb334c64c0d24fee98b90dad59a",
+      "dest_key": "files/b2de514867de9c393c9a2650b28e2c96e609adb334c64c0d24fee98b90dad59a.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1814246
+    },
+    {
+      "source_key": "sha256/b2/b2ec91dc732566eec0a90d3cd3d94f24546a794e69958e1c1fc59493b8a46513",
+      "dest_key": "files/b2ec91dc732566eec0a90d3cd3d94f24546a794e69958e1c1fc59493b8a46513.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1355622
+    },
+    {
+      "source_key": "sha256/b5/b54e582cf869fad9d83468531c4f4775f3da14326e9b623057a056de7e7f0c46",
+      "dest_key": "files/b54e582cf869fad9d83468531c4f4775f3da14326e9b623057a056de7e7f0c46.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 10126570
+    },
+    {
+      "source_key": "sha256/b7/b786fc55399a4e57033ad2805d2b5c6bb37aa939bb72a6040a621cd06c940e87",
+      "dest_key": "files/b786fc55399a4e57033ad2805d2b5c6bb37aa939bb72a6040a621cd06c940e87.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2698746
+    },
+    {
+      "source_key": "sha256/b9/b93f06c53caf34ca1b23096ab37378259b9d8cf54b65913d2abd608fc99c7d92",
+      "dest_key": "files/b93f06c53caf34ca1b23096ab37378259b9d8cf54b65913d2abd608fc99c7d92.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 25677187
+    },
+    {
+      "source_key": "sha256/bc/bcc7953fae010bc103360c26bb30deb2f707ee44943728b00f353bdf96b5c745",
+      "dest_key": "files/bcc7953fae010bc103360c26bb30deb2f707ee44943728b00f353bdf96b5c745.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1459512
+    },
+    {
+      "source_key": "sha256/c2/c2d6e8329e8fe12e29957612adc92242dddc7cbea29a834c2ca5d4e7f3a9f797",
+      "dest_key": "files/c2d6e8329e8fe12e29957612adc92242dddc7cbea29a834c2ca5d4e7f3a9f797.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1136385
+    },
+    {
+      "source_key": "sha256/c3/c34cf12367c84a8d947515eb22adef92411ba975546d3b902d9cce65e1850886",
+      "dest_key": "files/c34cf12367c84a8d947515eb22adef92411ba975546d3b902d9cce65e1850886.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 13043594
+    },
+    {
+      "source_key": "sha256/c4/c4f7b28a2d97892efc4952548b26617794851665909afdb7e2572a9885fa9ee1",
+      "dest_key": "files/c4f7b28a2d97892efc4952548b26617794851665909afdb7e2572a9885fa9ee1.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 13207311
+    },
+    {
+      "source_key": "sha256/d0/d054113f1ff0633493ee995d4d624c553be3e954bb9cb6d4b530226e5e978ce6",
+      "dest_key": "files/d054113f1ff0633493ee995d4d624c553be3e954bb9cb6d4b530226e5e978ce6.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1969540
+    },
+    {
+      "source_key": "sha256/d2/d22269feb9a646a55825ac1da13f889725a086114356cfcd4f077e15072cb7dc",
+      "dest_key": "files/d22269feb9a646a55825ac1da13f889725a086114356cfcd4f077e15072cb7dc.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 23510901
+    },
+    {
+      "source_key": "sha256/de/de9ab23b17e1b30a29c326bfb1bca6885d4726f0f221396664e2a297697de996",
+      "dest_key": "files/de9ab23b17e1b30a29c326bfb1bca6885d4726f0f221396664e2a297697de996.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 480905
+    },
+    {
+      "source_key": "sha256/e2/e28d07d62d54ffbebd0a9df3b614a890796ee1c57268d3084acc25fc7defa5cc",
+      "dest_key": "files/e28d07d62d54ffbebd0a9df3b614a890796ee1c57268d3084acc25fc7defa5cc.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1977277
+    },
+    {
+      "source_key": "sha256/e3/e3514795f260e06f6334ca2e2af0236ee13f015a07d1d9ec20811fdcb270ccff",
+      "dest_key": "files/e3514795f260e06f6334ca2e2af0236ee13f015a07d1d9ec20811fdcb270ccff.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 48443418
+    },
+    {
+      "source_key": "sha256/e5/e5fe77e8f31566ebed7c2e33db4c35dea3a8e0c0fdda56efe3205ae64b535267",
+      "dest_key": "files/e5fe77e8f31566ebed7c2e33db4c35dea3a8e0c0fdda56efe3205ae64b535267.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 2159829
+    },
+    {
+      "source_key": "sha256/e7/e7f3846246c0e443d77724292a911a7632605b8940c24b289e1815456405121c",
+      "dest_key": "files/e7f3846246c0e443d77724292a911a7632605b8940c24b289e1815456405121c.mp3",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1693411
+    },
+    {
+      "source_key": "sha256/ec/ecb1af7f2c0cfab09ee890a41e971be2c194c2805f82474f63030371644b8c2a",
+      "dest_key": "files/ecb1af7f2c0cfab09ee890a41e971be2c194c2805f82474f63030371644b8c2a.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1768230
+    },
+    {
+      "source_key": "sha256/ec/ecf8261e39383436b5563c2f5a33fe3d77f784ac6b9e4a7f988bbad23744e302",
+      "dest_key": "files/ecf8261e39383436b5563c2f5a33fe3d77f784ac6b9e4a7f988bbad23744e302.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1488114
+    },
+    {
+      "source_key": "sha256/ee/eee2a09f05d9ea727177769c3c84f76a6c85faea532a156e71a403e6dda82781",
+      "dest_key": "files/eee2a09f05d9ea727177769c3c84f76a6c85faea532a156e71a403e6dda82781.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1509268
+    },
+    {
+      "source_key": "sha256/f0/f074edc6f9c792c1401568c188c5df4c66bcf36d1baa03ed50ee04e3bd78c318",
+      "dest_key": "files/f074edc6f9c792c1401568c188c5df4c66bcf36d1baa03ed50ee04e3bd78c318.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1953094
+    },
+    {
+      "source_key": "sha256/f6/f6ff3628e34eff181274ceec71e1addf3a981abe453cd45c0a53e7ed0a02d307",
+      "dest_key": "files/f6ff3628e34eff181274ceec71e1addf3a981abe453cd45c0a53e7ed0a02d307.mp4",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 18037764
+    },
+    {
+      "source_key": "sha256/f9/f99aa0b1c844055dec2ec7dc1a41f4a7eff13bb4e460716f1662d91c30e61fd5",
+      "dest_key": "files/f99aa0b1c844055dec2ec7dc1a41f4a7eff13bb4e460716f1662d91c30e61fd5.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1642744
+    },
+    {
+      "source_key": "sha256/fe/fe2086c98b4a0dcdfe2dd374a63d8eaa240355b948b4f0ba56dd8e549b632680",
+      "dest_key": "files/fe2086c98b4a0dcdfe2dd374a63d8eaa240355b948b4f0ba56dd8e549b632680.png",
+      "status": "ok",
+      "via": "prd-medeo-memota",
+      "size": 1841602
+    },
+    {
+      "source_key": "exported_video/v_01KZQG4G4DWKXM6K8A9MA6093A",
+      "dest_key": "renders/rvj_01KZQG4G2Z9C50ZE1WNFD0R7D3.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 48651004
+    },
+    {
+      "source_key": "exported_video/v_01KZQG4H9518JHVFKD7BSRP8NC",
+      "dest_key": "renders/rvj_01KZQG4G1SHPWR7PZ4F8EX8FB3.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 48749053
+    },
+    {
+      "source_key": "exported_video/v_01KZQJP8XB3XH4673EJ2MS1992",
+      "dest_key": "renders/rvj_01KZQJP8VQG9B2P66ZKJNBM6A9.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 47614567
+    },
+    {
+      "source_key": "exported_video/v_01KZQJP8JXR760F2VP8CWGTAPP",
+      "dest_key": "renders/rvj_01KZQJP8HEQY1Y5N22E15VMKVE.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 47673654
+    },
+    {
+      "source_key": "exported_video/v_01KZQJTEQCV3W5PBK25YPBC2BR",
+      "dest_key": "renders/rvj_01KZQJTENTZ7VMVZ72RNYEQHV1.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 47566534
+    },
+    {
+      "source_key": "exported_video/v_01KZQJTFBW75F8YMXYPAPE0FPK",
+      "dest_key": "renders/rvj_01KZQJTF07PXRFHH7ASP1M7NDJ.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 47556460
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KZQG4G2Z9C50ZE1WNFD0R7D3",
+      "op_record_id": "op_01KZQFVCMGKX882W37AGXX3PP5"
+    },
+    {
+      "render_job_id": "rvj_01KZQG4G1SHPWR7PZ4F8EX8FB3",
+      "op_record_id": "op_01KZQFVCMGKX882W37AGXX3PP5"
+    },
+    {
+      "render_job_id": "rvj_01KZQJP8VQG9B2P66ZKJNBM6A9",
+      "op_record_id": "op_01KZQJBTSRHAZNEX1HTE09P8DH"
+    },
+    {
+      "render_job_id": "rvj_01KZQJP8HEQY1Y5N22E15VMKVE",
+      "op_record_id": "op_01KZQJBTSRHAZNEX1HTE09P8DH"
+    },
+    {
+      "render_job_id": "rvj_01KZQJTENTZ7VMVZ72RNYEQHV1",
+      "op_record_id": "op_01KZQJT5837VS6696PV54QGDVT"
+    },
+    {
+      "render_job_id": "rvj_01KZQJTF07PXRFHH7ASP1M7NDJ",
+      "op_record_id": "op_01KZQJT5837VS6696PV54QGDVT"
+    }
+  ]
+}
