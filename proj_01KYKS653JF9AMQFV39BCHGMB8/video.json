@@ -1,0 +1,454 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-23T04:22:41+00:00",
+    "project_id": "proj_01KYKS653JF9AMQFV39BCHGMB8",
+    "project_name": "The Fascinating High Forehead Trend of Renaissance Noblewomen",
+    "owner_user_id": "usr_01KRDWHGG2CQQR5TX2KB1GRH7M",
+    "internal_source": "employee",
+    "project_created_at": "2026-07-28 07:14:21",
+    "project_updated_at": "2026-07-28 07:14:21",
+    "draft_id": "draft_01KYKS653WXNC9F5ABKYKJSC3C",
+    "draft_version": 5,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KYP34A8SENM892PFEECRP7Q2",
+      "file": "renders/rvj_01KYP34A8SENM892PFEECRP7Q2.mp4",
+      "completed_at": "2026-07-29 04:47:20"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 40.0,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 4.064,
+        "asset": {
+          "media_id": "media_01KYKSNSCGEKT8ZM0G6R4ZHDTJ",
+          "file": "files/video_1ce58e6a-495c-4b79-badf-be1125d44874.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "The collage scene shows cut-out figures with crisp white die-cut borders on aged golden parchment: a distressed youth clutching their head, hair-transplant poster cut-outs, and shampoo bottle cut-outs, all painted in Renaissance oil style. The figures rapidly flash and swap in a montage framing sequence; quill-ink question marks and ironic handwritten annotations appear, spin, and bounce. Camera: rapid flash-cut switching between framings, handheld urgency, quick montage energy. No human speech or dialogue. Audio: tense energetic background music, noisy ad-clutter ambient sound effects, overlapping jingle fragments., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "model": "doubao_seedance_2.0",
+          "prompt": "The collage scene shows cut-out figures with crisp white die-cut borders on aged golden parchment: a distressed youth clutching their head, hair-transplant poster cut-outs, and shampoo bottle cut-outs, all painted in Renaissance oil style. The figures rapidly flash and swap in a montage framing sequence; quill-ink question marks and ironic handwritten annotations appear, spin, and bounce. Camera: rapid flash-cut switching between framings, handheld urgency, quick montage energy. No human speech or dialogue. Audio: tense energetic background music, noisy ad-clutter ambient sound effects, overlapping jingle fragments., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 4,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152054-t9kxh"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 4.064
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 4.064,
+        "duration_sec": 5.062,
+        "asset": {
+          "media_id": "media_01KYKT33D69DKZYWMK72TP9XFB",
+          "file": "files/video_d756c8e2-5023-4a13-a048-05af9f8940d1.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A still Renaissance oil painting portrait of an aristocratic noblewoman with a characteristically high, plucked forehead from the 15th century is displayed as the central composition. Starting from a medium shot showing the full portrait, the camera slowly and smoothly pushes inward toward the detail of her high forehead. A sepia quill-ink circle gradually draws itself around the hairline area on the painted canvas. Golden decorative ink shimmer appears around the circle. Camera: slow steady cinematic push-in, eye level, no cuts. No spoken words or human voice. Audio: short playful comedic baroque musical sting, then quiet parchment ambience, gentle background atmosphere., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette, soft chiaroscuro light",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A still Renaissance oil painting portrait of an aristocratic noblewoman with a characteristically high, plucked forehead from the 15th century is displayed as the central composition. Starting from a medium shot showing the full portrait, the camera slowly and smoothly pushes inward toward the detail of her high forehead. A sepia quill-ink circle gradually draws itself around the hairline area on the painted canvas. Golden decorative ink shimmer appears around the circle. Camera: slow steady cinematic push-in, eye level, no cuts. No spoken words or human voice. Audio: short playful comedic baroque musical sting, then quiet parchment ambience, gentle background atmosphere., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette, soft chiaroscuro light",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 5,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152053-s6j4z"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 5.062
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 9.126,
+        "duration_sec": 6.061,
+        "asset": {
+          "media_id": "media_01KYKSS5P0AZMTSEAEKJW2XKVY",
+          "file": "files/video_a291e3e2-eaf5-482c-8f0b-d92cace47bf4.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A gallery wall of Renaissance portrait paintings on warm parchment, each portrait showing a noblewoman or madonna with a high forehead and absent eyebrows. Sepia quill-ink circles animate one by one onto each forehead; short handwritten keyword labels pop in beside each painting. Camera: quick cuts between gallery-wall framings, steady medium shots with slight rack focus between portraits. No human speech or dialogue. Audio: playful classical chamber music; subtle quill-scratching SFX as each circle and label appears; soft gallery ambient hum., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A gallery wall of Renaissance portrait paintings on warm parchment, each portrait showing a noblewoman or madonna with a high forehead and absent eyebrows. Sepia quill-ink circles animate one by one onto each forehead; short handwritten keyword labels pop in beside each painting. Camera: quick cuts between gallery-wall framings, steady medium shots with slight rack focus between portraits. No human speech or dialogue. Audio: playful classical chamber music; subtle quill-scratching SFX as each circle and label appears; soft gallery ambient hum., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 6,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152053-ldzmr"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 6.061
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 15.187,
+        "duration_sec": 6.061,
+        "asset": {
+          "media_id": "media_01KYKSQFK12WTSKWTDV4DBJ4SA",
+          "file": "files/video_1b16c94b-80b3-40dd-b042-ef85ac10123f.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A Renaissance noblewoman cut-out figure with white die-cut border on aged parchment, seated at a carved wooden vanity, wincing in comedic exaggeration as she plucks her hairline with golden tweezers. Each pluck action is punctuated by sepia quill-ink SFX words — 'PLUCK!' 'OUCH!' — popping in and bouncing dramatically. Camera: medium close-up, slight comedic camera shake on each pluck action. No human speech or dialogue. Audio: playful percussive pop sounds synced to each pluck; quill-scratch SFX on each annotation; period harpsichord in background., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A Renaissance noblewoman cut-out figure with white die-cut border on aged parchment, seated at a carved wooden vanity, wincing in comedic exaggeration as she plucks her hairline with golden tweezers. Each pluck action is punctuated by sepia quill-ink SFX words — 'PLUCK!' 'OUCH!' — popping in and bouncing dramatically. Camera: medium close-up, slight comedic camera shake on each pluck action. No human speech or dialogue. Audio: playful percussive pop sounds synced to each pluck; quill-scratch SFX on each annotation; period harpsichord in background., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 6,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152053-7827l"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 6.061
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 21.248,
+        "duration_sec": 6.061,
+        "asset": {
+          "media_id": "media_01KYKSQYCDK7NC6J93RR46HAWW",
+          "file": "files/video_611ba708-13d9-4a8f-abf7-06d8e5cb68d8.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A wide aged parchment codex page fills the frame: sepia ink diagrams of ideal forehead proportions with golden ratio measurement lines slowly draw themselves, followed by a small aristocratic banquet vignette and short handwritten English labels animating in one by one. A golden ink highlight sweeps across the key forehead measurement line. Camera: slow horizontal pan left to right across the codex diagram; elements animate as the pan reveals them. No human speech or dialogue. Audio: curious scholarly woodwind melody; gentle quill-scratching SFX as each element draws; soft parchment page-rustle ambience., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A wide aged parchment codex page fills the frame: sepia ink diagrams of ideal forehead proportions with golden ratio measurement lines slowly draw themselves, followed by a small aristocratic banquet vignette and short handwritten English labels animating in one by one. A golden ink highlight sweeps across the key forehead measurement line. Camera: slow horizontal pan left to right across the codex diagram; elements animate as the pan reveals them. No human speech or dialogue. Audio: curious scholarly woodwind melody; gentle quill-scratching SFX as each element draws; soft parchment page-rustle ambience., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 6,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152053-wn45d"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 6.061
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 27.309,
+        "duration_sec": 6.061,
+        "asset": {
+          "media_id": "media_01KYKSRKRA3BTC3N1N65F1Y7BW",
+          "file": "files/video_511d084f-a5a8-4e5a-b4f7-e2e85e1229c0.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "An extreme close-up on the Mona Lisa fills the frame — her smoothly plucked absent eyebrows, high serene forehead, sfumato atmospheric gaze. The camera slowly zooms deeper into her browless eyes; after a dramatic beat, a sepia quill-ink handwritten English caption draws itself at the bottom: 'Leonardo didn't forget the brows. That WAS the look.' Camera: dramatic slow zoom into the eyes; static hold with caption appearing. No human speech or dialogue. Audio: playful comic orchestral punctuation — a brief pizzicato string phrase; warm museum acoustic ambience., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "model": "doubao_seedance_2.0",
+          "prompt": "An extreme close-up on the Mona Lisa fills the frame — her smoothly plucked absent eyebrows, high serene forehead, sfumato atmospheric gaze. The camera slowly zooms deeper into her browless eyes; after a dramatic beat, a sepia quill-ink handwritten English caption draws itself at the bottom: 'Leonardo didn't forget the brows. That WAS the look.' Camera: dramatic slow zoom into the eyes; static hold with caption appearing. No human speech or dialogue. Audio: playful comic orchestral punctuation — a brief pizzicato string phrase; warm museum acoustic ambience., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 6,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152053-2pjb9"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 6.061
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 33.37,
+        "duration_sec": 6.63,
+        "asset": {
+          "media_id": "media_01KYKSQFJZ7ZR0AQ5JF15E6JX5",
+          "file": "files/video_637d9861-9856-4d51-995c-3665f52ac6f4.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A young modern person cut-out figure with white die-cut border on aged golden parchment, laughing joyfully into an ornate carved Renaissance mirror. A quill-ink label 'Renaissance nobility detected.' appears beside the figure; a closing quill-ink annotation 'Share this with someone worried about their hairline.' draws itself at frame bottom. The camera gently pushes in on the laughing face, then slowly pulls back to reveal the full annotation; the final 2 seconds crossfade to black. No human speech or dialogue. Audio: uplifting playful orchestral finale — bright strings and woodwinds; warm golden feeling; audio fades naturally with the fade to black., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A young modern person cut-out figure with white die-cut border on aged golden parchment, laughing joyfully into an ornate carved Renaissance mirror. A quill-ink label 'Renaissance nobility detected.' appears beside the figure; a closing quill-ink annotation 'Share this with someone worried about their hairline.' draws itself at frame bottom. The camera gently pushes in on the laughing face, then slowly pulls back to reveal the full annotation; the final 2 seconds crossfade to black. No human speech or dialogue. Audio: uplifting playful orchestral finale — bright strings and woodwinds; warm golden feeling; audio fades naturally with the fade to black., Renaissance oil painting collage aesthetic, aged parchment warm golden-amber background, quill-ink sepia annotations, authentic High Renaissance palette (ochre, umber, crimson), soft chiaroscuro window and candle light, no modern visual language",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": true,
+            "input_duration": 7,
+            "input_resolution": "720p",
+            "input_reference_images": [
+              {
+                "url": "asset://asset-20260728152053-t7nlx"
+              }
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 6.63
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [
+      {
+        "start_sec": 0.3,
+        "duration_sec": 3.709,
+        "script": "Pills? Transplants? Why does a hairline terrify you?",
+        "voice": " 📖British Amelia Story",
+        "audio_file": "files/audio_a77bfb84-4c42-4831-85a6-de82d5642e1b.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 4.4,
+        "duration_sec": 3.291,
+        "script": "Five hundred years ago, women PAID to look bald up there.",
+        "voice": " 📖British Amelia Story",
+        "audio_file": "files/audio_d94440cd-8c2b-4c49-aa1d-df9ce502cabd.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 9.126,
+        "duration_sec": 6.922,
+        "script": "Leonardo's ladies. Raphael's madonnas. All of them — sculpted foreheads, gone eyebrows.",
+        "voice": " 📖British Amelia Story",
+        "audio_file": "files/audio_46961bfb-f602-4ed4-ae6e-f063497a8641.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 16.3,
+        "duration_sec": 6.583,
+        "script": "Every morning: tweezers, wax, maybe even a razor. Beauty was pain — and they leaned in.",
+        "voice": " 📖British Amelia Story",
+        "audio_file": "files/audio_4ca61a5b-d6bf-4a99-8255-fbd619513988.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 23.1,
+        "duration_sec": 7.471,
+        "script": "A high forehead meant you were educated, noble — too refined for manual labor. Intelligence made visible.",
+        "voice": " 📖British Amelia Story",
+        "audio_file": "files/audio_6f92c884-eb62-4bf6-b376-de6a731136e9.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 32.1,
+        "duration_sec": 5.878,
+        "script": "So next time you're worried about your hairline — congratulations. You have Renaissance taste.",
+        "voice": " 📖British Amelia Story",
+        "audio_file": "files/audio_b6c6e4a5-6680-4d6d-9bca-89254f758b1b.mp3",
+        "volume_db": 1
+      }
+    ],
+    "captions": {
+      "hidden": false,
+      "items": [
+        {
+          "start_sec": 0.46,
+          "duration_sec": 0.36,
+          "text": "Pills"
+        },
+        {
+          "start_sec": 0.82,
+          "duration_sec": 0.988,
+          "text": "Transplants"
+        },
+        {
+          "start_sec": 2.14,
+          "duration_sec": 0.88,
+          "text": "Why does a hairline"
+        },
+        {
+          "start_sec": 3.02,
+          "duration_sec": 0.989,
+          "text": "terrify you"
+        },
+        {
+          "start_sec": 4.4,
+          "duration_sec": 1.157,
+          "text": "Five hundred years ago"
+        },
+        {
+          "start_sec": 5.557,
+          "duration_sec": 0.763,
+          "text": "women PAID"
+        },
+        {
+          "start_sec": 6.32,
+          "duration_sec": 1.371,
+          "text": "to look bald up there"
+        },
+        {
+          "start_sec": 9.286,
+          "duration_sec": 1.03,
+          "text": "Leonardo's ladies"
+        },
+        {
+          "start_sec": 10.316,
+          "duration_sec": 1.03,
+          "text": "Raphael's madonnas"
+        },
+        {
+          "start_sec": 11.346,
+          "duration_sec": 2.575,
+          "text": "All of them — sculpted"
+        },
+        {
+          "start_sec": 13.921,
+          "duration_sec": 1.545,
+          "text": "foreheads, gone eyebrows"
+        },
+        {
+          "start_sec": 16.3,
+          "duration_sec": 1.414,
+          "text": "Every morning: tweezers"
+        },
+        {
+          "start_sec": 17.714,
+          "duration_sec": 1.914,
+          "text": "wax, maybe even a razor"
+        },
+        {
+          "start_sec": 19.628,
+          "duration_sec": 1.218,
+          "text": "Beauty was pain"
+        },
+        {
+          "start_sec": 20.846,
+          "duration_sec": 2.037,
+          "text": "— and they leaned in"
+        },
+        {
+          "start_sec": 23.1,
+          "duration_sec": 0.8,
+          "text": "A high forehead"
+        },
+        {
+          "start_sec": 23.9,
+          "duration_sec": 0.72,
+          "text": "meant you were"
+        },
+        {
+          "start_sec": 24.62,
+          "duration_sec": 1.22,
+          "text": "educated, noble"
+        },
+        {
+          "start_sec": 25.84,
+          "duration_sec": 1.42,
+          "text": "— too refined for"
+        },
+        {
+          "start_sec": 27.26,
+          "duration_sec": 0.93,
+          "text": "manual labor"
+        },
+        {
+          "start_sec": 28.19,
+          "duration_sec": 2.05,
+          "text": "Intelligence made visible"
+        },
+        {
+          "start_sec": 32.1,
+          "duration_sec": 1.2,
+          "text": "So next time you're"
+        },
+        {
+          "start_sec": 33.3,
+          "duration_sec": 3.04,
+          "text": "worried about your"
+        },
+        {
+          "start_sec": 36.34,
+          "duration_sec": 0.793,
+          "text": "hairline — congratulations You"
+        },
+        {
+          "start_sec": 37.133,
+          "duration_sec": 0.588,
+          "text": "have Renaissance taste"
+        }
+      ]
+    },
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 40.0,
+      "audio_file": "files/audio_434bb99f-3406-493c-b0be-3b104694fee5.mp3",
+      "volume_db": -20,
+      "source": "ai_generated",
+      "description": "A playful, comedic orchestral and harpsichord background music track for a Renaissance-themed explainer video. The arc progresses through distinct moods: tense modern energetic intro (0-4s), a comedic classical orchestral sting with record-scratch surprise (4-9s), playful classical chamber music with harpsichord and pizzicato strings (9-27s), a comic punctuation pizzicato accent (27-33s), and an uplifting bright orchestral finale with warm strings and woodwinds (33-40s). Period-appropriate Renaissance and Baroque instrumentation with a modern comedic comedic energy. Light, bouncy, curious, and witty throughout. Instrumental only.",
+      "model": "eleven_music_v1",
+      "prompt": "A playful, comedic orchestral and harpsichord background music track for a Renaissance-themed explainer video. The arc progresses through distinct moods: tense modern energetic intro (0-4s), a comedic classical orchestral sting with record-scratch surprise (4-9s), playful classical chamber music with harpsichord and pizzicato strings (9-27s), a comic punctuation pizzicato accent (27-33s), and an uplifting bright orchestral finale with warm strings and woodwinds (33-40s). Period-appropriate Renaissance and Baroque instrumentation with a modern comedic comedic energy. Light, bouncy, curious, and witty throughout. Instrumental only."
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KYP34AABDE66RGF738TYMSCV",
+      "file": "renders/rvj_01KYP34AABDE66RGF738TYMSCV.mp4",
+      "source_key": "exported_video/v_01KYP34AAPQ879DPRTZYCJB7EZ",
+      "completed_at": "2026-07-29 04:47:19",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7756,
+        "duration": 39.984,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KYP34A8SENM892PFEECRP7Q2",
+      "file": "renders/rvj_01KYP34A8SENM892PFEECRP7Q2.mp4",
+      "source_key": "exported_video/v_01KYP34A9E55RGVYEG4RQQ43JJ",
+      "completed_at": "2026-07-29 04:47:20",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7676,
+        "duration": 40,
+        "hasAudio": true
+      }
+    }
+  ]
+}

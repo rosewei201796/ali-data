@@ -1,0 +1,180 @@
+{
+  "project_id": "proj_01KYKS653JF9AMQFV39BCHGMB8",
+  "schema_version": "1.5",
+  "assembled_by": "build_one.py (源 2)",
+  "upstream": "vendor/export_internal_video_projects.py",
+  "is_internal": true,
+  "files": [
+    {
+      "source_key": "assets/medias/media_01KYKSCXC1DY3FG063BH03965T/audio_434bb99f-3406-493c-b0be-3b104694fee5.mp3",
+      "dest_key": "files/audio_434bb99f-3406-493c-b0be-3b104694fee5.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 641194
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSDF7X5XA6C34RE0ZK54MP/image_c3016d34-f7df-4ab3-8d0d-e2195f7cb5bb.png",
+      "dest_key": "files/image_c3016d34-f7df-4ab3-8d0d-e2195f7cb5bb.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1781106
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSDH05HXF0A37ZTGK2YSTX/image_d00044f0-e026-4495-a849-448ea5bd9526.png",
+      "dest_key": "files/image_d00044f0-e026-4495-a849-448ea5bd9526.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1845459
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSDHW8FS3VA04VP0V0HH91/image_956fc670-1b7e-4153-a528-fd44c70b7803.png",
+      "dest_key": "files/image_956fc670-1b7e-4153-a528-fd44c70b7803.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1911624
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSDJTS84T616FAAKR8VW81/image_56e9576f-8103-45ba-a1ed-f50f85371c67.png",
+      "dest_key": "files/image_56e9576f-8103-45ba-a1ed-f50f85371c67.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1946806
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSDM1KRE4VBD67TT3QQTQP/image_198d2fe3-7c66-417c-86b9-6d24f2a384ef.png",
+      "dest_key": "files/image_198d2fe3-7c66-417c-86b9-6d24f2a384ef.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 2087597
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSDQ39HG4C48BEBX5C7XPW/image_66b0666c-25fe-42ec-a5a6-8f09a894004e.png",
+      "dest_key": "files/image_66b0666c-25fe-42ec-a5a6-8f09a894004e.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 2258084
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSGA7SCGS9299WAQ54ZKME/image_95d90d7f-7b81-4e34-92f0-efcf870f92a8.png",
+      "dest_key": "files/image_95d90d7f-7b81-4e34-92f0-efcf870f92a8.png",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 1979730
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSNSCGEKT8ZM0G6R4ZHDTJ/video_1ce58e6a-495c-4b79-badf-be1125d44874.mp4",
+      "dest_key": "files/video_1ce58e6a-495c-4b79-badf-be1125d44874.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 3534318
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSQFJZ7ZR0AQ5JF15E6JX5/video_637d9861-9856-4d51-995c-3665f52ac6f4.mp4",
+      "dest_key": "files/video_637d9861-9856-4d51-995c-3665f52ac6f4.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 4528226
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSQFK12WTSKWTDV4DBJ4SA/video_1b16c94b-80b3-40dd-b042-ef85ac10123f.mp4",
+      "dest_key": "files/video_1b16c94b-80b3-40dd-b042-ef85ac10123f.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 3392962
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSQYCDK7NC6J93RR46HAWW/video_611ba708-13d9-4a8f-abf7-06d8e5cb68d8.mp4",
+      "dest_key": "files/video_611ba708-13d9-4a8f-abf7-06d8e5cb68d8.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 5808379
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSRKRA3BTC3N1N65F1Y7BW/video_511d084f-a5a8-4e5a-b4f7-e2e85e1229c0.mp4",
+      "dest_key": "files/video_511d084f-a5a8-4e5a-b4f7-e2e85e1229c0.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 4523241
+    },
+    {
+      "source_key": "assets/medias/media_01KYKSS5P0AZMTSEAEKJW2XKVY/video_a291e3e2-eaf5-482c-8f0b-d92cace47bf4.mp4",
+      "dest_key": "files/video_a291e3e2-eaf5-482c-8f0b-d92cace47bf4.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 4510697
+    },
+    {
+      "source_key": "assets/medias/media_01KYKT33D69DKZYWMK72TP9XFB/video_d756c8e2-5023-4a13-a048-05af9f8940d1.mp4",
+      "dest_key": "files/video_d756c8e2-5023-4a13-a048-05af9f8940d1.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 5102717
+    },
+    {
+      "source_key": "assets/medias/sph_01KYKSC5BFC83HPK0WH9JMXVR3/audio_6f92c884-eb62-4bf6-b376-de6a731136e9.mp3",
+      "dest_key": "files/audio_6f92c884-eb62-4bf6-b376-de6a731136e9.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 119998
+    },
+    {
+      "source_key": "assets/medias/sph_01KYKSC5BJ970VAY9NRFQFGTSY/audio_46961bfb-f602-4ed4-ae6e-f063497a8641.mp3",
+      "dest_key": "files/audio_46961bfb-f602-4ed4-ae6e-f063497a8641.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 111221
+    },
+    {
+      "source_key": "assets/medias/sph_01KYKSCHBT75QAGR72E4C74QN7/audio_d94440cd-8c2b-4c49-aa1d-df9ce502cabd.mp3",
+      "dest_key": "files/audio_d94440cd-8c2b-4c49-aa1d-df9ce502cabd.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 53124
+    },
+    {
+      "source_key": "assets/medias/sph_01KYKSCYAT7CQ1VXJ0TDEG2CZY/audio_4ca61a5b-d6bf-4a99-8255-fbd619513988.mp3",
+      "dest_key": "files/audio_4ca61a5b-d6bf-4a99-8255-fbd619513988.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 105787
+    },
+    {
+      "source_key": "assets/medias/sph_01KYKSD0AAG1WG1Y80WYZ2YJR9/audio_a77bfb84-4c42-4831-85a6-de82d5642e1b.mp3",
+      "dest_key": "files/audio_a77bfb84-4c42-4831-85a6-de82d5642e1b.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 59812
+    },
+    {
+      "source_key": "assets/medias/sph_01KYKSDD764C3S1K1NYA9TEKX6/audio_b6c6e4a5-6680-4d6d-9bca-89254f758b1b.mp3",
+      "dest_key": "files/audio_b6c6e4a5-6680-4d6d-9bca-89254f758b1b.mp3",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 94502
+    },
+    {
+      "source_key": "exported_video/v_01KYP34AAPQ879DPRTZYCJB7EZ",
+      "dest_key": "renders/rvj_01KYP34AABDE66RGF738TYMSCV.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 38764922
+    },
+    {
+      "source_key": "exported_video/v_01KYP34A9E55RGVYEG4RQQ43JJ",
+      "dest_key": "renders/rvj_01KYP34A8SENM892PFEECRP7Q2.mp4",
+      "status": "ok",
+      "via": "oss-http",
+      "size": 38384489
+    }
+  ],
+  "renders": [
+    {
+      "render_job_id": "rvj_01KYP34AABDE66RGF738TYMSCV",
+      "op_record_id": "op_01KYKT4A3C09V26N75148SE351"
+    },
+    {
+      "render_job_id": "rvj_01KYP34A8SENM892PFEECRP7Q2",
+      "op_record_id": "op_01KYKT4A3C09V26N75148SE351"
+    }
+  ]
+}
