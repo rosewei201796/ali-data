@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "framework": "hyperframes",
+  "files": {
+    "index.html": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap\">\n<style>\n* { margin: 0; padding: 0; box-sizing: border-box; }\nbody {\n  width: 1920px;\n  height: 1080px;\n  overflow: hidden;\n  background: #000;\n}\n#scene {\n  position: relative;\n  width: 1920px;\n  height: 1080px;\n  overflow: hidden;\n  background: #000;\n}\n#bg-wrapper {\n  position: absolute;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  z-index: 1;\n  overflow: hidden;\n}\n#bg {\n  position: absolute;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  object-fit: cover;\n  transform-origin: 50% 50%;\n}\n#tag {\n  position: absolute;\n  top: 72px;\n  right: 88px;\n  z-index: 10;\n  font-family: 'Inter', Arial, sans-serif;\n  font-size: 24px;\n  font-weight: 500;\n  letter-spacing: 0.30em;\n  text-transform: uppercase;\n  color: rgba(240, 236, 228, 0.75);\n  text-shadow: 0 2px 16px rgba(0,0,0,0.65);\n  opacity: 0;\n}\n</style>\n</head>\n<body>\n<div\n  id=\"scene\"\n  data-composition-id=\"london-kb\"\n  data-start=\"0\"\n  data-duration=\"5\"\n  data-width=\"1920\"\n  data-height=\"1080\"\n  data-track-index=\"0\"\n>\n  <div id=\"bg-wrapper\">\n    <video\n      id=\"bg\"\n      src=\"assets/bgImg.mp4\"\n      muted\n      playsinline\n      data-start=\"0\"\n      data-track-index=\"1\"\n    ></video>\n  </div>\n\n  <div id=\"tag\">London</div>\n</div>\n\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\n  window.__timelines = window.__timelines || {};\n\n  const tl = gsap.timeline({ paused: true });\n\n  // Ken Burns: scale bg from 1.0 to 1.06 over 5s\n  tl.fromTo(\n    \"#bg\",\n    { scale: 1.0 },\n    { scale: 1.06, duration: 5, ease: \"none\" },\n    0\n  );\n\n  // Tag fade in at 0.25s, hold, fade out near end\n  // in: 0.25s → 0.25+0.6 = 0.85s (opacity 0→1, y -10→0)\n  // hold: 0.85s → 4.0s\n  // out: 4.0s → 4.7s (opacity 1→0, y 0→-10)\n  tl.fromTo(\n    \"#tag\",\n    { opacity: 0, y: -10 },\n    { opacity: 1, y: 0, duration: 0.6, ease: \"cubic.bezier(0.22,1,0.36,1)\" },\n    0.25\n  );\n  tl.to(\n    \"#tag\",\n    { opacity: 0, y: -10, duration: 0.7, ease: \"power2.in\" },\n    4.0\n  );\n\n  window.__timelines[\"london-kb\"] = tl;\n</script>\n</body>\n</html>"
+  },
+  "entrypoint": "index.html",
+  "render": {
+    "durationSeconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "format": "mp4",
+    "quality": "high"
+  },
+  "assets": [
+    {
+      "alias": "bgImg",
+      "storageKey": "medeo/resource/video/panda3/7c36e1c1-7270-43fb-aadd-67c165767f56.mp4",
+      "mediaType": "video_mp4",
+      "localPath": "assets/bgImg.mp4"
+    }
+  ],
+  "provenance": {
+    "sourcePrompt": "5s, 1920x1080, SILENT. Static image background Ken Burns. Small location tag top-right. Font: Inter, same as the rest of the film. No lines, no decorations. CSS animation only\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap\" rel=\"stylesheet\">\n<style>\n*{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;}\n@keyframes kb{from{transform:scale(1.0)}to{transform:scale(1.04)}}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;z-index:1\ntransform-origin:50% 50%\nanimation:kb 5s linear forwards\n}\n/* top-right location tag */\n@keyframes tagIn{\n0%{opacity:0;transform:translateY(-8px);}\n18%{opacity:1;transform:translateY(0);}\n80%{opacity:1;transform:translateY(0);}\n100%{opacity:0;transform:translateY(-8px);}\n}\n#tag{\nposition:absolute\ntop:72px;right:88px\nz-index:10\nfont-family:'Inter',Arial,sans-serif\nfont-size:15px\nfont-weight:500\nletter-spacing:.30em\ntext-transform:uppercase\ncolor:rgba(240,236,228,0.70)\ntext-shadow:0 2px 12px rgba(0,0,0,0.60)\nanimation:tagIn 4.7s cubic-bezier(0.22,1,0.36,1) 0.25s both\n}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{bgImg}}\" alt=\"\">\n<div id=\"tag\">London</div>\n</div>\n</body>\n</html>\n```",
+    "codegenModel": "claude-sonnet-4-6",
+    "generatedAt": "2026-07-13T17:36:37.027Z",
+    "knowledgeFragmentIds": [
+      "code-video/hyperframes/core",
+      "code-video/hyperframes/cli-validation",
+      "code-video/hyperframes/beat-direction",
+      "code-video/hyperframes/motion-gsap",
+      "code-video/hyperframes/typography",
+      "code-video/hyperframes/diagram-explainer",
+      "code-video/hyperframes/transitions-vfx"
+    ]
+  }
+}

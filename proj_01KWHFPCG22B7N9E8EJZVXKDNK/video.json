@@ -1,0 +1,1035 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-23T04:07:53+00:00",
+    "project_id": "proj_01KWHFPCG22B7N9E8EJZVXKDNK",
+    "project_name": "Benedict Cumberbatch: A Star in Focus",
+    "owner_user_id": "usr_01KEJV38A7ER29HQA143FEP1G8",
+    "internal_source": "employee",
+    "project_created_at": "2026-07-02 13:18:35",
+    "project_updated_at": "2026-07-02 13:18:35",
+    "draft_id": "draft_01KWHFPCGGTFW58Y36HHC9TW6F",
+    "draft_version": 206,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KXHTTBRJETSP2PJTF0K0WH11",
+      "file": "renders/rvj_01KXHTTBRJETSP2PJTF0K0WH11.mp4",
+      "completed_at": "2026-07-15 02:50:38"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 58.5,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 6.0,
+        "asset": {
+          "media_id": "media_01KXHTG0VYT5AP1293FQECBYXT",
+          "file": "files/code_video_codevid_req_01KXHTDPDWEMGYHWEJYJH74W8M.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Opening title card. 6s, 1920x1080, SILENT. Full-screen portrait photo, Ken Burns push. Dark overlay.. No eyebrow line, no sub line — name only. Masked reveal (overflow:hidden + clip-path:inset(0)). Exits with reverse mask then fade to black\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap\" rel=\"stylesheet\">\n<style>\n*{margin:0;padding:0;box-sizing:border-box;}\nhtml,body{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;width:1920px;height:1080px;overflow:hidden;background:#000;}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;object-position:center;z-index:1\ntransform-origin:50% 40%\nanimation:kb 6s linear forwards\n}\n@keyframes kb{from{transform:scale(1.0);}to{transform:scale(1.05);}}\n#overlay{position:absolute;top:0;left:0;right:0;bottom:0;z-index:2;background:rgba(5,6,10,0.48);pointer-events:none;}\n#grad{\nposition:absolute;bottom:0;left:0;width:100%;height:100%;z-index:3\nbackground:linear-gradient(160deg,rgba(0,0,0,0.72) 0%,rgba(0,0,0,0.40) 35%,transparent 65%)\npointer-events:none\n}\n#textblock{position:absolute;bottom:88px;left:88px;z-index:10;}\nml{display:block;overflow:hidden;clip-path:inset(0);line-height:1.0;margin-bottom:4px;}\nml span{display:block;transform:translateY(105%);opacity:0;will-change:transform,opacity;}\nml-a span,.ml-b span{\nfont-family:'Inter',Arial,sans-serif\nfont-size:100px;font-weight:900\nletter-spacing:-.025em;text-transform:uppercase\ncolor:#f0ece4;line-height:.92\n}\n#fade{position:absolute;top:0;left:0;right:0;bottom:0;z-index:50;background:#000;opacity:0;pointer-events:none;}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{heroImg}}\" alt=\"\">\n<div id=\"overlay\"></div>\n<div id=\"grad\"></div>\n<div id=\"fade\"></div>\n<div id=\"textblock\">\n<div class=\"ml ml-a\" id=\"la\"><span>Benedict</span></div>\n<div class=\"ml ml-b\" id=\"lb\"><span>Cumberbatch</span></div>\n</div>\n</div>\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\nwindow.addEventListener('DOMContentLoaded',function(){\nvar tl=gsap.timeline()\ntl.to('#la span',{y:0,opacity:1,duration:0.7,ease:'power4.out'},0.35)\ntl.to('#lb span',{y:0,opacity:1,duration:0.7,ease:'power4.out'},0.50)\ntl.to('#lb span',{y:'105%',opacity:0,duration:0.42,ease:'power2.in'},4.9)\ntl.to('#la span',{y:'105%',opacity:0,duration:0.42,ease:'power2.in'},5.02)\ntl.to('#fade',{opacity:1,duration:0.5,ease:'power2.inOut'},5.15)\ntl.set('#fade',{opacity:1},5.75)\n})\n</script>\n</body>\n</html>\n```",
+          "model": "claude-sonnet-4-6",
+          "prompt": "Opening title card. 6s, 1920x1080, SILENT. Full-screen portrait photo, Ken Burns push. Dark overlay.. No eyebrow line, no sub line — name only. Masked reveal (overflow:hidden + clip-path:inset(0)). Exits with reverse mask then fade to black\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap\" rel=\"stylesheet\">\n<style>\n*{margin:0;padding:0;box-sizing:border-box;}\nhtml,body{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;width:1920px;height:1080px;overflow:hidden;background:#000;}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;object-position:center;z-index:1\ntransform-origin:50% 40%\nanimation:kb 6s linear forwards\n}\n@keyframes kb{from{transform:scale(1.0);}to{transform:scale(1.05);}}\n#overlay{position:absolute;top:0;left:0;right:0;bottom:0;z-index:2;background:rgba(5,6,10,0.48);pointer-events:none;}\n#grad{\nposition:absolute;bottom:0;left:0;width:100%;height:100%;z-index:3\nbackground:linear-gradient(160deg,rgba(0,0,0,0.72) 0%,rgba(0,0,0,0.40) 35%,transparent 65%)\npointer-events:none\n}\n#textblock{position:absolute;bottom:88px;left:88px;z-index:10;}\nml{display:block;overflow:hidden;clip-path:inset(0);line-height:1.0;margin-bottom:4px;}\nml span{display:block;transform:translateY(105%);opacity:0;will-change:transform,opacity;}\nml-a span,.ml-b span{\nfont-family:'Inter',Arial,sans-serif\nfont-size:100px;font-weight:900\nletter-spacing:-.025em;text-transform:uppercase\ncolor:#f0ece4;line-height:.92\n}\n#fade{position:absolute;top:0;left:0;right:0;bottom:0;z-index:50;background:#000;opacity:0;pointer-events:none;}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{heroImg}}\" alt=\"\">\n<div id=\"overlay\"></div>\n<div id=\"grad\"></div>\n<div id=\"fade\"></div>\n<div id=\"textblock\">\n<div class=\"ml ml-a\" id=\"la\"><span>Benedict</span></div>\n<div class=\"ml ml-b\" id=\"lb\"><span>Cumberbatch</span></div>\n</div>\n</div>\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\nwindow.addEventListener('DOMContentLoaded',function(){\nvar tl=gsap.timeline()\ntl.to('#la span',{y:0,opacity:1,duration:0.7,ease:'power4.out'},0.35)\ntl.to('#lb span',{y:0,opacity:1,duration:0.7,ease:'power4.out'},0.50)\ntl.to('#lb span',{y:'105%',opacity:0,duration:0.42,ease:'power2.in'},4.9)\ntl.to('#la span',{y:'105%',opacity:0,duration:0.42,ease:'power2.in'},5.02)\ntl.to('#fade',{opacity:1,duration:0.5,ease:'power2.inOut'},5.15)\ntl.set('#fade',{opacity:1},5.75)\n})\n</script>\n</body>\n</html>\n```",
+          "params": {
+            "fps": 30,
+            "width": 1920,
+            "height": 1080,
+            "quality": "high",
+            "framework": "hyperframes",
+            "durationSeconds": 6
+          },
+          "code_artifact": "files/codevid_req_01KXHTDPDWEMGYHWEJYJH74W8M.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 6.0
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 6.0,
+        "duration_sec": 5.0,
+        "asset": {
+          "media_id": "media_01KXEA5W8SGFFES01YM8RVWMFE",
+          "file": "files/code_video_codevid_req_01KXEA1ND6QB04YQNQCVACSFWA.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "5s, 1920x1080, SILENT. Image background Ken Burns. Top-right corner: \"London\" in Righteous font 45px, white with offset shadow + 45-degree hatching stripe pseudo-element animation on the shadow layer, exactly matching the provided CSS pattern. Fades in then fades out\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Righteous&display=swap\" rel=\"stylesheet\">\n<style>\n*,*:before,*:after{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;}\n@keyframes kb{from{transform:scale(1.0)}to{transform:scale(1.04)}}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;z-index:1\ntransform-origin:50% 50%\nanimation:kb 5s linear forwards\n}\n#grad{\nposition:absolute;bottom:0;left:0;width:100%;height:45%;z-index:2\nbackground:linear-gradient(to top,rgba(0,0,0,0.70) 0%,transparent 100%)\n}\n/* tag wrapper — top right */\n@keyframes tagIn{\n0%  {opacity:0;transform:translateY(-10px);}\n18% {opacity:1;transform:translateY(0);}\n80% {opacity:1;transform:translateY(0);}\n100%{opacity:0;transform:translateY(-10px);}\n}\n#tag{\nposition:absolute\ntop:68px;right:84px\nz-index:10\nanimation:tagIn 4.7s cubic-bezier(0.22,1,0.36,1) 0.25s both\n}\n/* h1 matching the provided CSS pattern — Righteous, text-shadow offset, pseudo stripe */\n#tag h1{\ndisplay:inline-block\ncolor:#ffffff\nfont-family:'Righteous',serif\nfont-size:45px\nline-height:1\nletter-spacing:.04em\ntext-transform:uppercase\ntext-shadow:.03em .03em 0 rgba(60,80,180,0.55)\nposition:relative\n}\n#tag h1:after{\ncontent:attr(data-shadow)\nposition:absolute\ntop:.06em;left:.06em\nz-index:-1\ntext-shadow:none\nbackground-image:linear-gradient(\n45deg\ntransparent 45%\nrgba(220,215,200,0.80) 45%\nrgba(220,215,200,0.80) 55%\ntransparent 0\n)\nbackground-size:.05em .05em\nwebkit-background-clip:text\nbackground-clip:text\nwebkit-text-fill-color:transparent\ncolor:transparent\nanimation:shad-anim 15s linear infinite\n}\n@keyframes shad-anim{\n0%  {background-position:0 0}\n100%{background-position:100% -100%}\n}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{bgImg}}\" alt=\"\">\n<div id=\"grad\"></div>\n<div id=\"tag\">\n<h1 data-shadow=\"London\">London</h1>\n</div>\n</div>\n</body>\n</html>\n```",
+          "model": "claude-sonnet-4-6",
+          "prompt": "5s, 1920x1080, SILENT. Image background Ken Burns. Top-right corner: \"London\" in Righteous font 45px, white with offset shadow + 45-degree hatching stripe pseudo-element animation on the shadow layer, exactly matching the provided CSS pattern. Fades in then fades out\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Righteous&display=swap\" rel=\"stylesheet\">\n<style>\n*,*:before,*:after{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;}\n@keyframes kb{from{transform:scale(1.0)}to{transform:scale(1.04)}}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;z-index:1\ntransform-origin:50% 50%\nanimation:kb 5s linear forwards\n}\n#grad{\nposition:absolute;bottom:0;left:0;width:100%;height:45%;z-index:2\nbackground:linear-gradient(to top,rgba(0,0,0,0.70) 0%,transparent 100%)\n}\n/* tag wrapper — top right */\n@keyframes tagIn{\n0%  {opacity:0;transform:translateY(-10px);}\n18% {opacity:1;transform:translateY(0);}\n80% {opacity:1;transform:translateY(0);}\n100%{opacity:0;transform:translateY(-10px);}\n}\n#tag{\nposition:absolute\ntop:68px;right:84px\nz-index:10\nanimation:tagIn 4.7s cubic-bezier(0.22,1,0.36,1) 0.25s both\n}\n/* h1 matching the provided CSS pattern — Righteous, text-shadow offset, pseudo stripe */\n#tag h1{\ndisplay:inline-block\ncolor:#ffffff\nfont-family:'Righteous',serif\nfont-size:45px\nline-height:1\nletter-spacing:.04em\ntext-transform:uppercase\ntext-shadow:.03em .03em 0 rgba(60,80,180,0.55)\nposition:relative\n}\n#tag h1:after{\ncontent:attr(data-shadow)\nposition:absolute\ntop:.06em;left:.06em\nz-index:-1\ntext-shadow:none\nbackground-image:linear-gradient(\n45deg\ntransparent 45%\nrgba(220,215,200,0.80) 45%\nrgba(220,215,200,0.80) 55%\ntransparent 0\n)\nbackground-size:.05em .05em\nwebkit-background-clip:text\nbackground-clip:text\nwebkit-text-fill-color:transparent\ncolor:transparent\nanimation:shad-anim 15s linear infinite\n}\n@keyframes shad-anim{\n0%  {background-position:0 0}\n100%{background-position:100% -100%}\n}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{bgImg}}\" alt=\"\">\n<div id=\"grad\"></div>\n<div id=\"tag\">\n<h1 data-shadow=\"London\">London</h1>\n</div>\n</div>\n</body>\n</html>\n```",
+          "params": {
+            "fps": 30,
+            "width": 1920,
+            "height": 1080,
+            "quality": "high",
+            "framework": "hyperframes",
+            "durationSeconds": 5
+          },
+          "code_artifact": "files/codevid_req_01KXEA1ND6QB04YQNQCVACSFWA.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 5.0
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 11.0,
+        "duration_sec": 5.875,
+        "asset": {
+          "media_id": "media_01KXDZ6QXEB3SJEK34P0AQPBM4",
+          "file": "files/video_5e5f83e4-341c-4d46-b34d-01708a13cec8.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Young man shifts weight slightly, glances down at script then up, natural breathing. Camera: slow push-in to medium close-up, handheld.",
+          "model": "minimax_hailuo_2.3",
+          "prompt": "Young man shifts weight slightly, glances down at script then up, natural breathing. Camera: slow push-in to medium close-up, handheld.",
+          "params": {
+            "duration": 6,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_aa240286-0a35-44c8-a187-0474547ae52b.jpg"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 5.875
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 16.875,
+        "duration_sec": 5.875,
+        "asset": null,
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 5.875
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 22.75,
+        "duration_sec": 5.0,
+        "asset": {
+          "media_id": "media_01KXDZ6RP4Q34V6RYN7C54HJR6",
+          "file": "files/video_c8af3559-bbad-4d38-bff2-09de1776861e.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Man leans forward slightly answering a question, slight natural gesture with hands, engaged expression. Camera: static medium shot, slight rack focus.",
+          "model": "minimax_hailuo_2.3",
+          "prompt": "Man leans forward slightly answering a question, slight natural gesture with hands, engaged expression. Camera: static medium shot, slight rack focus.",
+          "params": {
+            "duration": 6,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_94e690a2-7bc9-44d5-860f-9fd6de26a0b3.jpg"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 5.0
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 27.75,
+        "duration_sec": 15.875,
+        "asset": {
+          "media_id": "media_01KXHTRYPNFDP3HAZKHNH2G3D7",
+          "file": "files/code_video_codevid_req_01KXHTKWZKHY3393QFD5952T5S.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "3D poster card showcase, cards always rocking, crossfade transitions. 16s, 1920x1080, SILENT. CRITICAL ARCHITECTURE: separate the rocking motion from GSAP entirely. Use a TWO-LAYER structure per card: outer .stage controls opacity/scale via GSAP; inner .rocker does the 3D rocking via pure CSS animation on transform only. GSAP must NEVER touch transform on .rocker — only opacity and scale on .stage. This guarantees continuous rock during entry, hold, and exit\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\" rel=\"stylesheet\">\n<style>\n*{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;display:flex;align-items:center;justify-content:center;}\nbg-panel{position:absolute;inset:0;opacity:0;}\n#bg1{background:radial-gradient(ellipse at 50% 40%,#3a2800,#1a1000 55%,#080500);}\n#bg2{background:radial-gradient(ellipse at 50% 40%,#001435,#000a22 55%,#000308);}\n#bg3{background:radial-gradient(ellipse at 50% 40%,#2a0008,#180005 55%,#080002);}\nglow-disk{\nposition:absolute;width:720px;height:960px\nborder-radius:50%;filter:blur(110px);opacity:0;z-index:1\n}\n/* OUTER STAGE — GSAP controls opacity only, NO transform */\nstage{\nposition:absolute;z-index:5\ndisplay:flex;align-items:center;justify-content:center\nwidth:100%;height:100%\nvisibility:hidden;opacity:0\n}\n/* INNER ROCKER — pure CSS 3D rock, GSAP never touches this element */\nrocker{\nwidth:580px;height:870px\nflex-shrink:0\nposition:relative;z-index:2\n/* perspective in transform for compatibility */\nanimation:rock 2.5s ease-in-out infinite alternate\n/* will-change only transform so GSAP opacity on parent doesn't interfere */\nwill-change:transform\n}\n@keyframes rock{\n0%  {transform:perspective(1100px) rotateX(4deg)  rotateY(-18deg);}\n50% {transform:perspective(1100px) rotateX(2.5deg) rotateY(0deg);}\n100%{transform:perspective(1100px) rotateX(4deg)  rotateY(18deg);}\n}\ncard-face{\nwidth:100%;height:100%;border-radius:10px;overflow:hidden;position:relative\n}\ncard-face img{\nwidth:100%;height:100%;object-fit:cover;object-position:center top;display:block\n}\ncard-face::after{\ncontent:\"\";position:absolute;top:0;left:-70%;width:42%;height:100%\nbackground:linear-gradient(108deg,transparent 28%,rgba(255,255,255,.14) 50%,transparent 72%)\nanimation:spec 2.4s ease-in-out infinite alternate;pointer-events:none;z-index:2\n}\n@keyframes spec{from{left:-70%;}to{left:120%;}}\n#s1 .card-face{animation:gA 1.8s ease-in-out infinite alternate;}\n@keyframes gA{\nfrom{box-shadow:0 0 20px 4px rgba(255,160,20,.28),0 0 60px 8px rgba(255,130,0,.14),0 30px 80px rgba(0,0,0,.88);}\nto  {box-shadow:0 0 55px 14px rgba(255,200,60,.62),0 0 130px 28px rgba(255,160,30,.44),0 30px 80px rgba(0,0,0,.88);}\n}\n#s1 .glow-disk{background:radial-gradient(ellipse,rgba(255,140,20,.50),transparent 70%);}\n#s2 .card-face{animation:gB 1.8s ease-in-out infinite alternate;}\n@keyframes gB{\nfrom{box-shadow:0 0 20px 4px rgba(40,120,255,.28),0 0 60px 8px rgba(20,90,240,.14),0 30px 80px rgba(0,0,0,.88);}\nto  {box-shadow:0 0 55px 14px rgba(80,170,255,.62),0 0 130px 28px rgba(50,130,255,.44),0 30px 80px rgba(0,0,0,.88);}\n}\n#s2 .glow-disk{background:radial-gradient(ellipse,rgba(30,100,255,.46),transparent 70%);}\n#s3 .card-face{animation:gC 1.8s ease-in-out infinite alternate;}\n@keyframes gC{\nfrom{box-shadow:0 0 20px 4px rgba(200,30,30,.28),0 0 60px 8px rgba(170,10,10,.14),0 30px 80px rgba(0,0,0,.88);}\nto  {box-shadow:0 0 55px 14px rgba(255,60,60,.62),0 0 130px 28px rgba(220,30,30,.44),0 30px 80px rgba(0,0,0,.88);}\n}\n#s3 .glow-disk{background:radial-gradient(ellipse,rgba(180,20,20,.46),transparent 70%);}\nrole-label{\nposition:absolute;top:72px;right:88px;z-index:20\ntext-align:right;opacity:0\n}\nrole-name{\nfont-family:'Playfair Display',Georgia,serif\nfont-size:52px;font-weight:700;color:#f0ece4\nline-height:.90;letter-spacing:-.01em\ntext-shadow:0 2px 20px rgba(0,0,0,.70)\n}\n#open-fade,#close-fade{\nposition:absolute;inset:0;z-index:50;background:#000;pointer-events:none\n}\n#open-fade{opacity:1;}#close-fade{opacity:0;}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<div id=\"bg1\" class=\"bg-panel\"></div>\n<div id=\"bg2\" class=\"bg-panel\"></div>\n<div id=\"bg3\" class=\"bg-panel\"></div>\n<div id=\"open-fade\"></div>\n<div id=\"close-fade\"></div>\n<div class=\"stage\" id=\"s1\">\n<div class=\"glow-disk\"></div>\n<div class=\"rocker\"><div class=\"card-face\"><img src=\"{{p1}}\" alt=\"\"></div></div>\n<div class=\"role-label\" id=\"l1\"><div class=\"role-name\">Alan Turing</div></div>\n</div>\n<div class=\"stage\" id=\"s2\">\n<div class=\"glow-disk\"></div>\n<div class=\"rocker\"><div class=\"card-face\"><img src=\"{{p2}}\" alt=\"\"></div></div>\n<div class=\"role-label\" id=\"l2\"><div class=\"role-name\">Sherlock Holmes</div></div>\n</div>\n<div class=\"stage\" id=\"s3\">\n<div class=\"glow-disk\"></div>\n<div class=\"rocker\"><div class=\"card-face\"><img src=\"{{p3}}\" alt=\"\"></div></div>\n<div class=\"role-label\" id=\"l3\"><div class=\"role-name\">Hamlet</div></div>\n</div>\n</div>\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\nwindow.addEventListener('DOMContentLoaded',function(){\nIt NEVER touches .rocker — CSS handles all 3D transform */\nvar tl=gsap.timeline()\ntl.to('#open-fade',{opacity:0,duration:0.4,ease:'power2.out'},0.0)\n/* ── CARD 1 IN ── */\ntl.to('#bg1',{opacity:1,duration:0.5,ease:'power2.out'},0.3)\ntl.set('#s1',{visibility:'visible'},0.35)\ntl.to('#s1',{opacity:1,duration:0.5,ease:'power2.out'},0.35)\ntl.to('#s1 .glow-disk',{opacity:1,duration:0.5},0.35)\ntl.to('#l1',{opacity:1,duration:0.4,ease:'power2.out'},0.75)\n/* ── CROSSFADE 1→2 ── */\ntl.to('#l1',{opacity:0,duration:0.4},4.3)\ntl.to('#bg1',{opacity:0,duration:0.6},4.4)\ntl.to('#bg2',{opacity:1,duration:0.6,ease:'power2.inOut'},4.4)\ntl.set('#s2',{visibility:'visible'},4.4)\ntl.to('#s2',{opacity:1,duration:0.55,ease:'power2.out'},4.4)\ntl.to('#s2 .glow-disk',{opacity:1,duration:0.5},4.4)\ntl.to('#s1 .glow-disk',{opacity:0,duration:0.45},4.45)\ntl.to('#s1',{opacity:0,duration:0.5,ease:'power2.in'\nonComplete:function(){gsap.set('#s1',{visibility:'hidden'});}},4.5)\ntl.to('#l2',{opacity:1,duration:0.4,ease:'power2.out'},4.85)\n/* ── CROSSFADE 2→3 ── */\ntl.to('#l2',{opacity:0,duration:0.4},9.3)\ntl.to('#bg2',{opacity:0,duration:0.6},9.4)\ntl.to('#bg3',{opacity:1,duration:0.6,ease:'power2.inOut'},9.4)\ntl.set('#s3',{visibility:'visible'},9.4)\ntl.to('#s3',{opacity:1,duration:0.55,ease:'power2.out'},9.4)\ntl.to('#s3 .glow-disk',{opacity:1,duration:0.5},9.4)\ntl.to('#s2 .glow-disk',{opacity:0,duration:0.45},9.45)\ntl.to('#s2',{opacity:0,duration:0.5,ease:'power2.in'\nonComplete:function(){gsap.set('#s2',{visibility:'hidden'});}},9.5)\ntl.to('#l3',{opacity:1,duration:0.4,ease:'power2.out'},9.85)\n/* ── CARD 3 OUT ── */\ntl.to(['#l3','#s3 .glow-disk'],{opacity:0,duration:0.4},14.5)\ntl.to('#bg3',{opacity:0,duration:0.4},14.5)\ntl.to('#s3',{opacity:0,duration:0.5,ease:'power2.in'},14.5)\n/* CLOSE */\ntl.to('#close-fade',{opacity:1,duration:0.6,ease:'power2.inOut'},14.65)\ntl.set('#close-fade',{opacity:1},15.35)\n})\n</script>\n</body>\n</html>\n```",
+          "model": "claude-sonnet-4-6",
+          "prompt": "3D poster card showcase, cards always rocking, crossfade transitions. 16s, 1920x1080, SILENT. CRITICAL ARCHITECTURE: separate the rocking motion from GSAP entirely. Use a TWO-LAYER structure per card: outer .stage controls opacity/scale via GSAP; inner .rocker does the 3D rocking via pure CSS animation on transform only. GSAP must NEVER touch transform on .rocker — only opacity and scale on .stage. This guarantees continuous rock during entry, hold, and exit\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\" rel=\"stylesheet\">\n<style>\n*{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;display:flex;align-items:center;justify-content:center;}\nbg-panel{position:absolute;inset:0;opacity:0;}\n#bg1{background:radial-gradient(ellipse at 50% 40%,#3a2800,#1a1000 55%,#080500);}\n#bg2{background:radial-gradient(ellipse at 50% 40%,#001435,#000a22 55%,#000308);}\n#bg3{background:radial-gradient(ellipse at 50% 40%,#2a0008,#180005 55%,#080002);}\nglow-disk{\nposition:absolute;width:720px;height:960px\nborder-radius:50%;filter:blur(110px);opacity:0;z-index:1\n}\n/* OUTER STAGE — GSAP controls opacity only, NO transform */\nstage{\nposition:absolute;z-index:5\ndisplay:flex;align-items:center;justify-content:center\nwidth:100%;height:100%\nvisibility:hidden;opacity:0\n}\n/* INNER ROCKER — pure CSS 3D rock, GSAP never touches this element */\nrocker{\nwidth:580px;height:870px\nflex-shrink:0\nposition:relative;z-index:2\n/* perspective in transform for compatibility */\nanimation:rock 2.5s ease-in-out infinite alternate\n/* will-change only transform so GSAP opacity on parent doesn't interfere */\nwill-change:transform\n}\n@keyframes rock{\n0%  {transform:perspective(1100px) rotateX(4deg)  rotateY(-18deg);}\n50% {transform:perspective(1100px) rotateX(2.5deg) rotateY(0deg);}\n100%{transform:perspective(1100px) rotateX(4deg)  rotateY(18deg);}\n}\ncard-face{\nwidth:100%;height:100%;border-radius:10px;overflow:hidden;position:relative\n}\ncard-face img{\nwidth:100%;height:100%;object-fit:cover;object-position:center top;display:block\n}\ncard-face::after{\ncontent:\"\";position:absolute;top:0;left:-70%;width:42%;height:100%\nbackground:linear-gradient(108deg,transparent 28%,rgba(255,255,255,.14) 50%,transparent 72%)\nanimation:spec 2.4s ease-in-out infinite alternate;pointer-events:none;z-index:2\n}\n@keyframes spec{from{left:-70%;}to{left:120%;}}\n#s1 .card-face{animation:gA 1.8s ease-in-out infinite alternate;}\n@keyframes gA{\nfrom{box-shadow:0 0 20px 4px rgba(255,160,20,.28),0 0 60px 8px rgba(255,130,0,.14),0 30px 80px rgba(0,0,0,.88);}\nto  {box-shadow:0 0 55px 14px rgba(255,200,60,.62),0 0 130px 28px rgba(255,160,30,.44),0 30px 80px rgba(0,0,0,.88);}\n}\n#s1 .glow-disk{background:radial-gradient(ellipse,rgba(255,140,20,.50),transparent 70%);}\n#s2 .card-face{animation:gB 1.8s ease-in-out infinite alternate;}\n@keyframes gB{\nfrom{box-shadow:0 0 20px 4px rgba(40,120,255,.28),0 0 60px 8px rgba(20,90,240,.14),0 30px 80px rgba(0,0,0,.88);}\nto  {box-shadow:0 0 55px 14px rgba(80,170,255,.62),0 0 130px 28px rgba(50,130,255,.44),0 30px 80px rgba(0,0,0,.88);}\n}\n#s2 .glow-disk{background:radial-gradient(ellipse,rgba(30,100,255,.46),transparent 70%);}\n#s3 .card-face{animation:gC 1.8s ease-in-out infinite alternate;}\n@keyframes gC{\nfrom{box-shadow:0 0 20px 4px rgba(200,30,30,.28),0 0 60px 8px rgba(170,10,10,.14),0 30px 80px rgba(0,0,0,.88);}\nto  {box-shadow:0 0 55px 14px rgba(255,60,60,.62),0 0 130px 28px rgba(220,30,30,.44),0 30px 80px rgba(0,0,0,.88);}\n}\n#s3 .glow-disk{background:radial-gradient(ellipse,rgba(180,20,20,.46),transparent 70%);}\nrole-label{\nposition:absolute;top:72px;right:88px;z-index:20\ntext-align:right;opacity:0\n}\nrole-name{\nfont-family:'Playfair Display',Georgia,serif\nfont-size:52px;font-weight:700;color:#f0ece4\nline-height:.90;letter-spacing:-.01em\ntext-shadow:0 2px 20px rgba(0,0,0,.70)\n}\n#open-fade,#close-fade{\nposition:absolute;inset:0;z-index:50;background:#000;pointer-events:none\n}\n#open-fade{opacity:1;}#close-fade{opacity:0;}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<div id=\"bg1\" class=\"bg-panel\"></div>\n<div id=\"bg2\" class=\"bg-panel\"></div>\n<div id=\"bg3\" class=\"bg-panel\"></div>\n<div id=\"open-fade\"></div>\n<div id=\"close-fade\"></div>\n<div class=\"stage\" id=\"s1\">\n<div class=\"glow-disk\"></div>\n<div class=\"rocker\"><div class=\"card-face\"><img src=\"{{p1}}\" alt=\"\"></div></div>\n<div class=\"role-label\" id=\"l1\"><div class=\"role-name\">Alan Turing</div></div>\n</div>\n<div class=\"stage\" id=\"s2\">\n<div class=\"glow-disk\"></div>\n<div class=\"rocker\"><div class=\"card-face\"><img src=\"{{p2}}\" alt=\"\"></div></div>\n<div class=\"role-label\" id=\"l2\"><div class=\"role-name\">Sherlock Holmes</div></div>\n</div>\n<div class=\"stage\" id=\"s3\">\n<div class=\"glow-disk\"></div>\n<div class=\"rocker\"><div class=\"card-face\"><img src=\"{{p3}}\" alt=\"\"></div></div>\n<div class=\"role-label\" id=\"l3\"><div class=\"role-name\">Hamlet</div></div>\n</div>\n</div>\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\nwindow.addEventListener('DOMContentLoaded',function(){\nIt NEVER touches .rocker — CSS handles all 3D transform */\nvar tl=gsap.timeline()\ntl.to('#open-fade',{opacity:0,duration:0.4,ease:'power2.out'},0.0)\n/* ── CARD 1 IN ── */\ntl.to('#bg1',{opacity:1,duration:0.5,ease:'power2.out'},0.3)\ntl.set('#s1',{visibility:'visible'},0.35)\ntl.to('#s1',{opacity:1,duration:0.5,ease:'power2.out'},0.35)\ntl.to('#s1 .glow-disk',{opacity:1,duration:0.5},0.35)\ntl.to('#l1',{opacity:1,duration:0.4,ease:'power2.out'},0.75)\n/* ── CROSSFADE 1→2 ── */\ntl.to('#l1',{opacity:0,duration:0.4},4.3)\ntl.to('#bg1',{opacity:0,duration:0.6},4.4)\ntl.to('#bg2',{opacity:1,duration:0.6,ease:'power2.inOut'},4.4)\ntl.set('#s2',{visibility:'visible'},4.4)\ntl.to('#s2',{opacity:1,duration:0.55,ease:'power2.out'},4.4)\ntl.to('#s2 .glow-disk',{opacity:1,duration:0.5},4.4)\ntl.to('#s1 .glow-disk',{opacity:0,duration:0.45},4.45)\ntl.to('#s1',{opacity:0,duration:0.5,ease:'power2.in'\nonComplete:function(){gsap.set('#s1',{visibility:'hidden'});}},4.5)\ntl.to('#l2',{opacity:1,duration:0.4,ease:'power2.out'},4.85)\n/* ── CROSSFADE 2→3 ── */\ntl.to('#l2',{opacity:0,duration:0.4},9.3)\ntl.to('#bg2',{opacity:0,duration:0.6},9.4)\ntl.to('#bg3',{opacity:1,duration:0.6,ease:'power2.inOut'},9.4)\ntl.set('#s3',{visibility:'visible'},9.4)\ntl.to('#s3',{opacity:1,duration:0.55,ease:'power2.out'},9.4)\ntl.to('#s3 .glow-disk',{opacity:1,duration:0.5},9.4)\ntl.to('#s2 .glow-disk',{opacity:0,duration:0.45},9.45)\ntl.to('#s2',{opacity:0,duration:0.5,ease:'power2.in'\nonComplete:function(){gsap.set('#s2',{visibility:'hidden'});}},9.5)\ntl.to('#l3',{opacity:1,duration:0.4,ease:'power2.out'},9.85)\n/* ── CARD 3 OUT ── */\ntl.to(['#l3','#s3 .glow-disk'],{opacity:0,duration:0.4},14.5)\ntl.to('#bg3',{opacity:0,duration:0.4},14.5)\ntl.to('#s3',{opacity:0,duration:0.5,ease:'power2.in'},14.5)\n/* CLOSE */\ntl.to('#close-fade',{opacity:1,duration:0.6,ease:'power2.inOut'},14.65)\ntl.set('#close-fade',{opacity:1},15.35)\n})\n</script>\n</body>\n</html>\n```",
+          "params": {
+            "fps": 30,
+            "width": 1920,
+            "height": 1080,
+            "quality": "high",
+            "framework": "hyperframes",
+            "durationSeconds": 16
+          },
+          "code_artifact": "files/codevid_req_01KXHTKWZKHY3393QFD5952T5S.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 15.875
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 43.625,
+        "duration_sec": 5.875,
+        "asset": {
+          "media_id": "media_01KXG42B6Y2N3X4NPK03V29ZEQ",
+          "file": "files/video_eeb36a48-3d0c-49a5-b1f7-a42273e5b9d3.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Man stands relaxed, natural subtle expression, slight natural movement, soft indoor light. Camera: very slow push-in, candid documentary feel.",
+          "model": "minimax_hailuo_2.3",
+          "prompt": "Man stands relaxed, natural subtle expression, slight natural movement, soft indoor light. Camera: very slow push-in, candid documentary feel.",
+          "params": {
+            "duration": 6,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_067f53b3-0320-4ee3-9521-05e5b806e739.jpg"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 5.875
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 49.5,
+        "duration_sec": 9.0,
+        "asset": {
+          "media_id": "media_01KXG3QQC43KM29JXQNYGAHHH4",
+          "file": "files/code_video_codevid_req_01KXG3N4GMJG5N48QZCJD4MVG2.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Newspaper-ending component, no photo, timeline centered on page, larger year numbers. 9s, 1920x1080, SILENT\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<style>\n*,*:before,*:after{box-sizing:border-box;margin:0;padding:0;}\nhtml,body{width:1920px;height:1080px;overflow:hidden;font-size:10px;}\nnewspaper-ending{\npaper:#e6dfcf;--paper-light:#f2ecdf\nink:#171816;--muted:#686459;--accent:#9f2026\nposition:absolute;inset:0;overflow:hidden;color:var(--ink)\nbackground\nrepeating-linear-gradient(0deg,rgba(25,24,20,.025) 0,rgba(25,24,20,.025) 1px,transparent 1px,transparent 4px)\nradial-gradient(circle at 20% 10%,var(--paper-light),var(--paper) 72%)\nfont-family:Arial,sans-serif\n}\nnewspaper-ending::before{\ncontent:\"\";position:absolute;inset:22px\nborder:1px solid rgba(23,24,22,.32);pointer-events:none;z-index:0\n}\n/* MASTHEAD */\nnews-masthead{\nposition:absolute;top:50px;left:72px;right:72px;height:112px\ndisplay:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px\nborder-top:5px solid var(--ink);border-bottom:2px solid var(--ink)\nz-index:20\n}\nnews-masthead>span{font-size:13px;font-weight:700;letter-spacing:.2em;}\nnews-masthead>span:last-child{text-align:right;}\nnews-masthead>strong{\nfont-family:Georgia,\"Times New Roman\",serif\nfont-size:44px;line-height:1;letter-spacing:-.035em;text-align:center\n}\n/* BODY — centered layout, no photo */\nnewspaper-body{\nposition:absolute\ntop:180px;left:72px;right:72px;bottom:80px\ndisplay:flex;flex-direction:column\nalign-items:center\njustify-content:center\nz-index:5\n}\nnews-kicker{\nmargin:0 0 60px;color:var(--accent)\nfont-size:15px;font-weight:800;letter-spacing:.22em\ntext-align:center\n}\n/* TIMELINE — full width, centered */\ncareer-timeline{\nposition:relative\nwidth:100%\nheight:340px\ndisplay:grid\ngrid-template-columns:repeat(5,1fr)\nalign-items:center\n}\ntimeline-rule{\nposition:absolute;left:5%;right:5%;top:168px;height:3px\nbackground:var(--ink);transform:scaleX(0);transform-origin:left center\nz-index:10\n}\ntimeline-rule::after{\ncontent:\"\";position:absolute;left:0;bottom:-6px;width:100%;height:1px\nbackground:rgba(23,24,22,.35)\n}\nmilestone{\nposition:relative;height:340px\ndisplay:flex;flex-direction:column\nalign-items:center\npadding-top:20px\ntext-align:center\nopacity:0;transform:translateY(16px);z-index:10\n}\n/* dot at vertical center of timeline */\nmilestone::after{\ncontent:\"\"\nposition:absolute\ntop:155px\nwidth:18px;height:18px\nborder:3px solid var(--paper);border-radius:50%\nbackground:var(--ink)\ntransform:translateX(0)\nbox-shadow:0 0 0 2px var(--ink)\n}\nmilestone time{\ndisplay:block\nfont-family:Georgia,\"Times New Roman\",serif\nfont-size:58px; /* larger year number */\nfont-weight:700;line-height:1\n}\nmilestone strong{\ndisplay:block;margin-top:16px\nfont-size:18px;letter-spacing:.14em\n}\nmilestone small{\ndisplay:block;margin-top:60px\ncolor:var(--muted);font-size:40px;font-weight:700\nline-height:1.2;letter-spacing:.08em;text-transform:uppercase\n}\nmilestone-latest time,.milestone-latest strong{color:var(--accent);}\nmilestone-latest::after{background:var(--accent);box-shadow:0 0 0 2px var(--accent);}\n/* FOOTER */\nnews-footer{\nposition:absolute;left:72px;right:72px;bottom:32px\ndisplay:flex;justify-content:space-between;padding-top:12px\nborder-top:2px solid var(--ink)\nfont-size:12px;font-weight:800;letter-spacing:.24em\nz-index:10\n}\n/* FINAL LOCKUP */\nfinal-lockup{\nposition:absolute;inset:0;display:grid;place-content:center\ntext-align:center;opacity:0;visibility:hidden;z-index:30\nbackground:var(--paper)\n}\nfinal-lockup span{color:var(--accent);font-size:14px;font-weight:800;letter-spacing:.3em;}\nfinal-lockup h2{\nmargin:18px 0;font-family:Georgia,\"Times New Roman\",serif\nfont-size:92px;line-height:.82;letter-spacing:-.055em\n}\nfinal-lockup i{\ndisplay:block;width:480px;height:3px;margin:10px auto 18px\nbackground:var(--ink);transform:scaleX(0)\n}\nfinal-lockup p{margin:0;font-size:16px;font-weight:800;letter-spacing:.28em;}\n#open-fade,#close-fade{position:absolute;inset:0;z-index:100;background:#000;pointer-events:none;}\n#open-fade{opacity:1;}#close-fade{opacity:0;}\n</style>\n</head>\n<body>\n<div id=\"open-fade\"></div>\n<div id=\"close-fade\"></div>\n<section class=\"newspaper-ending\">\n<header class=\"news-masthead\">\n<span>THE ACTOR'S RECORD</span>\n<strong>BENEDICT CUMBERBATCH</strong>\n<span>LONDON · 2026</span>\n</header>\n<div class=\"newspaper-body\">\n<p class=\"news-kicker\">A CAREER IN FIVE ACTS</p>\n<div class=\"career-timeline\">\n<div class=\"timeline-rule\"></div>\n<article class=\"milestone\"><time>2004</time><strong>HAWKING</strong><small>BBC</small></article>\n<article class=\"milestone\"><time>2010</time><strong>SHERLOCK</strong><small>BBC</small></article>\n<article class=\"milestone\"><time>2014</time><strong>TURING</strong><small>FILM</small></article>\n<article class=\"milestone\"><time>2015</time><strong>HAMLET</strong><small>STAGE</small></article>\n<article class=\"milestone milestone-latest\"><time>2026</time><strong>EARTH</strong><small>NOW</small></article>\n</div>\n</div>\n<footer class=\"news-footer\">\n<span>STAGE</span><span>SCREEN</span><span>VOICE</span><span>LEGACY</span>\n</footer>\n<div class=\"final-lockup\">\n<span>THE STORY CONTINUES</span>\n<h2>BENEDICT<br>CUMBERBATCH</h2>\n<i></i>\n<p>STILL EVOLVING</p>\n</div>\n</section>\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\nwindow.addEventListener('DOMContentLoaded',function(){\nvar tl=gsap.timeline()\ntl.to('#open-fade',{opacity:0,duration:0.4,ease:'power2.out'},0.0)\n/* rule draws */\ntl.to('.timeline-rule',{scaleX:1,duration:0.8,ease:'power3.inOut'},0.0)\n/* milestones stagger in */\ntl.fromTo('.milestone'\n{y:16,autoAlpha:0}\n{y:0,autoAlpha:1,duration:0.42,stagger:0.48,ease:'power3.out'}\n0.8\n)\n/* highlight latest */\ntl.to('.milestone:not(.milestone-latest)',{autoAlpha:0.22,duration:0.4},3.5)\ntl.to('.milestone-latest',{scale:1.1,transformOrigin:'center center',duration:0.55,ease:'power3.out'},3.5)\n/* final lockup */\ntl.to('.newspaper-body, .news-masthead',{autoAlpha:0,duration:0.38,ease:'power2.in'},7.3)\ntl.fromTo('.final-lockup'\n{y:22,autoAlpha:0}\n{y:0,autoAlpha:1,duration:0.65,ease:'power4.out'\nonStart:function(){gsap.set('.final-lockup',{visibility:'visible'});}}\n7.45\n)\ntl.to('.final-lockup i',{scaleX:1,duration:0.55,ease:'power3.out'},7.75)\ntl.to('#close-fade',{opacity:1,duration:0.5,ease:'power2.inOut'},8.6)\ntl.set('#close-fade',{opacity:1},9.0)\n})\n</script>\n</body>\n</html>\n```",
+          "model": "claude-sonnet-4-6",
+          "prompt": "Newspaper-ending component, no photo, timeline centered on page, larger year numbers. 9s, 1920x1080, SILENT\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<style>\n*,*:before,*:after{box-sizing:border-box;margin:0;padding:0;}\nhtml,body{width:1920px;height:1080px;overflow:hidden;font-size:10px;}\nnewspaper-ending{\npaper:#e6dfcf;--paper-light:#f2ecdf\nink:#171816;--muted:#686459;--accent:#9f2026\nposition:absolute;inset:0;overflow:hidden;color:var(--ink)\nbackground\nrepeating-linear-gradient(0deg,rgba(25,24,20,.025) 0,rgba(25,24,20,.025) 1px,transparent 1px,transparent 4px)\nradial-gradient(circle at 20% 10%,var(--paper-light),var(--paper) 72%)\nfont-family:Arial,sans-serif\n}\nnewspaper-ending::before{\ncontent:\"\";position:absolute;inset:22px\nborder:1px solid rgba(23,24,22,.32);pointer-events:none;z-index:0\n}\n/* MASTHEAD */\nnews-masthead{\nposition:absolute;top:50px;left:72px;right:72px;height:112px\ndisplay:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px\nborder-top:5px solid var(--ink);border-bottom:2px solid var(--ink)\nz-index:20\n}\nnews-masthead>span{font-size:13px;font-weight:700;letter-spacing:.2em;}\nnews-masthead>span:last-child{text-align:right;}\nnews-masthead>strong{\nfont-family:Georgia,\"Times New Roman\",serif\nfont-size:44px;line-height:1;letter-spacing:-.035em;text-align:center\n}\n/* BODY — centered layout, no photo */\nnewspaper-body{\nposition:absolute\ntop:180px;left:72px;right:72px;bottom:80px\ndisplay:flex;flex-direction:column\nalign-items:center\njustify-content:center\nz-index:5\n}\nnews-kicker{\nmargin:0 0 60px;color:var(--accent)\nfont-size:15px;font-weight:800;letter-spacing:.22em\ntext-align:center\n}\n/* TIMELINE — full width, centered */\ncareer-timeline{\nposition:relative\nwidth:100%\nheight:340px\ndisplay:grid\ngrid-template-columns:repeat(5,1fr)\nalign-items:center\n}\ntimeline-rule{\nposition:absolute;left:5%;right:5%;top:168px;height:3px\nbackground:var(--ink);transform:scaleX(0);transform-origin:left center\nz-index:10\n}\ntimeline-rule::after{\ncontent:\"\";position:absolute;left:0;bottom:-6px;width:100%;height:1px\nbackground:rgba(23,24,22,.35)\n}\nmilestone{\nposition:relative;height:340px\ndisplay:flex;flex-direction:column\nalign-items:center\npadding-top:20px\ntext-align:center\nopacity:0;transform:translateY(16px);z-index:10\n}\n/* dot at vertical center of timeline */\nmilestone::after{\ncontent:\"\"\nposition:absolute\ntop:155px\nwidth:18px;height:18px\nborder:3px solid var(--paper);border-radius:50%\nbackground:var(--ink)\ntransform:translateX(0)\nbox-shadow:0 0 0 2px var(--ink)\n}\nmilestone time{\ndisplay:block\nfont-family:Georgia,\"Times New Roman\",serif\nfont-size:58px; /* larger year number */\nfont-weight:700;line-height:1\n}\nmilestone strong{\ndisplay:block;margin-top:16px\nfont-size:18px;letter-spacing:.14em\n}\nmilestone small{\ndisplay:block;margin-top:60px\ncolor:var(--muted);font-size:40px;font-weight:700\nline-height:1.2;letter-spacing:.08em;text-transform:uppercase\n}\nmilestone-latest time,.milestone-latest strong{color:var(--accent);}\nmilestone-latest::after{background:var(--accent);box-shadow:0 0 0 2px var(--accent);}\n/* FOOTER */\nnews-footer{\nposition:absolute;left:72px;right:72px;bottom:32px\ndisplay:flex;justify-content:space-between;padding-top:12px\nborder-top:2px solid var(--ink)\nfont-size:12px;font-weight:800;letter-spacing:.24em\nz-index:10\n}\n/* FINAL LOCKUP */\nfinal-lockup{\nposition:absolute;inset:0;display:grid;place-content:center\ntext-align:center;opacity:0;visibility:hidden;z-index:30\nbackground:var(--paper)\n}\nfinal-lockup span{color:var(--accent);font-size:14px;font-weight:800;letter-spacing:.3em;}\nfinal-lockup h2{\nmargin:18px 0;font-family:Georgia,\"Times New Roman\",serif\nfont-size:92px;line-height:.82;letter-spacing:-.055em\n}\nfinal-lockup i{\ndisplay:block;width:480px;height:3px;margin:10px auto 18px\nbackground:var(--ink);transform:scaleX(0)\n}\nfinal-lockup p{margin:0;font-size:16px;font-weight:800;letter-spacing:.28em;}\n#open-fade,#close-fade{position:absolute;inset:0;z-index:100;background:#000;pointer-events:none;}\n#open-fade{opacity:1;}#close-fade{opacity:0;}\n</style>\n</head>\n<body>\n<div id=\"open-fade\"></div>\n<div id=\"close-fade\"></div>\n<section class=\"newspaper-ending\">\n<header class=\"news-masthead\">\n<span>THE ACTOR'S RECORD</span>\n<strong>BENEDICT CUMBERBATCH</strong>\n<span>LONDON · 2026</span>\n</header>\n<div class=\"newspaper-body\">\n<p class=\"news-kicker\">A CAREER IN FIVE ACTS</p>\n<div class=\"career-timeline\">\n<div class=\"timeline-rule\"></div>\n<article class=\"milestone\"><time>2004</time><strong>HAWKING</strong><small>BBC</small></article>\n<article class=\"milestone\"><time>2010</time><strong>SHERLOCK</strong><small>BBC</small></article>\n<article class=\"milestone\"><time>2014</time><strong>TURING</strong><small>FILM</small></article>\n<article class=\"milestone\"><time>2015</time><strong>HAMLET</strong><small>STAGE</small></article>\n<article class=\"milestone milestone-latest\"><time>2026</time><strong>EARTH</strong><small>NOW</small></article>\n</div>\n</div>\n<footer class=\"news-footer\">\n<span>STAGE</span><span>SCREEN</span><span>VOICE</span><span>LEGACY</span>\n</footer>\n<div class=\"final-lockup\">\n<span>THE STORY CONTINUES</span>\n<h2>BENEDICT<br>CUMBERBATCH</h2>\n<i></i>\n<p>STILL EVOLVING</p>\n</div>\n</section>\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\nwindow.addEventListener('DOMContentLoaded',function(){\nvar tl=gsap.timeline()\ntl.to('#open-fade',{opacity:0,duration:0.4,ease:'power2.out'},0.0)\n/* rule draws */\ntl.to('.timeline-rule',{scaleX:1,duration:0.8,ease:'power3.inOut'},0.0)\n/* milestones stagger in */\ntl.fromTo('.milestone'\n{y:16,autoAlpha:0}\n{y:0,autoAlpha:1,duration:0.42,stagger:0.48,ease:'power3.out'}\n0.8\n)\n/* highlight latest */\ntl.to('.milestone:not(.milestone-latest)',{autoAlpha:0.22,duration:0.4},3.5)\ntl.to('.milestone-latest',{scale:1.1,transformOrigin:'center center',duration:0.55,ease:'power3.out'},3.5)\n/* final lockup */\ntl.to('.newspaper-body, .news-masthead',{autoAlpha:0,duration:0.38,ease:'power2.in'},7.3)\ntl.fromTo('.final-lockup'\n{y:22,autoAlpha:0}\n{y:0,autoAlpha:1,duration:0.65,ease:'power4.out'\nonStart:function(){gsap.set('.final-lockup',{visibility:'visible'});}}\n7.45\n)\ntl.to('.final-lockup i',{scaleX:1,duration:0.55,ease:'power3.out'},7.75)\ntl.to('#close-fade',{opacity:1,duration:0.5,ease:'power2.inOut'},8.6)\ntl.set('#close-fade',{opacity:1},9.0)\n})\n</script>\n</body>\n</html>\n```",
+          "params": {
+            "fps": 30,
+            "width": 1920,
+            "height": 1080,
+            "quality": "high",
+            "framework": "hyperframes",
+            "durationSeconds": 9
+          },
+          "code_artifact": "files/codevid_req_01KXG3N4GMJG5N48QZCJD4MVG2.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 9.0
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [
+      {
+        "start_sec": 6.0,
+        "duration_sec": 10.692,
+        "script": "Born into a theatrical household in London, Benedict Cumberbatch seemed destined for the stage. Harrow. Manchester. RADA. Every step, a preparation for something extraordinary.",
+        "voice": "🧑‍🏫American George Edu.",
+        "audio_file": "files/speech_d80cc003-e1ce-4a96-b8ef-575a3c05e027.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 16.9,
+        "duration_sec": 8.244,
+        "script": "The early years were a masterclass in patience. Stage productions, BBC bit parts — each one a brushstroke in a portrait still waiting to be revealed.",
+        "voice": "🧑‍🏫American George Edu.",
+        "audio_file": "files/speech_16a56e1d-cfda-40dd-8782-d7f2e2dd8bb7.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 25.3,
+        "duration_sec": 8.28,
+        "script": "Hollywood called in every register. Turing. Khan. Smaug. Strange. He didn't just play icons. He became them.",
+        "voice": "🧑‍🏫American George Edu.",
+        "audio_file": "files/speech_234f4ad1-0d4c-4eb0-8d94-f0305589dd87.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 35.7,
+        "duration_sec": 9.324,
+        "script": "Today, Benedict Cumberbatch is something rarer than a star — he is a standard. CBE. BAFTA winner. Hamlet at the Barbican, sold out in minutes. Relentlessly, brilliantly human.",
+        "voice": "🧑‍🏫American George Edu.",
+        "audio_file": "files/speech_097bad0c-0eb7-4ce4-abf2-38e1ca840c1a.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 50.0,
+        "duration_sec": 6.084,
+        "script": "From London fog to Strange dimensions — and back to the stage where it began. History, one life at a time.",
+        "voice": "🧑‍🏫American George Edu.",
+        "audio_file": "files/speech_f6d1a81a-68fe-4905-8ce0-7687df57b975.mp3",
+        "volume_db": 1
+      }
+    ],
+    "captions": {
+      "hidden": false,
+      "items": [
+        {
+          "start_sec": 6.0,
+          "duration_sec": 1.2,
+          "text": "Born into a theatrical"
+        },
+        {
+          "start_sec": 7.2,
+          "duration_sec": 1.16,
+          "text": "household in London"
+        },
+        {
+          "start_sec": 8.48,
+          "duration_sec": 1.04,
+          "text": "Benedict Cumberbatch"
+        },
+        {
+          "start_sec": 9.52,
+          "duration_sec": 0.56,
+          "text": "seemed destined"
+        },
+        {
+          "start_sec": 10.08,
+          "duration_sec": 0.92,
+          "text": "for the stage"
+        },
+        {
+          "start_sec": 11.12,
+          "duration_sec": 0.449,
+          "text": "Harrow"
+        },
+        {
+          "start_sec": 11.569,
+          "duration_sec": 0.971,
+          "text": "Manchester"
+        },
+        {
+          "start_sec": 12.88,
+          "duration_sec": 0.494,
+          "text": "RADA"
+        },
+        {
+          "start_sec": 13.374,
+          "duration_sec": 2.146,
+          "text": "Every step, a preparation for"
+        },
+        {
+          "start_sec": 15.52,
+          "duration_sec": 0.9,
+          "text": "something extraordinary"
+        },
+        {
+          "start_sec": 16.9,
+          "duration_sec": 0.942,
+          "text": "The early years"
+        },
+        {
+          "start_sec": 17.842,
+          "duration_sec": 0.942,
+          "text": "were a masterclass"
+        },
+        {
+          "start_sec": 18.784,
+          "duration_sec": 0.628,
+          "text": "in patience"
+        },
+        {
+          "start_sec": 19.412,
+          "duration_sec": 0.785,
+          "text": "Stage productions"
+        },
+        {
+          "start_sec": 20.197,
+          "duration_sec": 1.413,
+          "text": "BBC bit parts — each"
+        },
+        {
+          "start_sec": 21.61,
+          "duration_sec": 0.942,
+          "text": "one a brushstroke"
+        },
+        {
+          "start_sec": 22.552,
+          "duration_sec": 2.0,
+          "text": "in a portrait still waiting to be"
+        },
+        {
+          "start_sec": 24.552,
+          "duration_sec": 0.592,
+          "text": "revealed"
+        },
+        {
+          "start_sec": 25.46,
+          "duration_sec": 0.954,
+          "text": "Hollywood called"
+        },
+        {
+          "start_sec": 26.414,
+          "duration_sec": 1.431,
+          "text": "in every register"
+        },
+        {
+          "start_sec": 27.845,
+          "duration_sec": 0.5,
+          "text": "Turing"
+        },
+        {
+          "start_sec": 28.345,
+          "duration_sec": 0.429,
+          "text": "Khan"
+        },
+        {
+          "start_sec": 28.774,
+          "duration_sec": 0.502,
+          "text": "Smaug"
+        },
+        {
+          "start_sec": 29.276,
+          "duration_sec": 0.636,
+          "text": "Strange"
+        },
+        {
+          "start_sec": 29.912,
+          "duration_sec": 2.226,
+          "text": "He didn't just play icons"
+        },
+        {
+          "start_sec": 32.138,
+          "duration_sec": 1.442,
+          "text": "He became them"
+        },
+        {
+          "start_sec": 35.7,
+          "duration_sec": 0.662,
+          "text": "Today, Benedict"
+        },
+        {
+          "start_sec": 36.362,
+          "duration_sec": 0.662,
+          "text": "Cumberbatch is"
+        },
+        {
+          "start_sec": 37.024,
+          "duration_sec": 0.662,
+          "text": "something rarer"
+        },
+        {
+          "start_sec": 37.686,
+          "duration_sec": 2.648,
+          "text": "than a star — he is a standard"
+        },
+        {
+          "start_sec": 40.334,
+          "duration_sec": 0.22,
+          "text": "CBE"
+        },
+        {
+          "start_sec": 40.554,
+          "duration_sec": 0.773,
+          "text": "BAFTA winner"
+        },
+        {
+          "start_sec": 41.327,
+          "duration_sec": 1.324,
+          "text": "Hamlet at the Barbican"
+        },
+        {
+          "start_sec": 42.651,
+          "duration_sec": 1.324,
+          "text": "sold out in minutes"
+        },
+        {
+          "start_sec": 43.975,
+          "duration_sec": 0.344,
+          "text": "Relentlessly"
+        },
+        {
+          "start_sec": 44.319,
+          "duration_sec": 0.705,
+          "text": "brilliantly human"
+        },
+        {
+          "start_sec": 50.0,
+          "duration_sec": 0.843,
+          "text": "From London fog"
+        },
+        {
+          "start_sec": 50.843,
+          "duration_sec": 0.843,
+          "text": "to Strange dimensions"
+        },
+        {
+          "start_sec": 51.686,
+          "duration_sec": 1.405,
+          "text": "— and back to the"
+        },
+        {
+          "start_sec": 53.091,
+          "duration_sec": 1.067,
+          "text": "stage where it began"
+        },
+        {
+          "start_sec": 54.158,
+          "duration_sec": 1.762,
+          "text": "History, one life at a time"
+        }
+      ]
+    },
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 58.5,
+      "audio_file": "files/audio_media_01KM51VPY5XV4A3X6693WHW07G.mp3",
+      "volume_db": -12,
+      "title": "Uplifting and inspir",
+      "source": "public_library",
+      "description": "Uplifting and inspirational cinematic orchestral score with sweeping strings, powerful brass, and dramatic percussion. Builds from a gentle, hopeful piano melody to a grand, soaring climax. Epic and emotionally moving, perfect for a motivational film or documentary.",
+      "model": "chirp-crow",
+      "prompt": "Uplifting and inspirational cinematic orchestral score with sweeping strings, powerful brass, and dramatic percussion. Builds from a gentle, hopeful piano melody to a grand, soaring climax. Epic and emotionally moving, perfect for a motivational film or documentary."
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KWHP5CHMXSRK86Q44DV5SA1H",
+      "file": "renders/rvj_01KWHP5CHMXSRK86Q44DV5SA1H.mp4",
+      "source_key": "exported_video/v_01KWHP5CHZ7WGG4EW518933W2P",
+      "completed_at": "2026-07-02 15:14:26",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7812,
+        "duration": 82,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWHP5DNNB7C0YE5XDHYR5HAK",
+      "file": "renders/rvj_01KWHP5DNNB7C0YE5XDHYR5HAK.mp4",
+      "source_key": "exported_video/v_01KWHP5DP1P8M5CMCMR4RNMH6S",
+      "completed_at": "2026-07-02 15:14:26",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7811,
+        "duration": 82,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWHQEC5Y7NNT4087ZV3Y210E",
+      "file": "renders/rvj_01KWHQEC5Y7NNT4087ZV3Y210E.mp4",
+      "source_key": "exported_video/v_01KWHQEC6D44C9MBMQEACEE5T8",
+      "completed_at": "2026-07-02 15:36:19",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7953,
+        "duration": 81.848,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWHQEC5ENTYQ9N4REEE92QNG",
+      "file": "renders/rvj_01KWHQEC5ENTYQ9N4REEE92QNG.mp4",
+      "source_key": "exported_video/v_01KWHQEC5S214N07FWKBF6M0T1",
+      "completed_at": "2026-07-02 15:36:19",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7962,
+        "duration": 81.848,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWJMPMWQ2HF92232XSG24A90",
+      "file": "renders/rvj_01KWJMPMWQ2HF92232XSG24A90.mp4",
+      "source_key": "exported_video/v_01KWJMPMX88NFY22JT7T574WN3",
+      "completed_at": "2026-07-03 00:07:11",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6386,
+        "duration": 57.8,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWJMPN0H8ZEH4DNA4B8KDDDX",
+      "file": "renders/rvj_01KWJMPN0H8ZEH4DNA4B8KDDDX.mp4",
+      "source_key": "exported_video/v_01KWJMPN4YYG4X40R8MSN7BB68",
+      "completed_at": "2026-07-03 00:07:12",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6374,
+        "duration": 57.8,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWTX9BFXY8EFMK5GBA6SA3A3",
+      "file": "renders/rvj_01KWTX9BFXY8EFMK5GBA6SA3A3.mp4",
+      "source_key": "exported_video/v_01KWTX9BGA4E31KE3F6F3XHX37",
+      "completed_at": "2026-07-06 05:11:41",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6328,
+        "duration": 76.167,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWTX9B7X1H6E88JCVGTYSDCW",
+      "file": "renders/rvj_01KWTX9B7X1H6E88JCVGTYSDCW.mp4",
+      "source_key": "exported_video/v_01KWTX9B8ARH5PD35R5S6R0RSN",
+      "completed_at": "2026-07-06 05:11:43",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6333,
+        "duration": 76.167,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWVKWN96S9DQVTNAMTJQYZJM",
+      "file": "renders/rvj_01KWVKWN96S9DQVTNAMTJQYZJM.mp4",
+      "source_key": "exported_video/v_01KWVKWN9H117W2B17QJ285AQZ",
+      "completed_at": "2026-07-06 11:46:33",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6429,
+        "duration": 69.167,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KWVKWNMZMD7XJE8A2AK3RXXZ",
+      "file": "renders/rvj_01KWVKWNMZMD7XJE8A2AK3RXXZ.mp4",
+      "source_key": "exported_video/v_01KWVKWNNARF6F9W8TTXXKS9QP",
+      "completed_at": "2026-07-06 11:46:35",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6422,
+        "duration": 69.167,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXCN2FN820NR47PS2W1HZVTT",
+      "file": "renders/rvj_01KXCN2FN820NR47PS2W1HZVTT.mp4",
+      "source_key": "exported_video/v_01KXCN2FP2P6ZWVVSWQWJWG51F",
+      "completed_at": "2026-07-13 02:34:25",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6350,
+        "duration": 69.852,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXCN2FY5WFJ4MT70EA58CD1K",
+      "file": "renders/rvj_01KXCN2FY5WFJ4MT70EA58CD1K.mp4",
+      "source_key": "exported_video/v_01KXCN2FYT012ZBEM0MFZYHE15",
+      "completed_at": "2026-07-13 02:34:25",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6348,
+        "duration": 69.852,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXCTBE81XPANVW849EEBE0XR",
+      "file": "renders/rvj_01KXCTBE81XPANVW849EEBE0XR.mp4",
+      "source_key": "exported_video/v_01KXCTBE8JCT29VX39YYTEQGFA",
+      "completed_at": "2026-07-13 04:06:26",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6814,
+        "duration": 64.487,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXCTBE87HNKED8ZCX3SRD55P",
+      "file": "renders/rvj_01KXCTBE87HNKED8ZCX3SRD55P.mp4",
+      "source_key": "exported_video/v_01KXCTBE8VVYKRA67NY61HSBZ4",
+      "completed_at": "2026-07-13 04:06:27",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6824,
+        "duration": 64.487,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXDAYFKN48T9EFK56Q8QZTH3",
+      "file": "renders/rvj_01KXDAYFKN48T9EFK56Q8QZTH3.mp4",
+      "source_key": "exported_video/v_01KXDAYFKX5BX1K5WFECYZXN09",
+      "completed_at": "2026-07-13 08:56:30",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7033,
+        "duration": 63.701,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXDAYFJA6YZDTXSNJKJNBKDG",
+      "file": "renders/rvj_01KXDAYFJA6YZDTXSNJKJNBKDG.mp4",
+      "source_key": "exported_video/v_01KXDAYFJKR56ENZRF5B28A36J",
+      "completed_at": "2026-07-13 08:56:32",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7034,
+        "duration": 63.701,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXDE5CB15XMX9X72D1546RCP",
+      "file": "renders/rvj_01KXDE5CB15XMX9X72D1546RCP.mp4",
+      "source_key": "exported_video/v_01KXDE5CB9NHQVPVXXSWS7YN3E",
+      "completed_at": "2026-07-13 09:52:42",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7070,
+        "duration": 63.701,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXDE5C9F4JJZFE6K3A9VFW7H",
+      "file": "renders/rvj_01KXDE5C9F4JJZFE6K3A9VFW7H.mp4",
+      "source_key": "exported_video/v_01KXDE5CA0YSXS4JDEAJQPXQ8R",
+      "completed_at": "2026-07-13 09:52:43",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7061,
+        "duration": 63.701,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXDYRECYNZD4MD6AZWCY699X",
+      "file": "renders/rvj_01KXDYRECYNZD4MD6AZWCY699X.mp4",
+      "source_key": "exported_video/v_01KXDYRED80R1YP917XGGPCEVS",
+      "completed_at": "2026-07-13 14:42:46",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7465,
+        "duration": 63.451,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXDYREF3QEHY466K8CC0C5Y9",
+      "file": "renders/rvj_01KXDYREF3QEHY466K8CC0C5Y9.mp4",
+      "source_key": "exported_video/v_01KXDYREFCXX0T40S1WTDF5Z7H",
+      "completed_at": "2026-07-13 14:42:48",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7465,
+        "duration": 63.451,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXE5SCNBK7PY3Y0ZZ2ZK8J89",
+      "file": "renders/rvj_01KXE5SCNBK7PY3Y0ZZ2ZK8J89.mp4",
+      "source_key": "exported_video/v_01KXE5SCNNYZ2PW6BQFWC1A4PD",
+      "completed_at": "2026-07-13 16:45:25",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6526,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXE5SCYEDKWKXBZTR01TSN9X",
+      "file": "renders/rvj_01KXE5SCYEDKWKXBZTR01TSN9X.mp4",
+      "source_key": "exported_video/v_01KXE5SCYR8ZPNWJPWF081MDMC",
+      "completed_at": "2026-07-13 16:45:25",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6525,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXEA97YP7DYKWX6ZYGEGERRA",
+      "file": "renders/rvj_01KXEA97YP7DYKWX6ZYGEGERRA.mp4",
+      "source_key": "exported_video/v_01KXEA97Z0WFQGP0Q1RCNFB5Q0",
+      "completed_at": "2026-07-13 18:03:57",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7061,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXEA97JVK480DN1WCCW8NHKJ",
+      "file": "renders/rvj_01KXEA97JVK480DN1WCCW8NHKJ.mp4",
+      "source_key": "exported_video/v_01KXEA97KA2M5N1TS84SMFVEG3",
+      "completed_at": "2026-07-13 18:03:58",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7069,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXF9Z9WN1YR7PG67QSRQWFDW",
+      "file": "renders/rvj_01KXF9Z9WN1YR7PG67QSRQWFDW.mp4",
+      "source_key": "exported_video/v_01KXF9Z9X7C4H8DDEE1RBWM0S1",
+      "completed_at": "2026-07-14 03:17:46",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5683,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXF9Z9WS6BNQ0B3K1XQ9RK7S",
+      "file": "renders/rvj_01KXF9Z9WS6BNQ0B3K1XQ9RK7S.mp4",
+      "source_key": "exported_video/v_01KXF9Z9X8CV2QRQ2A5XKH61DJ",
+      "completed_at": "2026-07-14 03:17:46",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5688,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXG4AZQ32XJG8TW47GB4WBJF",
+      "file": "renders/rvj_01KXG4AZQ32XJG8TW47GB4WBJF.mp4",
+      "source_key": "exported_video/v_01KXG4AZQCSFDPAJDWRCV8S6RY",
+      "completed_at": "2026-07-14 10:58:30",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5188,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXG4AZ85JTYN0A7S8CP64MTW",
+      "file": "renders/rvj_01KXG4AZ85JTYN0A7S8CP64MTW.mp4",
+      "source_key": "exported_video/v_01KXG4AZ8GRPRS8HZP7KHQJ6SR",
+      "completed_at": "2026-07-14 10:58:31",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5204,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXG5JACPXVQHJVQH9GEC73WE",
+      "file": "renders/rvj_01KXG5JACPXVQHJVQH9GEC73WE.mp4",
+      "source_key": "exported_video/v_01KXG5JAD5RMGW9K9ZCWWE0PA0",
+      "completed_at": "2026-07-14 11:19:58",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5171,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXG5JACJ7C1VY0CBD65XDCDE",
+      "file": "renders/rvj_01KXG5JACJ7C1VY0CBD65XDCDE.mp4",
+      "source_key": "exported_video/v_01KXG5JAD5YK59QNSWKEVPEDXH",
+      "completed_at": "2026-07-14 11:19:58",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5184,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXHT6HQ2Q2TWBAP48Y5YB23Q",
+      "file": "renders/rvj_01KXHT6HQ2Q2TWBAP48Y5YB23Q.mp4",
+      "source_key": "exported_video/v_01KXHT6HQFTAD0XQ0NS3SAJ6VJ",
+      "completed_at": "2026-07-15 02:39:49",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5520,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXHT6J89MVNDYYB1FD4Z4FWY",
+      "file": "renders/rvj_01KXHT6J89MVNDYYB1FD4Z4FWY.mp4",
+      "source_key": "exported_video/v_01KXHT6J8PW0RQJCN36SCM2TXP",
+      "completed_at": "2026-07-15 02:39:49",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 5508,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXHTTC183PY653H1KQ24FPHB",
+      "file": "renders/rvj_01KXHTTC183PY653H1KQ24FPHB.mp4",
+      "source_key": "exported_video/v_01KXHTTC1HXWN28JWDPGHY2NJN",
+      "completed_at": "2026-07-15 02:50:37",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6092,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXHTTBRJETSP2PJTF0K0WH11",
+      "file": "renders/rvj_01KXHTTBRJETSP2PJTF0K0WH11.mp4",
+      "source_key": "exported_video/v_01KXHTTBS42NG0HNTMYDC2CH6Z",
+      "completed_at": "2026-07-15 02:50:38",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6093,
+        "duration": 58.5,
+        "hasAudio": true
+      }
+    }
+  ]
+}

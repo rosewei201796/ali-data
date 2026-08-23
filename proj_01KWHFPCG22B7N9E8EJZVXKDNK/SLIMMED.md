@@ -1,0 +1,158 @@
+# SLIMMED
+
+Date: 2026-08-23
+
+This project directory was slimmed to reduce size.
+
+## Kept
+- renders/: only the current render (rvj_01KXHTTBRJETSP2PJTF0K0WH11.mp4), per video.json export_meta.current_render.
+- files/: all .json, .md, .mp3, .jpg, .png files (metadata, voiceovers, intermediate images).
+- files/ mp4s: all 7 mp4s referenced in video.json (final timeline clip assets), plus an evenly-spaced sample of 20 unreferenced mp4s as representative process clips.
+
+## Deleted
+- 33 render files (1769500523 bytes freed)
+- 105 unreferenced files/ mp4s (535123645 bytes freed)
+
+Note: trajectory.json media_tasks may reference deleted files.
+
+### Deleted renders
+- renders/rvj_01KXF9Z9WN1YR7PG67QSRQWFDW.mp4
+- renders/rvj_01KXHT6HQ2Q2TWBAP48Y5YB23Q.mp4
+- renders/rvj_01KWJMPN0H8ZEH4DNA4B8KDDDX.mp4
+- renders/rvj_01KXG4AZQ32XJG8TW47GB4WBJF.mp4
+- renders/rvj_01KWHP5CHMXSRK86Q44DV5SA1H.mp4
+- renders/rvj_01KXDYRECYNZD4MD6AZWCY699X.mp4
+- renders/rvj_01KXG4AZ85JTYN0A7S8CP64MTW.mp4
+- renders/rvj_01KWTX9B7X1H6E88JCVGTYSDCW.mp4
+- renders/rvj_01KXE5SCYEDKWKXBZTR01TSN9X.mp4
+- renders/rvj_01KXHTTC183PY653H1KQ24FPHB.mp4
+- renders/rvj_01KXDE5CB15XMX9X72D1546RCP.mp4
+- renders/rvj_01KXG5JACPXVQHJVQH9GEC73WE.mp4
+- renders/rvj_01KXDE5C9F4JJZFE6K3A9VFW7H.mp4
+- renders/rvj_01KXDYREF3QEHY466K8CC0C5Y9.mp4
+- renders/rvj_01KXF9Z9WS6BNQ0B3K1XQ9RK7S.mp4
+- renders/rvj_01KXCN2FY5WFJ4MT70EA58CD1K.mp4
+- renders/rvj_01KXCTBE81XPANVW849EEBE0XR.mp4
+- renders/rvj_01KWJMPMWQ2HF92232XSG24A90.mp4
+- renders/rvj_01KXDAYFKN48T9EFK56Q8QZTH3.mp4
+- renders/rvj_01KWHQEC5ENTYQ9N4REEE92QNG.mp4
+- renders/rvj_01KXEA97JVK480DN1WCCW8NHKJ.mp4
+- renders/rvj_01KWHQEC5Y7NNT4087ZV3Y210E.mp4
+- renders/rvj_01KWVKWN96S9DQVTNAMTJQYZJM.mp4
+- renders/rvj_01KXG5JACJ7C1VY0CBD65XDCDE.mp4
+- renders/rvj_01KXCN2FN820NR47PS2W1HZVTT.mp4
+- renders/rvj_01KXHT6J89MVNDYYB1FD4Z4FWY.mp4
+- renders/rvj_01KXEA97YP7DYKWX6ZYGEGERRA.mp4
+- renders/rvj_01KWTX9BFXY8EFMK5GBA6SA3A3.mp4
+- renders/rvj_01KWVKWNMZMD7XJE8A2AK3RXXZ.mp4
+- renders/rvj_01KWHP5DNNB7C0YE5XDHYR5HAK.mp4
+- renders/rvj_01KXCTBE87HNKED8ZCX3SRD55P.mp4
+- renders/rvj_01KXDAYFJA6YZDTXSNJKJNBKDG.mp4
+- renders/rvj_01KXE5SCNBK7PY3Y0ZZ2ZK8J89.mp4
+
+### Deleted files/ mp4s
+- files/code_video_codevid_req_01KWHVNQF4MR4RY3TQE72JW3JT.mp4
+- files/code_video_codevid_req_01KWHW7DRR6TC1AM83G3W47D2Q.mp4
+- files/code_video_codevid_req_01KWHWKQPDV7YF89CAVSM1J1C0.mp4
+- files/code_video_codevid_req_01KWHWTN616TX0J23N5G0ENMJE.mp4
+- files/code_video_codevid_req_01KWHX1DSEN2612F1HMDKNYDCW.mp4
+- files/code_video_codevid_req_01KWHYFB4EV9RT5RJ6W13MJZDJ.mp4
+- files/code_video_codevid_req_01KWHYSAM6C2K8M4P0QEVQ1MV7.mp4
+- files/code_video_codevid_req_01KWHZ68S5V3NP20ZVG3S2M1C2.mp4
+- files/code_video_codevid_req_01KWHZ68SDJKT4RW4WNB42NEK1.mp4
+- files/code_video_codevid_req_01KWHZGZ2APK53EPX5NASGBSM7.mp4
+- files/code_video_codevid_req_01KWHZSMB4608TYTZY0Z334PJZ.mp4
+- files/code_video_codevid_req_01KWHZSMBERQ22KY3ZBMAHGK3K.mp4
+- files/code_video_codevid_req_01KWJ0FSVHRKSHV9S0TJ1ACHR5.mp4
+- files/code_video_codevid_req_01KWJ0SDT4S7TRZR3WKPW8535S.mp4
+- files/code_video_codevid_req_01KWJ0SDTF8MAJFZY0FBD5PDCX.mp4
+- files/code_video_codevid_req_01KWTMMXM622AS661MAGT29HJ4.mp4
+- files/code_video_codevid_req_01KWTQ4KKFYRVMZFC40Q9W8S4G.mp4
+- files/code_video_codevid_req_01KWTV1NCDY583T16HTPJ6M9FA.mp4
+- files/code_video_codevid_req_01KWTV1NCT1JT1WG86FXR6D5HE.mp4
+- files/code_video_codevid_req_01KWTVRE7FR6RAPKT3AZZXHDFP.mp4
+- files/code_video_codevid_req_01KWTW67HN5XYEQQ3THAH6DT1Q.mp4
+- files/code_video_codevid_req_01KWVFTPF508N8GHT8MHDJF835.mp4
+- files/code_video_codevid_req_01KWVJ9C4A6DMS34NF3S7H5SAK.mp4
+- files/code_video_codevid_req_01KWVK5W0BQ6ZMS9NSRQNVX6CS.mp4
+- files/code_video_codevid_req_01KWVKGKHJQJ5VT5GB2NMZNA7C.mp4
+- files/code_video_codevid_req_01KXCP19SDA8KJ8563ACCFWP0C.mp4
+- files/code_video_codevid_req_01KXCP19SRMH62FZWQSWD4694T.mp4
+- files/code_video_codevid_req_01KXD9VD71NGW2QVSK5BKBXC8R.mp4
+- files/code_video_codevid_req_01KXDBEJH7XNT55MF88B74YP30.mp4
+- files/code_video_codevid_req_01KXDCG9JF7RV6WQH015EGWS1C.mp4
+- files/code_video_codevid_req_01KXDD4MG9EYCXX5X49334B8S2.mp4
+- files/code_video_codevid_req_01KXDDCHWK35PGMAK7F3NR4V2Z.mp4
+- files/code_video_codevid_req_01KXDDCHX6BP2MJFQXQ4C7ZX3B.mp4
+- files/code_video_codevid_req_01KXDXKCZJ7GMFBJRVBKKV6P0C.mp4
+- files/code_video_codevid_req_01KXDXKCZY0E2ZMGPQW41TG3GC.mp4
+- files/code_video_codevid_req_01KXE1474NGARYCR231MQ3GW14.mp4
+- files/code_video_codevid_req_01KXE1AMQWGZ7PG1ECK11A8VCT.mp4
+- files/code_video_codevid_req_01KXE1AMRBVGJSKWT8ZP3PFXR2.mp4
+- files/code_video_codevid_req_01KXE1Y8GDKXKG9WEE25T9NY3Y.mp4
+- files/code_video_codevid_req_01KXE2CWFZCVX7YM0JT6TKXN3Z.mp4
+- files/code_video_codevid_req_01KXE3T88TEJA0G16KJPMM444K.mp4
+- files/code_video_codevid_req_01KXE5FABXJG3G8F1BF65ZY9DK.mp4
+- files/code_video_codevid_req_01KXE7GYX3C62KM05WX8W1JFT6.mp4
+- files/code_video_codevid_req_01KXE7QAYR7P557B3FFJ7N0MWY.mp4
+- files/code_video_codevid_req_01KXE7QAZ6QCRJMVHEMZ3F7D7Q.mp4
+- files/code_video_codevid_req_01KXE8FCM60W2954WP04EMK6D0.mp4
+- files/code_video_codevid_req_01KXE8FCMRVT72GQ8XNWCHKMR9.mp4
+- files/code_video_codevid_req_01KXE8SPXWWY8TWW59F2GNKWEW.mp4
+- files/code_video_codevid_req_01KXE905KK11T7BP29ZJG5PX6M.mp4
+- files/code_video_codevid_req_01KXE9079BXJYJ2XQDCC8QCHN5.mp4
+- files/code_video_codevid_req_01KXE9FW07228NFFNDSB380RQ7.mp4
+- files/code_video_codevid_req_01KXE9S8P30STDPD6YT4NNXZF3.mp4
+- files/code_video_codevid_req_01KXF61T87XFQT5QY9PMJMV138.mp4
+- files/code_video_codevid_req_01KXF6FV8ZSF9N9KVZ66NDK2XC.mp4
+- files/code_video_codevid_req_01KXF7C4ER3JEV15JKV1CFWFRE.mp4
+- files/code_video_codevid_req_01KXF82TQXYXJXQ5JAZZQXFWZ1.mp4
+- files/code_video_codevid_req_01KXF9SNN3X1PNYGNS5V38R734.mp4
+- files/code_video_codevid_req_01KXFYSQGVPZBQ9M2TZXQS5083.mp4
+- files/code_video_codevid_req_01KXG2K0R6XNR76MPRWWC3BP4A.mp4
+- files/code_video_codevid_req_01KXG2XM28VJB12THXYC9Y6CNW.mp4
+- files/code_video_codevid_req_01KXHRA594K9AKDPERFRXF0PJS.mp4
+- files/code_video_codevid_req_01KXHRWG0YXP7N60H9B6SC6Q5E.mp4
+- files/code_video_codevid_req_01KXHSF0G36EV98Z8TFY82X3CF.mp4
+- files/code_video_codevid_req_01KXHSYQVZCQMP8EPSMFRDY2V2.mp4
+- files/video_03610d15-ad59-4353-ba00-994f8be71473.mp4
+- files/video_09a70b1b-786d-4026-b1ff-ab35c1fcabf9.mp4
+- files/video_0ff3746a-43e2-45e3-bc4e-5156d4bf4d0f.mp4
+- files/video_213ffd9d-27a8-4b4d-877c-d89ff05e8e77.mp4
+- files/video_2a19c609-7dea-4e48-b9a2-16ace62e4633.mp4
+- files/video_34b2b1da-2f3a-4565-96fa-293a45f60e65.mp4
+- files/video_429736fb-0d60-4a47-9577-8456bb2c841d.mp4
+- files/video_46053ebd-f068-43a2-9d70-0e8eb71c6298.mp4
+- files/video_48a6af15-2901-4d57-bf0a-64b1f9dd86de.mp4
+- files/video_4d88b62c-8342-4908-a8a8-c3599058bce4.mp4
+- files/video_54de4bb0-c7f8-4054-b171-c0e1666d0a08.mp4
+- files/video_678881ac-5322-4d55-985c-e9f08f7084da.mp4
+- files/video_6905d7f2-b34e-461c-9c13-36e01de60aa1.mp4
+- files/video_75bb1fde-362e-46c8-beb5-dad6523d1e3e.mp4
+- files/video_764f3d3d-37ed-4818-883b-534b900c136a.mp4
+- files/video_7a2c39b5-d67f-43fb-8378-6eaa32c6e376.mp4
+- files/video_888ffefe-23a3-456c-b69c-29c4ae967bd5.mp4
+- files/video_89e7ce6c-3928-42eb-9f19-1d88c37bb1a4.mp4
+- files/video_8a8c6ca0-c1cb-4389-b714-af92646b04ad.mp4
+- files/video_8b8c8e39-0e07-4910-a9f8-c1ff3c001d50.mp4
+- files/video_8ed75b42-4f89-4e8a-b13f-86bfae4ac41a.mp4
+- files/video_9a41d1f0-af0a-47c6-aba8-c33f8e641c78.mp4
+- files/video_9bc82a2d-8fda-40b3-9236-2c1cc60fbf07.mp4
+- files/video_9d318ce3-9b8d-4282-bab0-b209b9d4b536.mp4
+- files/video_9f18e130-3b9f-4b4b-a80c-6cec58654dd8.mp4
+- files/video_a002e630-16e8-4e24-9e82-7cd833378b91.mp4
+- files/video_a392f7fd-1de3-4d03-8a1b-5ec31ab803e2.mp4
+- files/video_a41a5f39-4201-460c-9c08-27c681b0ee4d.mp4
+- files/video_a50789cc-a939-407e-83d7-60fc179cae90.mp4
+- files/video_b6650c45-db78-4cd4-a078-cbdbae96bae7.mp4
+- files/video_bb09d392-aa0c-4618-a863-6faf7e0424b6.mp4
+- files/video_c8eb48dd-0974-4904-b316-1f8fa31bbb88.mp4
+- files/video_c9934e0d-4202-4c1d-a9e1-fce40327ceec.mp4
+- files/video_d5bd9743-fef1-4ce8-9a25-5a15e20cd123.mp4
+- files/video_d6b49d12-4bd5-426c-af1c-9fcb1e3872af.mp4
+- files/video_dc57765a-41f1-49a8-84da-0a987b27c456.mp4
+- files/video_e45e8000-cd93-4776-ae73-ff86ba77b4cb.mp4
+- files/video_e494ad4b-f5ff-4d61-ab3f-94fdfe98f1db.mp4
+- files/video_e4d91815-62e6-4131-aee0-6b2b262e58c2.mp4
+- files/video_f7625761-13cd-44cb-8f4f-1c2bcf7e26cd.mp4
+- files/video_faed7d59-f11a-4018-8435-6efabca05d46.mp4

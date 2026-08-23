@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "framework": "hyperframes",
+  "files": {
+    "index.html": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Righteous&display=swap\">\n<style>\n*,*:before,*:after{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;}\n\n#bg{\n  position:absolute;\n  top:0;left:0;\n  width:100%;height:100%;\n  object-fit:cover;\n  z-index:1;\n}\n\n#grad{\n  position:absolute;\n  bottom:0;left:0;\n  width:100%;height:45%;\n  z-index:2;\n  background:linear-gradient(to top,rgba(0,0,0,0.70) 0%,transparent 100%);\n}\n\n#tag{\n  position:absolute;\n  top:68px;right:84px;\n  z-index:10;\n  opacity:0;\n}\n\n#tag h1{\n  display:inline-block;\n  color:#ffffff;\n  font-family:'Righteous',serif;\n  font-size:45px;\n  line-height:1;\n  letter-spacing:.04em;\n  text-transform:uppercase;\n  text-shadow:.03em .03em 0 rgba(60,80,180,0.55);\n  position:relative;\n}\n\n#tag h1:after{\n  content:attr(data-shadow);\n  position:absolute;\n  top:.06em;left:.06em;\n  z-index:-1;\n  text-shadow:none;\n  background-image:linear-gradient(\n    45deg,\n    transparent 45%,\n    rgba(220,215,200,0.80) 45%,\n    rgba(220,215,200,0.80) 55%,\n    transparent 55%\n  );\n  background-size:.05em .05em;\n  -webkit-background-clip:text;\n  background-clip:text;\n  -webkit-text-fill-color:transparent;\n  color:transparent;\n}\n</style>\n</head>\n<body>\n<div id=\"scene\"\n  data-composition-id=\"london-kb\"\n  data-start=\"0\"\n  data-width=\"1920\"\n  data-height=\"1080\"\n  data-duration=\"5\"\n  data-track-index=\"0\">\n\n  <video id=\"bg\"\n    src=\"assets/bgImg.mp4\"\n    muted playsinline\n    data-start=\"0\"\n    data-duration=\"5\"\n    data-track-index=\"1\"></video>\n\n  <div id=\"grad\"></div>\n\n  <div id=\"tag\">\n    <h1 data-shadow=\"London\">London</h1>\n  </div>\n\n</div>\n\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\n  window.__timelines = window.__timelines || {};\n\n  const tl = gsap.timeline({ paused: true });\n\n  // Ken Burns on the video element via GSAP (scale from 1.0 to 1.04 over 5s)\n  tl.fromTo('#bg',\n    { scale: 1.0, transformOrigin: '50% 50%' },\n    { scale: 1.04, duration: 5, ease: 'none' },\n    0\n  );\n\n  // Stripe background-position animation on the ::after pseudo — not directly animatable,\n  // so we drive it via a CSS variable updated through a proxy object.\n  // Since pseudo-elements can't be targeted directly by GSAP in all renderers,\n  // we animate the background-position via a style sheet rule using a finite keyframe.\n  // Per rules: no CSS infinite animations for render-critical motion.\n  // The stripe shift is a subtle ambient; we drive it with a finite GSAP proxy.\n  const styleEl = document.createElement('style');\n  document.head.appendChild(styleEl);\n  const sheet = styleEl.sheet;\n  // Insert a rule we'll update via GSAP\n  sheet.insertRule('#tag h1:after { background-position: 0 0; }', 0);\n\n  const proxy = { pos: 0 };\n  // 5s * (1/15) of full cycle per second = 0.333 cycle across 5s for subtle drift\n  tl.to(proxy, {\n    pos: 100,\n    duration: 5,\n    ease: 'none',\n    onUpdate: function() {\n      const p = proxy.pos;\n      sheet.cssRules[0].style.backgroundPosition = p + '% -' + p + '%';\n    }\n  }, 0);\n\n  // Tag fade-in / hold / fade-out\n  // tagIn: 0%=opacity 0 translateY(-10), 18%=opacity 1 translateY(0), 80%=opacity 1, 100%=opacity 0 translateY(-10)\n  // Total anim duration = 4.7s, delay = 0.25s → starts at 0.25s, ends at 4.95s\n  const tagStart = 0.25;\n  const tagDur = 4.7;\n  const inEnd    = tagStart + tagDur * 0.18;   // ~1.096s\n  const holdEnd  = tagStart + tagDur * 0.80;   // ~4.01s\n  const outEnd   = tagStart + tagDur;           // ~4.95s\n\n  tl.fromTo('#tag',\n    { opacity: 0, y: -10 },\n    { opacity: 1, y: 0, duration: (inEnd - tagStart), ease: 'cubic-bezier(0.22,1,0.36,1)' },\n    tagStart\n  );\n  tl.to('#tag',\n    { opacity: 1, y: 0, duration: (holdEnd - inEnd), ease: 'none' },\n    inEnd\n  );\n  tl.to('#tag',\n    { opacity: 0, y: -10, duration: (outEnd - holdEnd), ease: 'cubic-bezier(0.22,1,0.36,1)' },\n    holdEnd\n  );\n\n  window.__timelines['london-kb'] = tl;\n</script>\n</body>\n</html>"
+  },
+  "entrypoint": "index.html",
+  "render": {
+    "durationSeconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "format": "mp4",
+    "quality": "high"
+  },
+  "assets": [
+    {
+      "alias": "bgImg",
+      "storageKey": "medeo/resource/video/panda3/7c36e1c1-7270-43fb-aadd-67c165767f56.mp4",
+      "mediaType": "video_mp4",
+      "localPath": "assets/bgImg.mp4"
+    }
+  ],
+  "provenance": {
+    "sourcePrompt": "5s, 1920x1080, SILENT. Image background Ken Burns. Top-right corner: \"London\" in Righteous font 45px, white with offset shadow + 45-degree hatching stripe pseudo-element animation on the shadow layer, exactly matching the provided CSS pattern. Fades in then fades out\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Righteous&display=swap\" rel=\"stylesheet\">\n<style>\n*,*:before,*:after{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;}\n@keyframes kb{from{transform:scale(1.0)}to{transform:scale(1.04)}}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;z-index:1\ntransform-origin:50% 50%\nanimation:kb 5s linear forwards\n}\n#grad{\nposition:absolute;bottom:0;left:0;width:100%;height:45%;z-index:2\nbackground:linear-gradient(to top,rgba(0,0,0,0.70) 0%,transparent 100%)\n}\n/* tag wrapper — top right */\n@keyframes tagIn{\n0%  {opacity:0;transform:translateY(-10px);}\n18% {opacity:1;transform:translateY(0);}\n80% {opacity:1;transform:translateY(0);}\n100%{opacity:0;transform:translateY(-10px);}\n}\n#tag{\nposition:absolute\ntop:68px;right:84px\nz-index:10\nanimation:tagIn 4.7s cubic-bezier(0.22,1,0.36,1) 0.25s both\n}\n/* h1 matching the provided CSS pattern — Righteous, text-shadow offset, pseudo stripe */\n#tag h1{\ndisplay:inline-block\ncolor:#ffffff\nfont-family:'Righteous',serif\nfont-size:45px\nline-height:1\nletter-spacing:.04em\ntext-transform:uppercase\ntext-shadow:.03em .03em 0 rgba(60,80,180,0.55)\nposition:relative\n}\n#tag h1:after{\ncontent:attr(data-shadow)\nposition:absolute\ntop:.06em;left:.06em\nz-index:-1\ntext-shadow:none\nbackground-image:linear-gradient(\n45deg\ntransparent 45%\nrgba(220,215,200,0.80) 45%\nrgba(220,215,200,0.80) 55%\ntransparent 0\n)\nbackground-size:.05em .05em\nwebkit-background-clip:text\nbackground-clip:text\nwebkit-text-fill-color:transparent\ncolor:transparent\nanimation:shad-anim 15s linear infinite\n}\n@keyframes shad-anim{\n0%  {background-position:0 0}\n100%{background-position:100% -100%}\n}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{bgImg}}\" alt=\"\">\n<div id=\"grad\"></div>\n<div id=\"tag\">\n<h1 data-shadow=\"London\">London</h1>\n</div>\n</div>\n</body>\n</html>\n```",
+    "codegenModel": "claude-sonnet-4-6",
+    "generatedAt": "2026-07-13T17:59:25.244Z",
+    "knowledgeFragmentIds": [
+      "code-video/hyperframes/core",
+      "code-video/hyperframes/cli-validation",
+      "code-video/hyperframes/beat-direction",
+      "code-video/hyperframes/motion-gsap",
+      "code-video/hyperframes/typography",
+      "code-video/hyperframes/data-viz",
+      "code-video/hyperframes/diagram-explainer",
+      "code-video/hyperframes/product-ui"
+    ]
+  }
+}

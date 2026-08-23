@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "framework": "hyperframes",
+  "files": {
+    "index.html": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&display=swap\">\n<style>\n* { margin: 0; padding: 0; box-sizing: border-box; }\nbody, #root {\n  width: 1920px;\n  height: 1080px;\n  overflow: hidden;\n  background: #000;\n}\n#root {\n  position: relative;\n}\n#bg-wrapper {\n  position: absolute;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  z-index: 1;\n  overflow: hidden;\n}\n#bg-video {\n  position: absolute;\n  top: 50%; left: 50%;\n  width: 100%; height: 100%;\n  object-fit: cover;\n  transform: translate(-50%, -50%);\n}\n#grad {\n  position: absolute;\n  bottom: 0; left: 0;\n  width: 100%; height: 45%;\n  z-index: 2;\n  background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, transparent 100%);\n  pointer-events: none;\n}\n#tag {\n  position: absolute;\n  top: 72px;\n  right: 88px;\n  z-index: 10;\n  font-family: 'DM Sans', sans-serif;\n  font-size: 40px;\n  font-weight: 500;\n  letter-spacing: 0.30em;\n  text-transform: uppercase;\n  color: rgba(240, 236, 228, 0.70);\n  text-shadow: 0 2px 12px rgba(0,0,0,0.60);\n  opacity: 0;\n}\n</style>\n</head>\n<body>\n<div id=\"root\"\n  data-composition-id=\"london-kb\"\n  data-start=\"0\"\n  data-width=\"1920\"\n  data-height=\"1080\"\n  data-duration=\"5\"\n  data-track-index=\"0\">\n\n  <div id=\"bg-wrapper\">\n    <video\n      id=\"bg-video\"\n      src=\"assets/bgImg.mp4\"\n      muted\n      playsinline\n      data-start=\"0\"\n      data-track-index=\"1\">\n    </video>\n  </div>\n\n  <div id=\"grad\"></div>\n  <div id=\"tag\">London</div>\n\n</div>\n\n<script src=\"vendor/gsap.min.js\"></script>\n<script>\n  window.__timelines = window.__timelines || {};\n\n  const tl = gsap.timeline({ paused: true });\n\n  // Ken Burns: scale bg-video wrapper from 1.0 to 1.04 over 5s\n  // Use a wrapper to avoid conflicting transforms with the translate centering\n  // We'll scale the bg-wrapper itself (not the video which has translate centering)\n  tl.fromTo('#bg-wrapper',\n    { scale: 1.0, transformOrigin: '50% 50%' },\n    { scale: 1.04, transformOrigin: '50% 50%', duration: 5, ease: 'none' },\n    0\n  );\n\n  // Tag: fade in (drift down from -8px), hold, fade out (drift back up)\n  // 0–18% of 4.7s ≈ 0.846s fade in starting at 0.25s\n  // 80% of 4.7s = 3.76s start fade out, end at 4.7+0.25=4.95s\n  tl.fromTo('#tag',\n    { opacity: 0, y: -8 },\n    { opacity: 1, y: 0, duration: 0.85, ease: 'cubic-bezier(0.22,1,0.36,1)' },\n    0.25\n  );\n\n  tl.to('#tag',\n    { opacity: 0, y: -8, duration: 0.58, ease: 'cubic-bezier(0.22,1,0.36,1)' },\n    4.37\n  );\n\n  window.__timelines['london-kb'] = tl;\n</script>\n</body>\n</html>"
+  },
+  "entrypoint": "index.html",
+  "render": {
+    "durationSeconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "format": "mp4",
+    "quality": "high"
+  },
+  "assets": [
+    {
+      "alias": "bgImg",
+      "storageKey": "medeo/resource/video/panda3/7c36e1c1-7270-43fb-aadd-67c165767f56.mp4",
+      "mediaType": "video_mp4",
+      "localPath": "assets/bgImg.mp4"
+    }
+  ],
+  "provenance": {
+    "sourcePrompt": "5s, 1920x1080, SILENT. Static image background Ken Burns. Small location tag top-right. Font: Inter 500, 40px. No lines, no decorations. CSS animation only\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap\" rel=\"stylesheet\">\n<style>\n*{margin:0;padding:0;box-sizing:border-box;}\nbody,#scene{width:1920px;height:1080px;overflow:hidden;background:#000;}\n#scene{position:relative;}\n@keyframes kb{from{transform:scale(1.0)}to{transform:scale(1.04)}}\n#bg{\nposition:absolute;top:0;left:0;width:100%;height:100%\nobject-fit:cover;z-index:1\ntransform-origin:50% 50%\nanimation:kb 5s linear forwards\n}\n#grad{\nposition:absolute;bottom:0;left:0;width:100%;height:45%;z-index:2\nbackground:linear-gradient(to top,rgba(0,0,0,0.72) 0%,transparent 100%)\n}\n@keyframes tagIn{\n0%{opacity:0;transform:translateY(-8px);}\n18%{opacity:1;transform:translateY(0);}\n80%{opacity:1;transform:translateY(0);}\n100%{opacity:0;transform:translateY(-8px);}\n}\n#tag{\nposition:absolute\ntop:72px;right:88px\nz-index:10\nfont-family:'Inter',Arial,sans-serif\nfont-size:40px\nfont-weight:500\nletter-spacing:.30em\ntext-transform:uppercase\ncolor:rgba(240,236,228,0.70)\ntext-shadow:0 2px 12px rgba(0,0,0,0.60)\nanimation:tagIn 4.7s cubic-bezier(0.22,1,0.36,1) 0.25s both\n}\n</style>\n</head>\n<body>\n<div id=\"scene\">\n<img id=\"bg\" src=\"{{bgImg}}\" alt=\"\">\n<div id=\"grad\"></div>\n<div id=\"tag\">London</div>\n</div>\n</body>\n</html>\n```",
+    "codegenModel": "claude-sonnet-4-6",
+    "generatedAt": "2026-07-13T17:44:52.259Z",
+    "knowledgeFragmentIds": [
+      "code-video/hyperframes/core",
+      "code-video/hyperframes/cli-validation",
+      "code-video/hyperframes/beat-direction",
+      "code-video/hyperframes/motion-gsap",
+      "code-video/hyperframes/typography",
+      "code-video/hyperframes/diagram-explainer",
+      "code-video/hyperframes/transitions-vfx"
+    ]
+  }
+}
