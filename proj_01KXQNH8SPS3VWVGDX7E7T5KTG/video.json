@@ -1,0 +1,882 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-23T03:23:02+00:00",
+    "project_id": "proj_01KXQNH8SPS3VWVGDX7E7T5KTG",
+    "project_name": "凯恩斯对决哈耶克：揭示真相的动力之美",
+    "owner_user_id": "usr_01KQ226HDB0BSVS47FHFS6DD13",
+    "internal_source": "employee",
+    "project_created_at": "2026-07-17 09:11:47",
+    "project_updated_at": "2026-07-17 09:11:47",
+    "draft_id": "draft_01KXQNH8T0HK7Y47CAGVV67H33",
+    "draft_version": 101,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KY6GXMTAPZX25VY1RZWWQ6BN",
+      "file": "renders/rvj_01KY6GXMTAPZX25VY1RZWWQ6BN.mp4",
+      "completed_at": "2026-07-23 03:41:09"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 82.464,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ361FX1DPCN73HGPR18ZV",
+          "file": "files/video_9ef5f8d2-1aeb-4a52-92ef-b0277d625662.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist kinetic propaganda graphic. Oversized white text blocks slam diagonally into frame one by one with heavy impact tremor and debris scatter. Red solid wedge shape drives in from left edge with 3 sharp staircase echo outlines trailing behind it. Hairline radial speed lines explode outward from the central text. Concentric thin rings ripple outward like shockwaves. The $13T number flickers on with a punch impact. All elements lock into position with micro-vibration. Fast cut energy, no smooth drift — every element bursts in and stops hard.\nMulti-shot, fast cuts, machine-gun timing, zero easing.\nAudio: deep bass drum hit on each text impact, industrial metal percussion, no voice., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist kinetic propaganda graphic. Oversized white text blocks slam diagonally into frame one by one with heavy impact tremor and debris scatter. Red solid wedge shape drives in from left edge with 3 sharp staircase echo outlines trailing behind it. Hairline radial speed lines explode outward from the central text. Concentric thin rings ripple outward like shockwaves. The $13T number flickers on with a punch impact. All elements lock into position with micro-vibration. Fast cut energy, no smooth drift — every element bursts in and stops hard.\nMulti-shot, fast cuts, machine-gun timing, zero easing.\nAudio: deep bass drum hit on each text impact, industrial metal percussion, no voice., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-4j8lf"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 8.058,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQAY1NR96PZ1CAFNT97382",
+          "file": "files/video_7f2229cd-0818-4780-a20b-34eb760a7a91.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist collage propaganda graphic. Archive photo of bread-line crowd thrusts forward out from behind color blocks — blocks scatter left and right with staircase echo trails. Giant red BUT text slams diagonally across the frame and locks with a frame-shake impact. Red border rapidly self-draws around the photo edge. Concentric hairline rings expand outward from the photo center like a shockwave. Slight slow push-in on the archive photo as if the document is coming alive.\nMulti-shot, rhythmic impacts, constructivist kinetic energy.\nAudio: suspense gear-click tick, low drone, bass hit on BUT impact., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist collage propaganda graphic. Archive photo of bread-line crowd thrusts forward out from behind color blocks — blocks scatter left and right with staircase echo trails. Giant red BUT text slams diagonally across the frame and locks with a frame-shake impact. Red border rapidly self-draws around the photo edge. Concentric hairline rings expand outward from the photo center like a shockwave. Slight slow push-in on the archive photo as if the document is coming alive.\nMulti-shot, rhythmic impacts, constructivist kinetic energy.\nAudio: suspense gear-click tick, low drone, bass hit on BUT impact., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-b6phd"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 16.116,
+        "duration_sec": 10.0,
+        "asset": {
+          "media_id": "media_01KY4C7BEW9JA8GQ7DFEFWWMFT",
+          "file": "files/code_video_codevid_req_01KY4BWE0ZV8DGQQ12XDNP6N62.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Soviet Constructivist data visualization: Japan national debt as percentage of GDP, animated bar chart. 10 seconds total\nVISUAL DESIGN (must match existing video palette)\nBackground: pure black #0a0a0a\nBar colors: solid red #CC0000 for bars, white #FFFFFF border on each bar\nYear labels: grey #888888, bold, right-aligned\nValue labels: white, bold, right of each bar\nTitle: \"JAPAN DEBT / GDP\" — white Impact font, large, top center, red drop shadow offset 3px\nSubtitle: \"% of GDP — 30 years of stimulus\" — grey italic below title\nDanger threshold line: dashed red #CC0000 at 100% mark, labelled \"DANGER: 100%\"\nBig number \"200%\" pulses in bottom-right corner, red, enormous (120px), opacity 0.15 pulse\nDATA (bars appear sequentially, left-to-right grow animation)\n1991: 62%\n1995: 87%\n2000: 130%\n2005: 175%\n2010: 194%\n2015: 198%\n2020: 200%\nANIMATION SEQUENCE\nEach bar row slides in from left with opacity 0→1 (staggered, 0.6s each)\nBar width grows from 0 to target width (1s ease, starts after row slides in)\nValue label fades in after bar reaches full width\nDanger line flashes on when 2000 bar exceeds it\n\"200%\" big number pulses slowly throughout\nRadiating conic gradient background lines (subtle gold #D4A853 at 4% opacity)\nTwo circular gear outlines top-left and bottom-right corners (grey 15% opacity, static)\nLAYOUT\nCanvas 1280×720\nChart area: top 160px, left 80px, width 1100px, height 480px\nBar height: 40px, gap 20px between bars\nYear label column: 60px wide, right-aligned\nMax bar width maps 200% → ~800px (fills ~73% of chart width)\nValue labels positioned 10px right of bar end\nSTYLE CONSTRAINTS\nFont: Impact, Arial Black, sans-serif throughout — NO other fonts\nNO gradients on bars — solid flat color only\nNO rounded corners — hard edges, industrial print feel\nNO soft shadows — only hard offset text-shadow on title\nStaircase echo NOT needed (this is data viz, not motion graphics)\nKeep it large, clear, readable — minimum bar height 40px\nUse the provided CSS as structural reference only. Implement cleanly with HTML/CSS/JS animations",
+          "model": "claude-sonnet-5",
+          "prompt": "Soviet Constructivist data visualization: Japan national debt as percentage of GDP, animated bar chart. 10 seconds total\nVISUAL DESIGN (must match existing video palette)\nBackground: pure black #0a0a0a\nBar colors: solid red #CC0000 for bars, white #FFFFFF border on each bar\nYear labels: grey #888888, bold, right-aligned\nValue labels: white, bold, right of each bar\nTitle: \"JAPAN DEBT / GDP\" — white Impact font, large, top center, red drop shadow offset 3px\nSubtitle: \"% of GDP — 30 years of stimulus\" — grey italic below title\nDanger threshold line: dashed red #CC0000 at 100% mark, labelled \"DANGER: 100%\"\nBig number \"200%\" pulses in bottom-right corner, red, enormous (120px), opacity 0.15 pulse\nDATA (bars appear sequentially, left-to-right grow animation)\n1991: 62%\n1995: 87%\n2000: 130%\n2005: 175%\n2010: 194%\n2015: 198%\n2020: 200%\nANIMATION SEQUENCE\nEach bar row slides in from left with opacity 0→1 (staggered, 0.6s each)\nBar width grows from 0 to target width (1s ease, starts after row slides in)\nValue label fades in after bar reaches full width\nDanger line flashes on when 2000 bar exceeds it\n\"200%\" big number pulses slowly throughout\nRadiating conic gradient background lines (subtle gold #D4A853 at 4% opacity)\nTwo circular gear outlines top-left and bottom-right corners (grey 15% opacity, static)\nLAYOUT\nCanvas 1280×720\nChart area: top 160px, left 80px, width 1100px, height 480px\nBar height: 40px, gap 20px between bars\nYear label column: 60px wide, right-aligned\nMax bar width maps 200% → ~800px (fills ~73% of chart width)\nValue labels positioned 10px right of bar end\nSTYLE CONSTRAINTS\nFont: Impact, Arial Black, sans-serif throughout — NO other fonts\nNO gradients on bars — solid flat color only\nNO rounded corners — hard edges, industrial print feel\nNO soft shadows — only hard offset text-shadow on title\nStaircase echo NOT needed (this is data viz, not motion graphics)\nKeep it large, clear, readable — minimum bar height 40px\nUse the provided CSS as structural reference only. Implement cleanly with HTML/CSS/JS animations",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 10
+          },
+          "code_artifact": "files/codevid_req_01KY4BWE0ZV8DGQQ12XDNP6N62.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 10.0
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 26.116,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ3G9K63T1S50SNTMYAJ8Q",
+          "file": "files/video_dc01be77-dc98-4f69-be16-cd4753b8471d.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist propaganda graphic. Central circular archive photo of factory workers slowly rotates clockwise like a mechanical dial. Black gear shapes orbit in opposite directions at different speeds creating layered mechanical parallax. Bold diagonal text crashes in word by word with sharp impact and debris. Fine chain lines sweep horizontally at high speed. Camera slow lateral pan with slight push into the composition.\nMulti-shot, mechanical rhythm, industrial clockwork energy.\nAudio: metal gear teeth engaging, rhythmic mechanical pulse, urgent percussion., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist propaganda graphic. Central circular archive photo of factory workers slowly rotates clockwise like a mechanical dial. Black gear shapes orbit in opposite directions at different speeds creating layered mechanical parallax. Bold diagonal text crashes in word by word with sharp impact and debris. Fine chain lines sweep horizontally at high speed. Camera slow lateral pan with slight push into the composition.\nMulti-shot, mechanical rhythm, industrial clockwork energy.\nAudio: metal gear teeth engaging, rhythmic mechanical pulse, urgent percussion., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-lrtp7"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 34.174,
+        "duration_sec": 8.0,
+        "asset": {
+          "media_id": "media_01KY6BZ7J6KVCZCP1CGX4303RP",
+          "file": "files/code_video_codevid_req_01KY6BP624PV3WJE383S2F9EN3.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Soviet Constructivist full-screen horizontal timeline infographic. 8 seconds. 1280x720. Standalone video — no transparency, complete solid background\nBACKGROUND\nPure black #0a0a0a fills entire canvas (matches the preceding Japan debt chart)\nRadiating conic lines: gold #D4A853 at 3% opacity, 6deg sectors, centered\nHorizontal thick red diagonal accent stripe: #CC0000, 4px, runs from bottom-left to upper-right at 15deg, full canvas width, y≈580px — subtle constructivist energy line\nTITLE (upper area, y=60px)\n\"THE IDEOLOGICAL BATTLE\" in white, Arial Black bold, 28px, letter-spacing 4px\nHard red #CC0000 drop-shadow 3px offset right+down\nSubtitle below: \"1776 – 1944: how we got here\" — grey #888, 15px italic\nTIMELINE STRUCTURE (vertically centered at y=380px)\nGold horizontal line #D4A853, 5px thick, spanning x=80px to x=1200px\nTwo small gear circle wireframes (grey 12% opacity, hairline): 80px diameter at x=60px, 60px diameter at x=1220px\n5 EVENT NODES evenly spaced (x positions: 130, 330, 530, 790, 1050)\nNODE 1 — x=130, ABOVE line\nYear: \"1776\" red #CC0000 bold 16px\nName: \"ADAM SMITH\" white Arial Black 15px\nDesc: \"The Wealth of Nations\" grey 11px italic\nDot: 16px circle, gold #D4A853 fill, 2px white border\nStem: 2px white line, 55px UP from dot to box\nBox: 2px solid gold border, black fill, 100px wide\nNODE 2 — x=330, BELOW line\nYear: \"1871\" orange #FF6600 bold 16px\nName: \"MENGER\" white Arial Black 15px\nDesc: \"Austrian School born\" grey 11px italic\nDot: 16px circle, orange #FF6600 fill, 2px white border\nStem: 55px DOWN from dot\nBox: 2px solid orange border, black fill\nNODE 3 — x=530, ABOVE line\nYear: \"1920\" orange #FF6600 bold 16px\nName: \"HAYEK\" white Arial Black 15px\nDesc: \"Business Cycle Theory\" grey 11px italic\nDot: 16px circle, orange fill, 2px white border\nStem: 55px UP\nBox: 2px solid orange border, black fill\nNODE 4 — x=790, BELOW line: *** HERO NODE ***\nYear: \"1936\" red #CC0000 bold 20px — larger\nName: \"KEYNES\" white Arial Black 18px — larger\nDesc: \"The General Theory\" grey 12px italic\nDot: 26px circle, red #CC0000 fill, 3px white border — biggest dot\nStem: 65px DOWN\nBox: 3px solid red #CC0000 border, black fill, 130px wide\nRed outer glow ring: 40px diameter circle outline, #CC0000 10% opacity, pulses\nNODE 5 — x=1050, ABOVE line\nYear: \"1944\" orange #FF6600 bold 16px\nName: \"HAYEK\" white Arial Black 15px\nDesc: \"Road to Serfdom\" grey 11px italic\nDot: 16px circle, orange fill, 2px white border\nStem: 55px UP\nBox: 2px solid orange border, black fill\nYEAR TICK MARKS below gold line at each x position\n2px wide, 10px tall vertical tick in grey #555\nYear number in grey #555, 10px, below tick\nANIMATION (8 seconds, single-pass, no looping)\n0.0–0.5s: Title + subtitle slide down from top, opacity 0→1\n0.5–1.2s: Gold timeline line draws left to right (scaleX 0→1, transform-origin left)\n1.2–1.7s: NODE 1 (1776) appears — dot scale 0→1, stem grows, box fades in\n1.7–2.2s: NODE 2 (1871) appears\n2.2–2.7s: NODE 3 (1920) appears\n2.7–3.4s: NODE 4 (1936 KEYNES) appears with larger impact — dot bounces scale 0→1.2→1, box fades, red glow ring expands once\n3.4–4.0s: NODE 5 (1944) appears\n4.0–4.5s: Radiating diagonal speed lines flash briefly across canvas (constructivist energy)\n4.5–8.0s: Static hold. NODE 4 glow ring pulses slowly every 1.5s. Subtle paper-grain texture overlay breathes\nFONT: Arial Black, Arial, sans-serif ONLY — no external fonts\nSTYLE: flat hard-edge, no border-radius on boxes, no box-shadow, no gradients on nodes\nComplete standalone video — top of canvas is black not transparent",
+          "model": "claude-sonnet-5",
+          "prompt": "Soviet Constructivist full-screen horizontal timeline infographic. 8 seconds. 1280x720. Standalone video — no transparency, complete solid background\nBACKGROUND\nPure black #0a0a0a fills entire canvas (matches the preceding Japan debt chart)\nRadiating conic lines: gold #D4A853 at 3% opacity, 6deg sectors, centered\nHorizontal thick red diagonal accent stripe: #CC0000, 4px, runs from bottom-left to upper-right at 15deg, full canvas width, y≈580px — subtle constructivist energy line\nTITLE (upper area, y=60px)\n\"THE IDEOLOGICAL BATTLE\" in white, Arial Black bold, 28px, letter-spacing 4px\nHard red #CC0000 drop-shadow 3px offset right+down\nSubtitle below: \"1776 – 1944: how we got here\" — grey #888, 15px italic\nTIMELINE STRUCTURE (vertically centered at y=380px)\nGold horizontal line #D4A853, 5px thick, spanning x=80px to x=1200px\nTwo small gear circle wireframes (grey 12% opacity, hairline): 80px diameter at x=60px, 60px diameter at x=1220px\n5 EVENT NODES evenly spaced (x positions: 130, 330, 530, 790, 1050)\nNODE 1 — x=130, ABOVE line\nYear: \"1776\" red #CC0000 bold 16px\nName: \"ADAM SMITH\" white Arial Black 15px\nDesc: \"The Wealth of Nations\" grey 11px italic\nDot: 16px circle, gold #D4A853 fill, 2px white border\nStem: 2px white line, 55px UP from dot to box\nBox: 2px solid gold border, black fill, 100px wide\nNODE 2 — x=330, BELOW line\nYear: \"1871\" orange #FF6600 bold 16px\nName: \"MENGER\" white Arial Black 15px\nDesc: \"Austrian School born\" grey 11px italic\nDot: 16px circle, orange #FF6600 fill, 2px white border\nStem: 55px DOWN from dot\nBox: 2px solid orange border, black fill\nNODE 3 — x=530, ABOVE line\nYear: \"1920\" orange #FF6600 bold 16px\nName: \"HAYEK\" white Arial Black 15px\nDesc: \"Business Cycle Theory\" grey 11px italic\nDot: 16px circle, orange fill, 2px white border\nStem: 55px UP\nBox: 2px solid orange border, black fill\nNODE 4 — x=790, BELOW line: *** HERO NODE ***\nYear: \"1936\" red #CC0000 bold 20px — larger\nName: \"KEYNES\" white Arial Black 18px — larger\nDesc: \"The General Theory\" grey 12px italic\nDot: 26px circle, red #CC0000 fill, 3px white border — biggest dot\nStem: 65px DOWN\nBox: 3px solid red #CC0000 border, black fill, 130px wide\nRed outer glow ring: 40px diameter circle outline, #CC0000 10% opacity, pulses\nNODE 5 — x=1050, ABOVE line\nYear: \"1944\" orange #FF6600 bold 16px\nName: \"HAYEK\" white Arial Black 15px\nDesc: \"Road to Serfdom\" grey 11px italic\nDot: 16px circle, orange fill, 2px white border\nStem: 55px UP\nBox: 2px solid orange border, black fill\nYEAR TICK MARKS below gold line at each x position\n2px wide, 10px tall vertical tick in grey #555\nYear number in grey #555, 10px, below tick\nANIMATION (8 seconds, single-pass, no looping)\n0.0–0.5s: Title + subtitle slide down from top, opacity 0→1\n0.5–1.2s: Gold timeline line draws left to right (scaleX 0→1, transform-origin left)\n1.2–1.7s: NODE 1 (1776) appears — dot scale 0→1, stem grows, box fades in\n1.7–2.2s: NODE 2 (1871) appears\n2.2–2.7s: NODE 3 (1920) appears\n2.7–3.4s: NODE 4 (1936 KEYNES) appears with larger impact — dot bounces scale 0→1.2→1, box fades, red glow ring expands once\n3.4–4.0s: NODE 5 (1944) appears\n4.0–4.5s: Radiating diagonal speed lines flash briefly across canvas (constructivist energy)\n4.5–8.0s: Static hold. NODE 4 glow ring pulses slowly every 1.5s. Subtle paper-grain texture overlay breathes\nFONT: Arial Black, Arial, sans-serif ONLY — no external fonts\nSTYLE: flat hard-edge, no border-radius on boxes, no box-shadow, no gradients on nodes\nComplete standalone video — top of canvas is black not transparent",
+          "params": {
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "quality": "standard",
+            "framework": "hyperframes",
+            "durationSeconds": 8
+          },
+          "code_artifact": "files/codevid_req_01KY6BP624PV3WJE383S2F9EN3.artifact.json"
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.0
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 42.174,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ97R2QAZ7CPDJK5G16V82",
+          "file": "files/video_35ba8f84-e80b-43fc-96cf-7158234019e4.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist propaganda graphic. Camera violently pushes into the document center with explosive zoom. Red outline box rapidly self-draws around the key clause. Massive CLASSIFIED stamp drops with crushing force — paper surface ripples outward, ink scatter dots spray from the edges, staircase echo frames trail the stamp edge. Diagonal scan lines sweep across the document. Single frame-shock on stamp impact then brief settle vibration.\nMulti-shot, explosive zooms, stamp impact, constructivist kinetic energy.\nAudio: heavy stamp thud, paper ripple, bass drum punch, tense staccato percussion., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist propaganda graphic. Camera violently pushes into the document center with explosive zoom. Red outline box rapidly self-draws around the key clause. Massive CLASSIFIED stamp drops with crushing force — paper surface ripples outward, ink scatter dots spray from the edges, staircase echo frames trail the stamp edge. Diagonal scan lines sweep across the document. Single frame-shock on stamp impact then brief settle vibration.\nMulti-shot, explosive zooms, stamp impact, constructivist kinetic energy.\nAudio: heavy stamp thud, paper ripple, bass drum punch, tense staccato percussion., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-dqnlp"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 50.232,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ3ZHWVDRKG4V2WVR3SYYH",
+          "file": "files/video_7ad0bf1e-0e4c-4760-ab8f-24b37a276137.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist photo-collage propaganda. Archive photos slam into position one per second — each spinning in with staircase echo trails and locking hard. Counter number $315T flips upward rapidly like a mechanical ticker board. Orange arrows slash diagonally across frame leaving afterimage trails. Debris and geometric fragments scatter along the diagonal axis between each cut. Hairline connecting lines rapidly draw between the photo nodes. Maximum information density, fastest segment of the whole piece.\nMulti-shot, machine-gun fast cuts, ticker-board energy, maximum kinetic density.\nAudio: rapid typewriter clicks, mechanical counter flip, sharp percussion hits, urgent pulse., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist photo-collage propaganda. Archive photos slam into position one per second — each spinning in with staircase echo trails and locking hard. Counter number $315T flips upward rapidly like a mechanical ticker board. Orange arrows slash diagonally across frame leaving afterimage trails. Debris and geometric fragments scatter along the diagonal axis between each cut. Hairline connecting lines rapidly draw between the photo nodes. Maximum information density, fastest segment of the whole piece.\nMulti-shot, machine-gun fast cuts, ticker-board energy, maximum kinetic density.\nAudio: rapid typewriter clicks, mechanical counter flip, sharp percussion hits, urgent pulse., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-8n7zf"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 58.29,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ23GGPC5JVTKS2TFY4AW3",
+          "file": "files/video_fb7a65ff-f30c-4294-ac15-ac217b05cb75.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist infographic propaganda. Flowchart nodes pop into existence one by one with sharp impact bounce and staircase echo outlines — CRISIS, STIMULUS, DEBT, INFLATION each appearing in sequence. Connecting lines self-draw rapidly between nodes, white arrows slide along the lines to the next node. Each node pulses briefly after landing with a breath-scale. Background gear wireframe rotates slowly. Camera slow pull-back reveals the full cycle diagram, then gradual push into the DEBT node.\nMulti-shot, blueprint reveal rhythm, mechanical assembly energy.\nAudio: mechanism click on each node, gear rotation hum, clear metronomic beat., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist infographic propaganda. Flowchart nodes pop into existence one by one with sharp impact bounce and staircase echo outlines — CRISIS, STIMULUS, DEBT, INFLATION each appearing in sequence. Connecting lines self-draw rapidly between nodes, white arrows slide along the lines to the next node. Each node pulses briefly after landing with a breath-scale. Background gear wireframe rotates slowly. Camera slow pull-back reveals the full cycle diagram, then gradual push into the DEBT node.\nMulti-shot, blueprint reveal rhythm, mechanical assembly energy.\nAudio: mechanism click on each node, gear rotation hum, clear metronomic beat., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-tfkhc"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 66.348,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ6VQ46V01MZP8ZERGTSW4",
+          "file": "files/video_f8784ed3-9873-4288-bd78-189d8f036013.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet Constructivist propaganda poster graphic. All elements fly in from the four frame edges along diagonal axes simultaneously — wedge shapes, color blocks, photo circle, fine hairlines — each with sharp staircase echo trails, snapping into locked positions with hard impact vibration. Radial hairline lines converge inward toward the central circular photo. Conclusion text drops from above with a single heavy-hammer impact, frame pulses once. Final hold: all elements static, paper-grain texture breathing lightly.\nMulti-shot, diagonal convergence, hammer-drop finale energy.\nAudio: escalating drum roll, single massive bass impact on text drop, then silence with paper grain texture., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet Constructivist propaganda poster graphic. All elements fly in from the four frame edges along diagonal axes simultaneously — wedge shapes, color blocks, photo circle, fine hairlines — each with sharp staircase echo trails, snapping into locked positions with hard impact vibration. Radial hairline lines converge inward toward the central circular photo. Conclusion text drops from above with a single heavy-hammer impact, frame pulses once. Final hold: all elements static, paper-grain texture breathing lightly.\nMulti-shot, diagonal convergence, hammer-drop finale energy.\nAudio: escalating drum roll, single massive bass impact on text drop, then silence with paper grain texture., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-hbd47"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      },
+      {
+        "start_sec": 74.406,
+        "duration_sec": 8.058,
+        "asset": {
+          "media_id": "media_01KXQQ6F8YN70B18HHC92M5TWA",
+          "file": "files/video_ad793182-fffa-4f1c-abe7-e565aaf6f4e6.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Style: image_1\n\nSoviet propaganda poster graphic, pure red. Massive black READ HAYEK text crashes into frame diagonally with enormous impact and frame-wide tremor. White hairline lines slash sequentially across the red background each leaving staircase echo afterimages. Bold black arrows fire off the right edge of frame with explosive force. Frame holds with subtle paper-grain texture flicker. End on full static lockdown — Soviet poster finale.\nMulti-shot, maximum impact finale, propaganda poster energy.\nAudio: final heavy drumbeat sequence, crescendo to single massive bass drop, then hard cut to silence., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Style: image_1\n\nSoviet propaganda poster graphic, pure red. Massive black READ HAYEK text crashes into frame diagonally with enormous impact and frame-wide tremor. White hairline lines slash sequentially across the red background each leaving staircase echo afterimages. Bold black arrows fire off the right edge of frame with explosive force. Frame holds with subtle paper-grain texture flicker. End on full static lockdown — Soviet poster finale.\nMulti-shot, maximum impact finale, propaganda poster energy.\nAudio: final heavy drumbeat sequence, crescendo to single massive bass drop, then hard cut to silence., Soviet Constructivist kinetic graphic design, flat hard-edge geometric shapes, zero gradients, zero soft shadows, sharp staircase echo frames, hairline speed lines, mechanical gear elements, bold diagonal force-field composition, pure flat colors: black, white, red, orange, warm kraft, industrial print quality",
+          "params": {
+            "duration": 8,
+            "has_audio": true,
+            "resolution": "720p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "unresolved": [
+              "asset://asset-20260717173604-z65zs"
+            ]
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.058
+        },
+        "volume_db": -60
+      }
+    ],
+    "speeches": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 7.523,
+        "script": "In 2020, governments spent thirteen trillion dollars. Everyone agreed — spend now, worry later",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_66122259-de56-4884-acd3-c7bf80af5fd2.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 8.058,
+        "duration_sec": 8.594,
+        "script": "But Japan tried exactly that — for thirty years. Debt hit two hundred percent of GDP. Growth? Near zero",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_f40bb15c-2c95-4c86-9b34-e637fb06a8d5.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 16.9,
+        "duration_sec": 5.695,
+        "script": "Japan borrowed for thirty years straight. Debt hit 200% of GDP. Growth never came.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_e4bc614e-6301-405e-95f5-de558346b090.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 26.116,
+        "duration_sec": 6.348,
+        "script": "From Adam Smith to Keynes — in 1936, one theory gave governments permission to spend.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_cc43fbdb-fc89-4185-8d84-416567732084.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 34.316,
+        "duration_sec": 5.381,
+        "script": "Keynes published in 1936. Governments loved it. It gave them permission to spend.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_e4c8309a-387f-4e77-a02f-aca6669c8d82.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 42.374,
+        "duration_sec": 7.184,
+        "script": "Global debt: three hundred fifteen trillion. Inflation wiped savings. Hayek saw this coming.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_47408775-240d-4a57-a421-724a199b368d.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 50.432,
+        "duration_sec": 5.93,
+        "script": "In 1944, Bretton Woods institutionalized Keynesian demand management as the global standard.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_b96c027f-3edf-4694-8730-59acf3106c77.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 58.49,
+        "duration_sec": 6.4,
+        "script": "Crisis, stimulus, debt, inflation — then crisis again. The cycle never ends.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_49246db1-abb5-4156-b5fd-eec90fdc5af8.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 66.548,
+        "duration_sec": 7.288,
+        "script": "Stimulus doesn't solve recessions — it postpones them. Read Hayek. Honest prices, not a manager.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_0ac6a2e2-7a88-42a7-85b8-3d6d96282c76.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 75.0,
+        "duration_sec": 7.131,
+        "script": "Stimulus doesn't solve recessions — it postpones them. Read Hayek. Honest prices, not a manager.",
+        "voice": "✨American Jeremy Social ",
+        "audio_file": "files/audio_fc138cf0-6e98-4834-b673-1f1fdea4e880.mp3",
+        "volume_db": 1
+      }
+    ],
+    "captions": {
+      "hidden": false,
+      "items": [
+        {
+          "start_sec": 0.0,
+          "duration_sec": 1.126,
+          "text": "In 2020, governments"
+        },
+        {
+          "start_sec": 1.68,
+          "duration_sec": 0.88,
+          "text": "spent thirteen"
+        },
+        {
+          "start_sec": 2.56,
+          "duration_sec": 1.356,
+          "text": "trillion dollars"
+        },
+        {
+          "start_sec": 4.24,
+          "duration_sec": 2.06,
+          "text": "Everyone agreed — spend now"
+        },
+        {
+          "start_sec": 6.3,
+          "duration_sec": 1.08,
+          "text": "worry later"
+        },
+        {
+          "start_sec": 8.058,
+          "duration_sec": 1.394,
+          "text": "But Japan tried"
+        },
+        {
+          "start_sec": 9.452,
+          "duration_sec": 1.314,
+          "text": "exactly that —"
+        },
+        {
+          "start_sec": 10.766,
+          "duration_sec": 1.314,
+          "text": "for thirty years"
+        },
+        {
+          "start_sec": 12.08,
+          "duration_sec": 1.752,
+          "text": "Debt hit two hundred"
+        },
+        {
+          "start_sec": 13.832,
+          "duration_sec": 1.314,
+          "text": "percent of GDP"
+        },
+        {
+          "start_sec": 15.146,
+          "duration_sec": 1.332,
+          "text": "Growth? Near zero"
+        },
+        {
+          "start_sec": 16.9,
+          "duration_sec": 0.96,
+          "text": "Japan borrowed"
+        },
+        {
+          "start_sec": 17.86,
+          "duration_sec": 0.64,
+          "text": "for thirty years"
+        },
+        {
+          "start_sec": 18.5,
+          "duration_sec": 0.514,
+          "text": "straight"
+        },
+        {
+          "start_sec": 19.014,
+          "duration_sec": 2.086,
+          "text": "Debt hit 200% of GDP"
+        },
+        {
+          "start_sec": 21.22,
+          "duration_sec": 1.22,
+          "text": "Growth never came"
+        },
+        {
+          "start_sec": 26.116,
+          "duration_sec": 1.283,
+          "text": "From Adam Smith"
+        },
+        {
+          "start_sec": 27.399,
+          "duration_sec": 1.604,
+          "text": "to Keynes — in"
+        },
+        {
+          "start_sec": 29.003,
+          "duration_sec": 1.203,
+          "text": "1936, one theory"
+        },
+        {
+          "start_sec": 30.206,
+          "duration_sec": 0.802,
+          "text": "gave governments"
+        },
+        {
+          "start_sec": 31.008,
+          "duration_sec": 1.208,
+          "text": "permission to spend"
+        },
+        {
+          "start_sec": 34.316,
+          "duration_sec": 1.324,
+          "text": "Keynes published in 1936"
+        },
+        {
+          "start_sec": 35.64,
+          "duration_sec": 1.524,
+          "text": "Governments loved it"
+        },
+        {
+          "start_sec": 37.164,
+          "duration_sec": 0.733,
+          "text": "It gave"
+        },
+        {
+          "start_sec": 37.897,
+          "duration_sec": 1.559,
+          "text": "them permission to spend"
+        },
+        {
+          "start_sec": 42.534,
+          "duration_sec": 1.6,
+          "text": "Global debt: three"
+        },
+        {
+          "start_sec": 44.134,
+          "duration_sec": 0.8,
+          "text": "hundred fifteen"
+        },
+        {
+          "start_sec": 44.934,
+          "duration_sec": 1.856,
+          "text": "trillion"
+        },
+        {
+          "start_sec": 46.79,
+          "duration_sec": 1.845,
+          "text": "Inflation wiped savings Hayek"
+        },
+        {
+          "start_sec": 48.635,
+          "duration_sec": 0.923,
+          "text": "saw this coming"
+        },
+        {
+          "start_sec": 50.432,
+          "duration_sec": 1.76,
+          "text": "In 1944, Bretton"
+        },
+        {
+          "start_sec": 52.192,
+          "duration_sec": 1.116,
+          "text": "Woods institutionalized"
+        },
+        {
+          "start_sec": 53.472,
+          "duration_sec": 1.52,
+          "text": "Keynesian demand"
+        },
+        {
+          "start_sec": 54.992,
+          "duration_sec": 0.768,
+          "text": "management as the global"
+        },
+        {
+          "start_sec": 55.76,
+          "duration_sec": 0.292,
+          "text": "standard"
+        },
+        {
+          "start_sec": 58.65,
+          "duration_sec": 0.99,
+          "text": "Crisis, stimulus"
+        },
+        {
+          "start_sec": 59.64,
+          "duration_sec": 0.33,
+          "text": "debt"
+        },
+        {
+          "start_sec": 59.97,
+          "duration_sec": 2.64,
+          "text": "inflation — then crisis again"
+        },
+        {
+          "start_sec": 62.61,
+          "duration_sec": 1.98,
+          "text": "The cycle never ends"
+        },
+        {
+          "start_sec": 66.548,
+          "duration_sec": 0.96,
+          "text": "Stimulus doesn't"
+        },
+        {
+          "start_sec": 67.508,
+          "duration_sec": 1.36,
+          "text": "solve recessions"
+        },
+        {
+          "start_sec": 68.868,
+          "duration_sec": 1.107,
+          "text": "— it postpones them"
+        },
+        {
+          "start_sec": 69.975,
+          "duration_sec": 1.513,
+          "text": "Read Hayek"
+        },
+        {
+          "start_sec": 71.668,
+          "duration_sec": 1.86,
+          "text": "Honest prices, not a manager"
+        },
+        {
+          "start_sec": 75.0,
+          "duration_sec": 0.96,
+          "text": "Stimulus doesn't"
+        },
+        {
+          "start_sec": 75.96,
+          "duration_sec": 1.28,
+          "text": "solve recessions"
+        },
+        {
+          "start_sec": 77.24,
+          "duration_sec": 0.956,
+          "text": "— it postpones them"
+        },
+        {
+          "start_sec": 78.196,
+          "duration_sec": 1.344,
+          "text": "Read Hayek"
+        },
+        {
+          "start_sec": 79.96,
+          "duration_sec": 1.94,
+          "text": "Honest prices, not a manager"
+        }
+      ]
+    },
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 82.464,
+      "audio_file": "files/audio_media_01KQ9PEEMVCQ0ZSQR0SJKF3GVY.mp3",
+      "volume_db": -14,
+      "title": "Aggressive electroni",
+      "source": "public_library",
+      "description": "Aggressive electronic beat, ultra-high BPM industrial techno, rapid mechanical percussion hits every 0.5-1 second, sharp synthesizer stabs, distorted bass drops, relentless kinetic energy, commercial advertisement soundtrack, high-tension rhythmic flicker, no melody just pure percussive attack",
+      "model": "chirp-crow",
+      "prompt": "Aggressive electronic beat, ultra-high BPM industrial techno, rapid mechanical percussion hits every 0.5-1 second, sharp synthesizer stabs, distorted bass drops, relentless kinetic energy, commercial advertisement soundtrack, high-tension rhythmic flicker, no melody just pure percussive attack"
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KXQP29DF345MRQTKJRXPQ3E7",
+      "file": "renders/rvj_01KXQP29DF345MRQTKJRXPQ3E7.mp4",
+      "source_key": "exported_video/v_01KXQP29DW71ZKCNJFG86Z3KS3",
+      "completed_at": "2026-07-17 09:21:54",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7590,
+        "duration": 66.536,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQP292EWZ1Z781QPPJZ10CR",
+      "file": "renders/rvj_01KXQP292EWZ1Z781QPPJZ10CR.mp4",
+      "source_key": "exported_video/v_01KXQP292TX282ZVE1T65RN1QS",
+      "completed_at": "2026-07-17 09:21:55",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7597,
+        "duration": 66.536,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQPEANEX5G3JN72NGXN97ZY",
+      "file": "renders/rvj_01KXQPEANEX5G3JN72NGXN97ZY.mp4",
+      "source_key": "exported_video/v_01KXQPEAP0AREXDWDYJ5CRC194",
+      "completed_at": "2026-07-17 09:28:27",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7720,
+        "duration": 64.336,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQPEAY6QC28JCNNMF640Y7X",
+      "file": "renders/rvj_01KXQPEAY6QC28JCNNMF640Y7X.mp4",
+      "source_key": "exported_video/v_01KXQPEAYP9GKN3RFCTXTSKTKB",
+      "completed_at": "2026-07-17 09:28:28",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7716,
+        "duration": 64.336,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQQETRXYAEGKX6YPS55WP4R",
+      "file": "renders/rvj_01KXQQETRXYAEGKX6YPS55WP4R.mp4",
+      "source_key": "exported_video/v_01KXQQETW85EQMZC3TC5DC1VZA",
+      "completed_at": "2026-07-17 09:46:28",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7688,
+        "duration": 64.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQQEV8ATH93EFC4T1HM1XRH",
+      "file": "renders/rvj_01KXQQEV8ATH93EFC4T1HM1XRH.mp4",
+      "source_key": "exported_video/v_01KXQQEVA0E7F4SB4V0YNKS4R8",
+      "completed_at": "2026-07-17 09:46:29",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7668,
+        "duration": 64.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQR5PAVMFPXKGD637H3DQ2D",
+      "file": "renders/rvj_01KXQR5PAVMFPXKGD637H3DQ2D.mp4",
+      "source_key": "exported_video/v_01KXQR5PB5HNE671VCGB0TSV6Z",
+      "completed_at": "2026-07-17 09:58:56",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7737,
+        "duration": 64.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQR5PGCWDDNP4V37SZ12TH3",
+      "file": "renders/rvj_01KXQR5PGCWDDNP4V37SZ12TH3.mp4",
+      "source_key": "exported_video/v_01KXQR5PGQ2TCGM356G5058VQ3",
+      "completed_at": "2026-07-17 09:58:57",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7725,
+        "duration": 64.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQRCBK7V46576ZCHKEXN679",
+      "file": "renders/rvj_01KXQRCBK7V46576ZCHKEXN679.mp4",
+      "source_key": "exported_video/v_01KXQRCBKJFJ4KYWH27TQJX565",
+      "completed_at": "2026-07-17 10:02:37",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7679,
+        "duration": 64.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQRCBXNZJ9PC64NAQN97K3W",
+      "file": "renders/rvj_01KXQRCBXNZJ9PC64NAQN97K3W.mp4",
+      "source_key": "exported_video/v_01KXQRCBY1D0XK7NXG1ZD6Z6BG",
+      "completed_at": "2026-07-17 10:02:37",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7642,
+        "duration": 64.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY4K03QKYWSQE80FFD4C5VAB",
+      "file": "renders/rvj_01KY4K03QKYWSQE80FFD4C5VAB.mp4",
+      "source_key": "exported_video/v_01KY4K03R416MYY4BC78C5P1WV",
+      "completed_at": "2026-07-22 09:38:48",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6832,
+        "duration": 74.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY4K03QH0FDWWY0BKESEBRSB",
+      "file": "renders/rvj_01KY4K03QH0FDWWY0BKESEBRSB.mp4",
+      "source_key": "exported_video/v_01KY4K03R331N3QGH3YF169C4W",
+      "completed_at": "2026-07-22 09:38:50",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6812,
+        "duration": 74.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6GXMTE88RT7SQAYAGJFB39",
+      "file": "renders/rvj_01KY6GXMTE88RT7SQAYAGJFB39.mp4",
+      "source_key": "exported_video/v_01KY6GXMV518QAD8T5XFMGKQXK",
+      "completed_at": "2026-07-23 03:41:08",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6322,
+        "duration": 82.467,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6GXMTAPZX25VY1RZWWQ6BN",
+      "file": "renders/rvj_01KY6GXMTAPZX25VY1RZWWQ6BN.mp4",
+      "source_key": "exported_video/v_01KY6GXMV1548CVRGZZ5ZM9870",
+      "completed_at": "2026-07-23 03:41:09",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 6349,
+        "duration": 82.467,
+        "hasAudio": true
+      }
+    }
+  ]
+}
