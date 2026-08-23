@@ -1,0 +1,567 @@
+{
+  "export_meta": {
+    "schema_version": "1.5",
+    "exported_at": "2026-08-23T03:18:52+00:00",
+    "project_id": "proj_01KXQ8K6R4Q5NG584XVDXW3F7D",
+    "project_name": "纸雕灯下的奇幻旅程",
+    "owner_user_id": "usr_01KQ226HDB0BSVS47FHFS6DD13",
+    "internal_source": "employee",
+    "project_created_at": "2026-07-17 05:25:39",
+    "project_updated_at": "2026-07-17 05:25:39",
+    "draft_id": "draft_01KXQ8K6RJM1B2F7Q3BNRD4QDY",
+    "draft_version": 31,
+    "materialized": true,
+    "render_status": "current_rendered",
+    "current_render": {
+      "render_job_id": "rvj_01KY6SQKW20P12N50YMCHRVAR1",
+      "file": "renders/rvj_01KY6SQKW20P12N50YMCHRVAR1.mp4",
+      "completed_at": "2026-07-23 06:15:55"
+    }
+  },
+  "video": {
+    "aspect_ratio": "16:9",
+    "duration_sec": 58.892,
+    "clips": [
+      {
+        "start_sec": 0.0,
+        "duration_sec": 8.042,
+        "asset": {
+          "media_id": "media_01KXQBT813RPE2EGZ4JTNBGJNS",
+          "file": "files/video_d98c8108-709a-4ed4-a7e8-dae001ca37aa.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A vertical hardcover book with gold lettering stands closed on a dark Gothic wooden desk. The right fore-edge of the cover lifts and swings leftward on its spine hinge, opening the book right-to-left like a real hardcover. As the cover swings open, the interior reveals its first layer: a paper-cut diorama of a moonlit Forbidden Forest. Thick cardstock silhouette planes — layered paper clouds, bare tree branches — rise and unfurl from the book's center outward like a theater stage assembling. A folded-paper white owl perches on a center branch. Cold icy blue backlight ignites from behind all paper layers, silver-white glowing halos tracing every laser-cut edge. Camera begins a slow smooth dolly-in from outside the book, pushing gently toward the first paper layer surface. Motion is slow, deliberate, cinematic.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A vertical hardcover book with gold lettering stands closed on a dark Gothic wooden desk. The right fore-edge of the cover lifts and swings leftward on its spine hinge, opening the book right-to-left like a real hardcover. As the cover swings open, the interior reveals its first layer: a paper-cut diorama of a moonlit Forbidden Forest. Thick cardstock silhouette planes — layered paper clouds, bare tree branches — rise and unfurl from the book's center outward like a theater stage assembling. A folded-paper white owl perches on a center branch. Cold icy blue backlight ignites from behind all paper layers, silver-white glowing halos tracing every laser-cut edge. Camera begins a slow smooth dolly-in from outside the book, pushing gently toward the first paper layer surface. Motion is slow, deliberate, cinematic.",
+          "params": {
+            "duration": 8,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_b7dbbe59-6e0b-4dc9-9963-78d801e844a8.png",
+            "last_frame": "files/image_66d42f60-a887-4319-9b65-187a5b019375.png"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.042
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 8.042,
+        "duration_sec": 8.042,
+        "asset": {
+          "media_id": "media_01KXQBW34F6YCBQJRS49CW1EJC",
+          "file": "files/video_a682846e-e7d3-4b56-8ec8-b9122e1d32df.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "The folded-paper white owl on the branch stirs, spreads its angular paper wings, and launches into flight — rigid paper feathers fanning, trailing silver paper dust. The first cardstock paper curtain (paper trees and clouds) gently peels apart from the center, each side curling outward like a theater drape. The paper becomes increasingly transparent as it parts. Through the widening gap, warm amber-yellow backlight seeps in from behind — the second layer illuminates: Gothic arched colonnade silhouettes receding in layers, a large cardstock steam locomotive at center glowing with warm yellow light from cut-out windows, human silhouettes with luggage walking toward it. Remnant paper clouds at foreground edges add depth. Camera continues a smooth dolly-in through the parting first curtain and into the second layer. Motion is fluid and continuous, no cuts.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "The folded-paper white owl on the branch stirs, spreads its angular paper wings, and launches into flight — rigid paper feathers fanning, trailing silver paper dust. The first cardstock paper curtain (paper trees and clouds) gently peels apart from the center, each side curling outward like a theater drape. The paper becomes increasingly transparent as it parts. Through the widening gap, warm amber-yellow backlight seeps in from behind — the second layer illuminates: Gothic arched colonnade silhouettes receding in layers, a large cardstock steam locomotive at center glowing with warm yellow light from cut-out windows, human silhouettes with luggage walking toward it. Remnant paper clouds at foreground edges add depth. Camera continues a smooth dolly-in through the parting first curtain and into the second layer. Motion is fluid and continuous, no cuts.",
+          "params": {
+            "duration": 8,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_66d42f60-a887-4319-9b65-187a5b019375.png",
+            "last_frame": "files/image_b74398ea-db01-4ad3-9366-1449ec1251f9.png"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.042
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 16.084,
+        "duration_sec": 8.042,
+        "asset": {
+          "media_id": "media_01KXQBSFCC4JHWGZ0JWGJDD7VQ",
+          "file": "files/video_c02cc682-c9c1-42c2-901d-48e9df592c85.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Paper-scroll smoke from the locomotive chimney fills the second layer, billowing outward. The second cardstock paper curtain peels open from the center — each side curls away softly like a theater drape. Warm yellow tones transition to fierce intense gold as the third layer emerges: a Quidditch stadium with ring-shaped stands as receding parallel cardstock silhouette planes. A Seeker figure on a broomstick dives at center, laser-cut paper strip tail feathers trailing. A Golden Snitch — a hollow glowing cut-out orb — spins and pulses at the center, then bursts outward into thousands of gold paper fragments and shards flying toward the camera lens. Warm gold backlight from behind the stadium stands blazes like stage spotlights. Camera pushes in smoothly through the parting curtain and deep into the stadium layer.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Paper-scroll smoke from the locomotive chimney fills the second layer, billowing outward. The second cardstock paper curtain peels open from the center — each side curls away softly like a theater drape. Warm yellow tones transition to fierce intense gold as the third layer emerges: a Quidditch stadium with ring-shaped stands as receding parallel cardstock silhouette planes. A Seeker figure on a broomstick dives at center, laser-cut paper strip tail feathers trailing. A Golden Snitch — a hollow glowing cut-out orb — spins and pulses at the center, then bursts outward into thousands of gold paper fragments and shards flying toward the camera lens. Warm gold backlight from behind the stadium stands blazes like stage spotlights. Camera pushes in smoothly through the parting curtain and deep into the stadium layer.",
+          "params": {
+            "duration": 8,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_b74398ea-db01-4ad3-9366-1449ec1251f9.png",
+            "last_frame": "files/image_31b81821-0e23-4c1d-968a-fa9a6dab3097.png"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.042
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 24.126,
+        "duration_sec": 8.042,
+        "asset": {
+          "media_id": "media_01KXQCF7V16AE054XF4P2W4PYY",
+          "file": "files/video_26ed0533-e43f-408d-9833-6c707e30ab51.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "Gold paper fragments float suspended in warm amber light, slowly drifting and settling. The third cardstock paper curtain peels open to both sides, revealing the fourth layer: the Great Hall as a photorealistic paper-cut diorama. Long dining tables recede in layered cardstock perspective, hollow cut-out candle flame shapes backlit with warm amber light glowing through the negative space, paper stars suspended from a vaulted ceiling silhouette. All surfaces show real physical cardstock fiber texture and visible laser-cut edge thickness. Camera weaves slowly between the long tables. Then the Great Hall paper elements fold and compress. The Mirror of Erised rises as a thick cardstock baroque frame — the mirror opening is a hollow cut-out with warm backlight glowing through it, casting a soft vague human silhouette shape. The frame has visible cardstock thickness, pressed ornamental detail in the paper surface, real shadow cast between layers — it is a paper craft object, not a cartoon drawing. Then Potions classroom shelving rises: glass flasks are translucent colored paper panels laser-cut in flask shapes, each with visible edge thickness, layered depth, and jewel-toned backlight glowing through the cut paper — they look like stained glass paper lanterns, not flat colored cartoons. No outlines, no cartoon shading, no flat illustration style anywhere. Everything has physical volume, real cast shadows, and backlight halos. All paper elements then reverse-unfold flat and shatter into micro-cut gold and white paper confetti, fragments spiraling into a clockwise vortex aimed at the camera, tightening to a glowing pinpoint.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "Gold paper fragments float suspended in warm amber light, slowly drifting and settling. The third cardstock paper curtain peels open to both sides, revealing the fourth layer: the Great Hall as a photorealistic paper-cut diorama. Long dining tables recede in layered cardstock perspective, hollow cut-out candle flame shapes backlit with warm amber light glowing through the negative space, paper stars suspended from a vaulted ceiling silhouette. All surfaces show real physical cardstock fiber texture and visible laser-cut edge thickness. Camera weaves slowly between the long tables. Then the Great Hall paper elements fold and compress. The Mirror of Erised rises as a thick cardstock baroque frame — the mirror opening is a hollow cut-out with warm backlight glowing through it, casting a soft vague human silhouette shape. The frame has visible cardstock thickness, pressed ornamental detail in the paper surface, real shadow cast between layers — it is a paper craft object, not a cartoon drawing. Then Potions classroom shelving rises: glass flasks are translucent colored paper panels laser-cut in flask shapes, each with visible edge thickness, layered depth, and jewel-toned backlight glowing through the cut paper — they look like stained glass paper lanterns, not flat colored cartoons. No outlines, no cartoon shading, no flat illustration style anywhere. Everything has physical volume, real cast shadows, and backlight halos. All paper elements then reverse-unfold flat and shatter into micro-cut gold and white paper confetti, fragments spiraling into a clockwise vortex aimed at the camera, tightening to a glowing pinpoint.",
+          "params": {
+            "duration": 8,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_31b81821-0e23-4c1d-968a-fa9a6dab3097.png",
+            "last_frame": "files/image_ab5e4d6f-338e-42b9-8dab-d0bc25d8c8c5.png"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.042
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 32.168,
+        "duration_sec": 8.042,
+        "asset": {
+          "media_id": "media_01KXQBRHRGGNPQ08JT2GWVRZD5",
+          "file": "files/video_847d0113-325c-453e-b8b2-476530045599.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "The paper vortex at center slowly dissolves and disperses outward. The fourth cardstock paper curtain peels apart from the center, light shifting from warm amber to cold blue-silver. The fifth layer deep Forbidden Forest emerges: tall tree trunk silhouettes as heavy cardstock planes receding in depth, cold blue backlight behind each tree layer, eerie shadow-theater atmosphere. Paper web silhouettes and paper spider shapes at foreground. Camera pushes through the cold forest. A folded-paper stag (Patronus) emerges from the mid-layer, silver-white backlight blazing from within its paper body like a paper lantern. It charges forward powerfully, crashing through the foreground paper web — web fragments scatter in cold light. The stag's paper form fractures at its edges into dozens of small white paper cranes, the flock launching outward toward the camera and dispersing across the frame.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "The paper vortex at center slowly dissolves and disperses outward. The fourth cardstock paper curtain peels apart from the center, light shifting from warm amber to cold blue-silver. The fifth layer deep Forbidden Forest emerges: tall tree trunk silhouettes as heavy cardstock planes receding in depth, cold blue backlight behind each tree layer, eerie shadow-theater atmosphere. Paper web silhouettes and paper spider shapes at foreground. Camera pushes through the cold forest. A folded-paper stag (Patronus) emerges from the mid-layer, silver-white backlight blazing from within its paper body like a paper lantern. It charges forward powerfully, crashing through the foreground paper web — web fragments scatter in cold light. The stag's paper form fractures at its edges into dozens of small white paper cranes, the flock launching outward toward the camera and dispersing across the frame.",
+          "params": {
+            "duration": 8,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_ab5e4d6f-338e-42b9-8dab-d0bc25d8c8c5.png",
+            "last_frame": "files/image_4fede9ba-09e9-4d3a-8ada-5b3ad44d4334.png"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.042
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 40.21,
+        "duration_sec": 8.042,
+        "asset": {
+          "media_id": "media_01KXQBRVPM8C9S5PP6FGJH1EJ2",
+          "file": "files/video_4a5b8cd5-2082-4d99-ae8f-d53be4bf8659.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "White paper cranes scatter and spread apart in cold blue light. The fifth cardstock paper curtain peels open revealing the deepest innermost layer: Hogwarts Castle as massive layered cardstock silhouettes — castle towers, Forbidden Forest, Black Lake all as receding parallel paper planes. Fierce warm gold morning backlight blazes from the farthest back, casting the entire castle as an epic theatrical silhouette. Paper cranes fly over castle turrets. Then camera smoothly begins a slow pull-back — moving backward as all paper curtains draw closed from innermost outward: fifth layer forest curtain closes from both sides, then fourth layer closes, third, second, first — each like a theater curtain gently drawing shut in sequence. The book's front and back covers fold together and the book closes vertically. The closed cover emits one warm gold light pulse from its gilded title, then fades to darkness — matching the opening frame of a closed book on a dark Gothic desk.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "White paper cranes scatter and spread apart in cold blue light. The fifth cardstock paper curtain peels open revealing the deepest innermost layer: Hogwarts Castle as massive layered cardstock silhouettes — castle towers, Forbidden Forest, Black Lake all as receding parallel paper planes. Fierce warm gold morning backlight blazes from the farthest back, casting the entire castle as an epic theatrical silhouette. Paper cranes fly over castle turrets. Then camera smoothly begins a slow pull-back — moving backward as all paper curtains draw closed from innermost outward: fifth layer forest curtain closes from both sides, then fourth layer closes, third, second, first — each like a theater curtain gently drawing shut in sequence. The book's front and back covers fold together and the book closes vertically. The closed cover emits one warm gold light pulse from its gilded title, then fades to darkness — matching the opening frame of a closed book on a dark Gothic desk.",
+          "params": {
+            "duration": 8,
+            "has_audio": false,
+            "resolution": "1080p",
+            "aspect_ratio": "16:9"
+          },
+          "refs": {
+            "first_frame": "files/image_4fede9ba-09e9-4d3a-8ada-5b3ad44d4334.png",
+            "last_frame": "files/image_b7dbbe59-6e0b-4dc9-9963-78d801e844a8.png"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 8.042
+        },
+        "volume_db": 0
+      },
+      {
+        "start_sec": 48.252,
+        "duration_sec": 10.042,
+        "asset": {
+          "media_id": "media_01KY6QHX0C1RNATJK2B723J1SN",
+          "file": "files/video_6f9a2f3d-ca43-407a-bbf9-d823e02422d5.mp4",
+          "source": "ai_generated",
+          "kind": "video",
+          "description": "A paper-cut light box diorama data visualization animation on near-black background. Scene opens completely dark. Then a gothic serif gold-leaf embossed title 'Harry Potter By The Numbers' fades in on a dark cardstock banner at top center, warm candlelight glow on gold lettering, baroque pressed border detail on the cardstock surface. Five concentric ring arcs made of thick curved cardstock silhouettes animate one by one from outermost to innermost — each ring draws itself clockwise like a sweeping arc: outermost ring in deep amber gold draws first with laser-cut edges glowing warm backlight halos, then second ring in rich copper-orange, then third in warm bronze, fourth in muted dark gold, fifth innermost in deep candlelight brown. Each ring has real cardstock fiber texture, 3-4mm visible edge thickness, independent warm backlight glowing through creating halo glow. Real cast shadows between rings give physical layered depth. As each ring finishes drawing, a cream-colored embossed serif percentage label appears near its arc end: 85% then 72% then 61% then 48% then 32%. Simultaneously five legend items slide in from the right edge one by one, each a small thick cardstock rectangle chip with label text in laser-etched serif: Global Sales 85%, Languages 72%, Box Office 61%, Theme Parks 48%, Re-read Rate 32%. After all rings complete, center of rings reveals dark circle with glowing 500M+ in embossed gold serif and small label below. Fine source text fades in at bottom. Camera completely static throughout. Warm directional sidelighting, paper dust motes floating in light beams, photorealistic paper craft aesthetic, no cartoon style, no flat digital look.",
+          "model": "doubao_seedance_2.0",
+          "prompt": "A paper-cut light box diorama data visualization animation on near-black background. Scene opens completely dark. Then a gothic serif gold-leaf embossed title 'Harry Potter By The Numbers' fades in on a dark cardstock banner at top center, warm candlelight glow on gold lettering, baroque pressed border detail on the cardstock surface. Five concentric ring arcs made of thick curved cardstock silhouettes animate one by one from outermost to innermost — each ring draws itself clockwise like a sweeping arc: outermost ring in deep amber gold draws first with laser-cut edges glowing warm backlight halos, then second ring in rich copper-orange, then third in warm bronze, fourth in muted dark gold, fifth innermost in deep candlelight brown. Each ring has real cardstock fiber texture, 3-4mm visible edge thickness, independent warm backlight glowing through creating halo glow. Real cast shadows between rings give physical layered depth. As each ring finishes drawing, a cream-colored embossed serif percentage label appears near its arc end: 85% then 72% then 61% then 48% then 32%. Simultaneously five legend items slide in from the right edge one by one, each a small thick cardstock rectangle chip with label text in laser-etched serif: Global Sales 85%, Languages 72%, Box Office 61%, Theme Parks 48%, Re-read Rate 32%. After all rings complete, center of rings reveals dark circle with glowing 500M+ in embossed gold serif and small label below. Fine source text fades in at bottom. Camera completely static throughout. Warm directional sidelighting, paper dust motes floating in light beams, photorealistic paper craft aesthetic, no cartoon style, no flat digital look.",
+          "params": {
+            "aspect_ratio": "16:9",
+            "is_with_audio": false,
+            "input_duration": 10,
+            "input_resolution": "1080p"
+          }
+        },
+        "trim": {
+          "in_sec": 0.0,
+          "out_sec": 10.042
+        },
+        "volume_db": 0
+      }
+    ],
+    "speeches": [
+      {
+        "start_sec": 0.5,
+        "duration_sec": 3.384,
+        "script": "A world... waits to be opened.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/speech_a8bc5628-d664-43c6-b128-979ca69218a2.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 8.242,
+        "duration_sec": 5.436,
+        "script": "An owl takes flight. The platform glows ahead.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/speech_2e621b2a-2936-4c1a-bd56-1667607f2954.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 16.484,
+        "duration_sec": 5.256,
+        "script": "Golden fire. The Snitch — within reach.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/speech_249ee808-ee1d-492e-98cf-8e9681cd5291.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 24.726,
+        "duration_sec": 3.168,
+        "script": "The Great Hall burns amber.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/speech_c90e4e99-7e1b-446e-87c6-9116ffe044ec.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 32.568,
+        "duration_sec": 6.156,
+        "script": "A Patronus blazes. Pure silver. Unstoppable.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/speech_f9becdd3-dbb0-4397-b76a-a57769673115.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 42.752,
+        "duration_sec": 4.68,
+        "script": "Every time you open this book — you go home.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/speech_d378fde9-f82f-4c6b-9928-b03bbaf5b9e3.mp3",
+        "volume_db": 1
+      },
+      {
+        "start_sec": 48.452,
+        "duration_sec": 10.44,
+        "script": "500 million copies. 80 languages. 7.9 billion at the box office. One story — that never ends.",
+        "voice": "🎙️British Warwick Story.",
+        "audio_file": "files/audio_eaf58760-76f8-4a94-b859-eb32dfeaeea4.mp3",
+        "volume_db": 1
+      }
+    ],
+    "captions": {
+      "hidden": false,
+      "items": [
+        {
+          "start_sec": 0.66,
+          "duration_sec": 0.816,
+          "text": "A world"
+        },
+        {
+          "start_sec": 1.596,
+          "duration_sec": 1.784,
+          "text": "waits to be opened"
+        },
+        {
+          "start_sec": 8.482,
+          "duration_sec": 2.36,
+          "text": "An owl takes flight"
+        },
+        {
+          "start_sec": 10.962,
+          "duration_sec": 2.32,
+          "text": "The platform glows ahead"
+        },
+        {
+          "start_sec": 16.964,
+          "duration_sec": 1.8,
+          "text": "Golden fire"
+        },
+        {
+          "start_sec": 18.764,
+          "duration_sec": 2.44,
+          "text": "The Snitch — within reach"
+        },
+        {
+          "start_sec": 24.886,
+          "duration_sec": 2.48,
+          "text": "The Great Hall burns amber"
+        },
+        {
+          "start_sec": 32.808,
+          "duration_sec": 2.2,
+          "text": "A Patronus blazes"
+        },
+        {
+          "start_sec": 35.128,
+          "duration_sec": 3.04,
+          "text": "Pure silver. Unstoppable"
+        },
+        {
+          "start_sec": 42.912,
+          "duration_sec": 1.6,
+          "text": "Every time you"
+        },
+        {
+          "start_sec": 44.512,
+          "duration_sec": 2.4,
+          "text": "open this book — you go home"
+        },
+        {
+          "start_sec": 49.012,
+          "duration_sec": 1.668,
+          "text": "500 million copies"
+        },
+        {
+          "start_sec": 50.68,
+          "duration_sec": 1.275,
+          "text": "80 languages"
+        },
+        {
+          "start_sec": 51.955,
+          "duration_sec": 0.294,
+          "text": "7"
+        },
+        {
+          "start_sec": 52.249,
+          "duration_sec": 2.99,
+          "text": "9 billion at the box office"
+        },
+        {
+          "start_sec": 55.239,
+          "duration_sec": 3.233,
+          "text": "One story — that never ends"
+        }
+      ]
+    },
+    "bgm": {
+      "start_sec": 0.0,
+      "duration_sec": 58.892,
+      "audio_file": "files/audio_media_01KMCH2R25WQNCADYES9QHN5YP.mp3",
+      "volume_db": -10,
+      "title": "Soft dreamy cozy amb",
+      "source": "public_library",
+      "description": "Soft dreamy cozy ambient music, warm gentle piano melody with soft magical sparkle tones, slow tempo, comforting and tender atmosphere, whimsical pastel vibes, light airy bells and gentle strings, healing and reassuring emotional tone, safe and loved feeling",
+      "model": "chirp-crow",
+      "prompt": "Soft dreamy cozy ambient music, warm gentle piano melody with soft magical sparkle tones, slow tempo, comforting and tender atmosphere, whimsical pastel vibes, light airy bells and gentle strings, healing and reassuring emotional tone, safe and loved feeling"
+    }
+  },
+  "renders": [
+    {
+      "render_job_id": "rvj_01KXQA8PB3DSFQR8BGYKKMWBKM",
+      "file": "renders/rvj_01KXQA8PB3DSFQR8BGYKKMWBKM.mp4",
+      "source_key": "exported_video/v_01KXQA8PBCY9BJ0YJBH8NDFMD9",
+      "completed_at": "2026-07-17 05:55:39",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 8010,
+        "duration": 42.336,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQA8PKT2NYYAKP7G8YPN904",
+      "file": "renders/rvj_01KXQA8PKT2NYYAKP7G8YPN904.mp4",
+      "source_key": "exported_video/v_01KXQA8PM4E1K4QRHAYQBDAMEW",
+      "completed_at": "2026-07-17 05:55:39",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7999,
+        "duration": 42.336,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQC283T7T0C7E7MWXFFWG4C",
+      "file": "renders/rvj_01KXQC283T7T0C7E7MWXFFWG4C.mp4",
+      "source_key": "exported_video/v_01KXQC284BRJ4AWT2BW04ZQ4YS",
+      "completed_at": "2026-07-17 06:28:01",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7781,
+        "duration": 48.252,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQC284230BRC8B89CBXYWQM",
+      "file": "renders/rvj_01KXQC284230BRC8B89CBXYWQM.mp4",
+      "source_key": "exported_video/v_01KXQC284N8KPG4V1WPF90MD2G",
+      "completed_at": "2026-07-17 06:28:01",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7782,
+        "duration": 48.252,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQCGRVDF4B2VM0QGQRGHY8S",
+      "file": "renders/rvj_01KXQCGRVDF4B2VM0QGQRGHY8S.mp4",
+      "source_key": "exported_video/v_01KXQCGRVPPAQH4GRBXCRP2NE4",
+      "completed_at": "2026-07-17 06:35:54",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7816,
+        "duration": 48.252,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KXQCGR55M3VCN4T6937HKEHN",
+      "file": "renders/rvj_01KXQCGR55M3VCN4T6937HKEHN.mp4",
+      "source_key": "exported_video/v_01KXQCGR5GCGTV5P8J075R82K1",
+      "completed_at": "2026-07-17 06:35:55",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7826,
+        "duration": 48.252,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6H63D3V1H0EH54KY65PWAH",
+      "file": "renders/rvj_01KY6H63D3V1H0EH54KY65PWAH.mp4",
+      "source_key": "exported_video/v_01KY6H63E5N29YWBGQSRH1YHVP",
+      "completed_at": "2026-07-23 03:46:28",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7462,
+        "duration": 58.892,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6H64BWV3S89D31HRFMDY7T",
+      "file": "renders/rvj_01KY6H64BWV3S89D31HRFMDY7T.mp4",
+      "source_key": "exported_video/v_01KY6H64CB9KKAY3X1JYC9H8ZY",
+      "completed_at": "2026-07-23 03:46:28",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7463,
+        "duration": 58.892,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6RDQ7S20GBSZJ58RCM38HY",
+      "file": "renders/rvj_01KY6RDQ7S20GBSZJ58RCM38HY.mp4",
+      "source_key": "exported_video/v_01KY6RDQ82D4G3EGZZDVKZDYHJ",
+      "completed_at": "2026-07-23 05:52:56",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7643,
+        "duration": 58.892,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6RDPZ0Z08T1AQ9WAXW3NED",
+      "file": "renders/rvj_01KY6RDPZ0Z08T1AQ9WAXW3NED.mp4",
+      "source_key": "exported_video/v_01KY6RDPZDQ0NR3X9QEDA9BVWH",
+      "completed_at": "2026-07-23 05:53:03",
+      "is_current": false,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7649,
+        "duration": 58.892,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6SQM3RCZJDM33JCBH6PKF0",
+      "file": "renders/rvj_01KY6SQM3RCZJDM33JCBH6PKF0.mp4",
+      "source_key": "exported_video/v_01KY6SQM430DTAAA83YNG8A4DG",
+      "completed_at": "2026-07-23 06:15:55",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7642,
+        "duration": 58.892,
+        "hasAudio": true
+      }
+    },
+    {
+      "render_job_id": "rvj_01KY6SQKW20P12N50YMCHRVAR1",
+      "file": "renders/rvj_01KY6SQKW20P12N50YMCHRVAR1.mp4",
+      "source_key": "exported_video/v_01KY6SQKWPC6NBHFC9J08F6RTR",
+      "completed_at": "2026-07-23 06:15:55",
+      "is_current": true,
+      "metadata": {
+        "fps": 30,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 7646,
+        "duration": 58.892,
+        "hasAudio": true
+      }
+    }
+  ]
+}
